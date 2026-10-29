@@ -1,0 +1,16 @@
+3.2.1
+- Added CLI
+
+3.2.0
+- Support for Unity 6000.5, 6000.6 and 6000.7 alpha (global-metadata versions 104 - 111)
+- Elapsed-time prefix [mm:ss.fff] on every log line
+- Dummy DLL step logs build, sanitize, write and disk timings
+- Much faster dummy DLL generation: assemblies are written in parallel (uses the Worker threads setting) with cached Cecil imports and a cheaper attribute sanitizer
+- Dummy DLLs are deterministic: the same input produces byte-identical files
+- Dummy DLLs no longer reference the .NET runtime's core library, only the game's own mscorlib
+- Nested types were attached to the wrong parent for metadata v38+, sometimes across assemblies
+- Custom attributes failed to parse for metadata v104+ (encoded constructor token and type-index declaring class)
+- Enum underlying types were lost for metadata v35+ (enum-typed attribute arguments and enum fields in il2cpp.h)
+- Vtable method lookup and metadata-usage scan use the right usage-kind numbering for il2cpp 106.1 and metadata v108+
+- Upgraded to .NET 10 (requires the .NET 10.0 Desktop Runtime)
+- Credits: Mika Cybertron for the Unity 6000.5 source
