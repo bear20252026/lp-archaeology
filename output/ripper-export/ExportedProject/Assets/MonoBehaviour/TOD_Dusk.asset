@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8cd74e31aa150a3ba1dbd99e10b216c, type: 3}
+  m_Name: TOD_Dusk
+  m_EditorClassIdentifier:
+  sunAzimuth: 180.6
+  sunElevation: 2.7
+  sunColor: {r: 1, g: 0.53, b: 0.3, a: 1}
+  sunIntensity: 2.3
+  shadowStrength: 0.85
+  ambientSky: {r: 0.24, g: 0.3, b: 0.56, a: 1}
+  ambientEquator: {r: 0.46, g: 0.36, b: 0.46, a: 1}
+  ambientGround: {r: 0.2, g: 0.16, b: 0.18, a: 1}
+  ambientIntensity: 1.05
+  reflectionIntensity: 1
+  fogColor: {r: 0.56, g: 0.46, b: 0.54, a: 1}
+  fogMode: 2
+  fogDensity: 0.003
+  skyZenith: {r: 0.0856, g: 0.2456, b: 0.4662, a: 1}
+  skyHorizon: {r: 0.6319, g: 0.3107, b: 0.2809, a: 1}
+  skyHorizonSun: {r: 0.8086, g: 0.4483, b: 0.4006, a: 1}
+  skyGround: {r: 0.2, g: 0.16, b: 0.2, a: 1}
+  skyGradientExponent: 1.1
+  skySunSideExponent: 1.5
+  skyZenithSunMix: 0.15
+  skyExposure: 0.791
+  skyGlowColor: {r: 0.6928, g: 0.223, b: 0, a: 1}
+  skyGlowHeight: 10
+  skyGlowAzimuthExponent: 4
+  skyAntiTwilightColor: {r: 0, g: 0, b: 0.0032, a: 1}
+  skyAntiTwilightElevation: 5
+  skyAntiTwilightWidth: 6
+  skyAntiTwilightAzimuthExponent: 1.5
+  sunDiskColor: {r: 4, g: 2.2, b: 0.7, a: 1}
+  sunDiskSize: 1.2
+  sunHaloColor: {r: 0.0655, g: 0, b: 0, a: 1}
+  sunHaloExponent: 60
+  sunGlowColor: {r: 0.4778, g: 0, b: 0, a: 1}
+  sunGlowExponent: 25
+  hazeColor: {r: 0.1653, g: 0.1584, b: 0.3768, a: 1}
+  hazeStrength: 1
+  hazeFalloff: 5
+  cloudLitColor: {r: 1.7, g: 1, b: 0.55, a: 1}
+  cloudShadeColor: {r: 0.46, g: 0.4, b: 0.58, a: 1}
+  cumulusOpacity: 1
+  bandOpacity: 0.9
+  cloudDrift: 0.03
+  cloudSilverLining: 0.5
+  cloudHaze: 0.4
+  cloudExposure: 2.8
+  cloudTint: {r: 1, g: 0.76, b: 0.82, a: 1}
+  cloudFill: {r: 0.03, g: 0.025, b: 0.05, a: 1}
+  cloudShadowStrength: 0.45
+  vegTranslucencyTint: {r: 1, g: 0.88, b: 0.72, a: 1}
+  vegTranslucencyStrength: 0.42
+  vegAmbient: 0.9
+  vegSpecular: 1.2
+  waterScatterTint: {r: 0.9, g: 0.75, b: 0.7, a: 1}
+  waterDeepTint: {r: 0.6, g: 0.55, b: 0.7, a: 1}
+  waterReflection: 1.4
+  waterFresnelBias: 0.05
+  starIntensity: 0
+  milkyWayIntensity: 0
+  moonIntensity: 0
+  skyCloudTint: {r: 1, g: 1, b: 1, a: 1}
+  skyCloudDesaturation: 0
+  skyCloudCover: 1
+  duskFactor: 1
+  nightFactor: 0

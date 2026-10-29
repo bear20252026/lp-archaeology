@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_Lighter_Day
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 41a44502935fc464f928e6bb8b19c194, type: 2}
+  - {fileID: 11400000, guid: d12af55589fd4704581abc09bd476929, type: 2}
+  - {fileID: 11400000, guid: a7d03a596d057fa45886978578741a11, type: 2}
+  - {fileID: 11400000, guid: 10ba977507b84764aa6ad87f3032e141, type: 2}
+  - {fileID: 11400000, guid: 17fd758ce9545ea4e93359af1506df75, type: 2}
+  - {fileID: 11400000, guid: 4743b9dd968048c4cb493e93a946d9c4, type: 2}

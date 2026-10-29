@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1953259897 &1953259897
+TerrainLayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TL_VolcanicAsh
+  m_DiffuseTexture: {fileID: 2800000, guid: 2bdf0f4cd2cfb6149ae1eae9b9ad5f0f, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 0990ed1872dfe4f4baddf91222dea8e6, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 86f9ad8f4b196cc44bcaf1a947725e1c, type: 3}
+  m_TileSize: {x: 4, y: 4}
+  m_TileOffset: {x: 0, y: 0}
+  m_Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_Metallic: 0
+  m_Smoothness: 0.14
+  m_NormalScale: 1
+  m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+  m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+  m_MaskMapRemapMin: {x: 0, y: 0.4, z: 0, w: 0}
+  m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+  m_SmoothnessSource: 1

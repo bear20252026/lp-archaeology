@@ -1,0 +1,851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd14f55b413b897976206c18ed43473f, type: 3}
+  m_Name: B612LayoutData
+  m_EditorClassIdentifier:
+  planetMode: 1
+  planet:
+    center: {x: 0, y: 0}
+    topY: 5
+    capRadius: 60
+    capFlatten: 0
+    walkRadius: 22.5
+    softRadius: 21.9
+    hardRadius: 23.2
+    failsafeRadius: 23.9
+    lipStart: 22.9
+    holeRadius: 24.6
+    lipDepth: 0.9
+    noiseAmp: 0.12
+    noiseWavelength: 7
+    undersideDepth: 17
+    rimNoise: 1.3
+    rimSegments: 320
+    terrainHalfSize: 32
+    terrainHeightmapResolution: 513
+    terrainAlphamapResolution: 512
+    terrainMinY: -8
+    terrainHeightRange: 16
+    nook:
+      name: Nook
+      x: -1.3
+      z: 17.6
+      yaw: 25
+      size: 1.7
+    nookOpeningYaw: 172
+    shed:
+      name: Shed
+      x: 0.8
+      z: 10
+      yaw: 62
+      size: 1
+    rose:
+      name: Rose
+      x: 0
+      z: -5.2
+      yaw: 0
+      size: 1
+    roseKnoll: 0.8
+    roseScale: 1.39
+    roseMoundHeight: 0.2
+    roseScreenYaw: 262
+    roseScreenDistance: 0.75
+    clocheYaw: 50
+    clocheDistance: 1.2
+    roseShrink: 0.65
+    clocheScale: 0.75
+    clocheStandAngle: 160.11484
+    clocheStandDistance: 0.33
+    clocheReach: 0.36
+    clocheTurn: 180
+    clocheTable: 1
+    clocheBoulderFace: 0.16
+    clocheBoulderAlong: 0.66
+    clocheBoulderAcross: 0.82
+    clocheBoulderBury: 0.05
+    clocheRimAboveStand: 0.431
+    roseTopY: 6.029072
+    clocheStandFlat: 0.3
+    clocheStandBlend: 0.15
+    roseCoverOffset: {x: 0.0050000036, y: -0.012499809}
+    canSpotBearing: 35
+    canSpotDistance: 1
+    canSpotYaw: 125
+    canStandOffset: {x: 0.008, y: 0, z: -0.333}
+    canSpotFlat: 0.16
+    canSpotBlend: 0.22
+    roseScreenScale: 0.7
+    clocheHoldHeight: 0.58
+    clocheHoldGap: 0.004
+    chair:
+      name: Chair
+      x: -4
+      z: -20.4
+      yaw: 186
+      size: 1
+    pond:
+      name: Pond
+      x: 11.2
+      z: 0.8
+      yaw: 0
+      size: 2.1
+    pondDepth: 0.45
+    fetch:
+      enabled: 1
+      topAboveWater: 0.05
+      frontPastShore: 0.3
+      slab: {x: 0.82, y: 0.16, z: 0.54}
+      exposed: 0.42
+      depth: 0.32
+      reach: 0.65
+      halfWidth: 0.5
+      margin: 0.35
+      under: 0
+      backRun: 0.22
+      bankAbove: 0.11
+      ramp: 0.3
+      standBack: 0.1
+      moreBearings:
+      - 342
+      - 87.6
+      - 204
+    craterC:
+      name: CraterC
+      x: -13.8
+      z: 10.6
+      yaw: 0
+      size: 2.6
+    craterHeight: 1.5
+    craterWidth: 0.8
+    craterBowl: 0.3
+    volcanoA:
+      name: VolcanoA
+      x: -12.2
+      z: -6.4
+      yaw: 145
+      size: 3
+    volcanoB:
+      name: VolcanoB
+      x: -13.6
+      z: 1.6
+      yaw: -155
+      size: 2.4
+    volcanoFootPerHeight: 1.24
+    exit:
+      name: Exit
+      x: -12.8
+      z: -17.2
+      yaw: 250
+      size: 1
+    path:
+    - {x: -1.1, y: 15.9, z: 1.1}
+    - {x: 0.6, y: 12.9, z: 1.2}
+    - {x: 3.6, y: 9.8, z: 1.3}
+    - {x: 5.2, y: 5.8, z: 1.3}
+    - {x: 5.7, y: 1.6, z: 1.3}
+    - {x: 4.8, y: -2.4, z: 1.3}
+    - {x: 3, y: -6.2, z: 1.3}
+    - {x: 0.6, y: -9.8, z: 1.25}
+    - {x: -1.6, y: -13.6, z: 1.2}
+    - {x: -3, y: -16.6, z: 1.15}
+    - {x: -3.8, y: -18.3, z: 1.1}
+    pathSink: 0.035
+    stream:
+    - {x: 13.1, y: -0.9}
+    - {x: 14.3, y: -3.6}
+    - {x: 15.2, y: -6.8}
+    - {x: 15.950431, y: -8.417546}
+    - {x: 16, y: -10.2}
+    - {x: 16.259228, y: -12.003941}
+    - {x: 17.3, y: -13.5}
+    - {x: 18.362688, y: -14.467259}
+    - {x: 18.9, y: -15.8}
+    - {x: 19.5, y: -16.5}
+    streamWidth: 0.7
+    streamDepth: 0.16
+    water:
+      stepPool: 1
+      discharge: 0.01
+      ventOffset: 0.55
+      ventYawFromOutlet: 165
+      ventThroat: 0.11
+      sandConeRadius: 0.32
+      sandConeHeight: 0.035
+      ventDepth: 0.6
+      notchWidth: 0.8
+      sillLength: 0.45
+      outletTongue: 0.62
+      outletPool: 1.25
+      ringGapDeg: 27
+      incision: 0.25
+      incisionTop: 0.06
+      incisionRamp: {x: 0.7, y: 3.2}
+      poolSlope: 0.012
+      stepSpacingMax: 1.45
+      stepSpacingMin: 0.55
+      stepSpacingK: 3.4
+      stepJitter: 0.15
+      stepMin: 0.07
+      stepMax: 0.27
+      chuteSlope: 0.48
+      bedHalf: 0.27
+      waterHalf: 0.33
+      bankMargin: 0.12
+      bankMaxSlope: 0.62
+      corridorNoiseOff: {x: 1.2, y: 2.6}
+      ribOffset: 0.92
+      ribIn: 0.55
+      ribOut: 1.9
+      ribMax: 0.4
+      fallLength: 12
+      exitSpeed: 3
+      exitAngle: 40
+      seed: 6121
+    nookPit:
+      enabled: 1
+      centreOffset: 0.15
+      floor: {x: 1.4, y: 0.87}
+      bedScale: 1.2
+      showBlanketHeap: 0
+      wakeStand: {x: -0.0056, y: 0.15884, z: 0.15857}
+      standSoleLift: 0.002
+      exitRamp: 1
+      exitYaw: 172
+      exitLength: 0.7
+      exitHalfWidth: 0.3
+      exitBlend: 0.25
+      depth: 0.2
+      dish: 0.02
+      wallRun: 0.15
+      lipRound: 0.05
+      turfOverhang: 0.025
+      spoilHeight: 0.03
+      spoilWidth: 0.25
+      colliderRun: 0.32
+      roots: 11
+      outlineWobble: 0.09
+      lipTufts: 40
+      skirtTufts: 46
+    seedlings:
+    - name: Seedling_01
+      x: 1.5
+      z: -6.4
+      yaw: 30
+      size: 1
+    - name: Seedling_02
+      x: -1.1
+      z: -3.3
+      yaw: 140
+      size: 0.5
+    - name: Seedling_03
+      x: 3.4
+      z: 12.9
+      yaw: 250
+      size: 1
+    - name: Seedling_04
+      x: 12.6
+      z: 9.4
+      yaw: 80
+      size: 0.6
+    - name: Seedling_05
+      x: 10.2
+      z: -10.4
+      yaw: 200
+      size: 1
+    - name: Seedling_06
+      x: -8.4
+      z: -1.6
+      yaw: 310
+      size: 1.5
+    cloudSeaY: -24
+    cloudSeaRadius: 1900
+  terrainPosition: {x: -32, y: -8, z: -32}
+  terrainSize: {x: 64, y: 16, z: 64}
+  heightmapResolution: 513
+  alphamapResolution: 512
+  seed: 612
+  baseNoiseAmplitude: 0.8
+  baseNoiseWavelength: 36
+  roadNoiseClearance: 6
+  road:
+  - x: -1.1
+    z: 15.9
+    y: 2.844448
+    width: 1.1
+  - x: 0.6
+    z: 12.9
+    y: 3.593769
+    width: 1.2
+  - x: 3.6
+    z: 9.8
+    y: 4.0846863
+    width: 1.3
+  - x: 5.2
+    z: 5.8
+    y: 4.4921837
+    width: 1.3
+  - x: 5.7
+    z: 1.6
+    y: 4.707203
+    width: 1.3
+  - x: 4.8
+    z: -2.4
+    y: 4.7595177
+    width: 1.3
+  - x: 3
+    z: -6.2
+    y: 4.6033554
+    width: 1.3
+  - x: 0.6
+    z: -9.8
+    y: 4.1912155
+    width: 1.25
+  - x: -1.6
+    z: -13.6
+    y: 3.4164352
+    width: 1.2
+  - x: -3
+    z: -16.6
+    y: 2.5798569
+    width: 1.15
+  - x: -3.8
+    z: -18.3
+    y: 2.0146484
+    width: 1.1
+  roadSink: 0.04
+  roadShoulder: 2.5
+  roadPaintStartZ: -999
+  roadPaintEndZ: 999
+  exitValley: []
+  stream:
+  - x: 11.2
+    z: 0.8
+    waterY: 3.8399682
+    width: 4.2
+    depth: 0.45
+    bankHeight: 0.1
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 12.504172
+    z: -0.36689073
+    waterY: 3.8399682
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 13.179802
+    z: -1.0475423
+    waterY: 3.697747
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 13.680989
+    z: -2.0833192
+    waterY: 3.2642446
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 14.006934
+    z: -2.8390572
+    waterY: 3.2067287
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 14.3
+    z: -3.6
+    waterY: 2.8671818
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 14.61673
+    z: -4.6470413
+    waterY: 2.8139694
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 14.809429
+    z: -5.3908434
+    waterY: 2.6599004
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 15.14103
+    z: -6.618975
+    waterY: 2.448864
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 15.523166
+    z: -7.5152354
+    waterY: 2.2103243
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 15.988731
+    z: -8.632315
+    waterY: 1.964556
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 15.988563
+    z: -9.975038
+    waterY: 1.7623293
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 16.095562
+    z: -11.349069
+    waterY: 1.51887
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 16.591312
+    z: -12.610751
+    waterY: 0.9969278
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 17.38761
+    z: -13.593737
+    waterY: 0.56829286
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 18.362688
+    z: -14.467259
+    waterY: 0.10553981
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  - x: 18.698278
+    z: -15.271041
+    waterY: -0.633725
+    width: 0.7
+    depth: 0.16
+    bankHeight: 0.15
+    westBankSlope: 28
+    eastBankSlope: 28
+  waterEdgeOverlap: 0.6
+  valleySlope: 0.12
+  valleyCurvature: 0.02
+  bankNoise: 0.08
+  bankEdgeNoise: 0.2
+  ridge: []
+  ridgeFalloff: 6
+  eastMeadowRise: 0
+  eastMeadowRiseRange: {x: 2, y: 15, z: -28, w: 15.638889}
+  volcanoes:
+  - name: VolcanoA
+    x: -12.2
+    z: -6.4
+    bumpHeight: 0
+    bumpRadius: 6.5
+    meshHeight: 3
+    baseDiameter: 8.2
+    craterDiameter: 0
+    craterDepth: 0
+    notchAzimuth: 0
+    notchDepth: 0
+    lean: 0
+    leanAzimuth: 0
+    active: 1
+    plateauRadius: 0
+  - name: VolcanoB
+    x: -13.6
+    z: 1.6
+    bumpHeight: 0
+    bumpRadius: 5.5
+    meshHeight: 2.4
+    baseDiameter: 6.8
+    craterDiameter: 0
+    craterDepth: 0
+    notchAzimuth: 0
+    notchDepth: 0
+    lean: 0
+    leanAzimuth: 0
+    active: 1
+    plateauRadius: 0
+  hillCenter: {x: 999, y: 999}
+  hillRadius: 0
+  hillTopY: 6.5
+  hillSigma: 0.515
+  platforms: []
+  playableRect:
+    serializedVersion: 2
+    x: -22.5
+    y: -22.5
+    width: 45
+    height: 45
+  playableCornerRadius: 22.5
+  boundaryWobble: 0.6
+  boundaryWobbleWavelength: 45
+  wallOffset: 2.2
+  wallHeight: 8
+  wallSegmentLength: 4
+  sectorCenter: {x: 5, y: 22.027779}
+  sectors:
+  - azimuth: 0
+    nearRise: 3
+    farRise: 9
+    rimHeight: 15
+    noiseAmp: 4
+  - azimuth: 30
+    nearRise: 4
+    farRise: 12
+    rimHeight: 24
+    noiseAmp: 6
+  - azimuth: 60
+    nearRise: 4
+    farRise: 13
+    rimHeight: 30
+    noiseAmp: 6
+  - azimuth: 90
+    nearRise: 3.5
+    farRise: 12
+    rimHeight: 30
+    noiseAmp: 6
+  - azimuth: 120
+    nearRise: 2.5
+    farRise: 6
+    rimHeight: 18
+    noiseAmp: 3
+  - azimuth: 150
+    nearRise: 1.2
+    farRise: 1.5
+    rimHeight: 11
+    noiseAmp: 2
+  - azimuth: 180
+    nearRise: 0.4
+    farRise: -1.6
+    rimHeight: 13
+    noiseAmp: 1.5
+  - azimuth: 210
+    nearRise: 0.8
+    farRise: -0.5
+    rimHeight: 14
+    noiseAmp: 2
+  - azimuth: 240
+    nearRise: 2.5
+    farRise: 6
+    rimHeight: 20
+    noiseAmp: 4
+  - azimuth: 270
+    nearRise: 3.5
+    farRise: 11
+    rimHeight: 28
+    noiseAmp: 6
+  - azimuth: 300
+    nearRise: 4
+    farRise: 12
+    rimHeight: 28
+    noiseAmp: 6
+  - azimuth: 330
+    nearRise: 3.5
+    farRise: 11
+    rimHeight: 24
+    noiseAmp: 5
+  farNoiseWavelength: 70
+  rimBlend: 110
+  farRingCenter: {x: 5, y: 30}
+  farRings: []
+  surfacePatches: []
+  layerTileSizes:
+  - 4
+  - 3
+  - 4
+  - 3
+  - 4
+  - 2
+  mapRect:
+    serializedVersion: 2
+    x: -28
+    y: -28
+    width: 56
+    height: 56
+  mapResolution: 512
+  rosePosition: {x: 0, y: -5.2}
+  shedPosition: {x: 0.8, y: 10}
+  shedYaw: 62
+  mainTreePosition: {x: 999, y: 999}
+  chairPosition: {x: -4, y: -20.4}
+  chairY: 1.2835693
+  chairLookAt: {x: -6.0905685, y: -40.290436}
+  streamTreePosition: {x: 999, y: 999}
+  sunsetTreePosition: {x: 999, y: 999}
+  exitPosition: {x: 999, y: 999}
+  exitLookBack: {x: -12.8, y: -17.2}
+  spawnPosition: {x: -1.3, y: 17.6}
+  seedling1: {x: 999, y: -999}
+  seedling2: {x: 999, y: -999}
+  fetchStand: {x: 9.161759, y: 0.6544114}
+  maintenancePosition: {x: 999, y: 999}
+  vegetablePlot: {x: 999, y: 999}
+  homeWall: []
+  anchors:
+  - name: PlayerSpawn
+    x: -1.174668
+    z: 17.882027
+    heightOffset: 0.18675375
+    yaw: 25
+    note: 出生点：醒来后站在床垫上的位置（开场动作末帧），面朝床垫 +Z 的日出；关掉开场时也从这里出生
+  - name: WateringCan_Home
+    x: 0.9439416
+    z: 10.325701
+    heightOffset: 0
+    yaw: 262
+    note: 水壶：工具棚下的地上
+  - name: Rose_CareStand
+    x: 0.7999275
+    z: -5.7124605
+    heightOffset: 0
+    yaw: -57.355
+    note: 照料站位（苔土堆边、靠小路一侧，面向玫瑰）
+  - name: WindScreen_AdjustStand
+    x: -0.11006367
+    z: -6.2131777
+    heightOffset: 0
+    yaw: -34.842766
+    note: 挡风屏西端（椅子一侧）的调整站位
+  - name: Cloche_Home
+    x: 0.23969373
+    z: -5.861359
+    heightOffset: 0.45215702
+    yaw: 160
+    note: 玻璃罩：玫瑰旁平石上
+  - name: Cloche_PlaceOnRose
+    x: 0.0050000036
+    z: -5.2124996
+    heightOffset: 0.05
+    yaw: 0
+    note: 罩口落在花土上；罩子中心对准玫瑰外接圆中心（四周间隙相等）
+  - name: Stream_FetchStand
+    x: 9.161759
+    z: 0.6544114
+    heightOffset: 0.24917006
+    yaw: 85.91438
+    note: 泉眼取水站位：池边平石上，脚尖在平石前沿（根点在前沿后 0.10 m），面向深水；蹲下握壶把顶端把壶倾进水里
+  - name: Seedling_1_Stand
+    x: 1.3744948
+    z: -5.864511
+    heightOffset: 0
+    yaw: 166.8094
+    note: 面向猴面包树苗 1
+  - name: Seedling_2_Stand
+    x: -0.92607474
+    z: -2.778224
+    heightOffset: 0
+    yaw: -161.56505
+    note: 面向猴面包树苗 2
+  - name: Chair_SitAnchor
+    x: -3.9988928
+    z: -20.3979
+    heightOffset: 0.3101077
+    yaw: 186
+    note: 座面中心，面朝西方落日与云海
+  - name: Exit_Trigger
+    x: -12.8
+    z: -17.2
+    heightOffset: 0
+    yaw: 250
+    note: 出发处（暂放）：西北边缘，候鸟飞向落日的一侧；最终位置随离开段落确定
+  - name: Exit_LookBack
+    x: -11.844783
+    z: -15.916428
+    heightOffset: 0
+    yaw: 36.656105
+    note: 出发前回望家园
+  - name: Marker_Rose
+    x: 0
+    z: -5.2
+    heightOffset: 0
+    yaw: 0
+    note: 玫瑰根部（土堆顶）
+  - name: Marker_Seedling_1
+    x: 1.5
+    z: -6.4
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 1（Seedling_01）
+  - name: Marker_Seedling_2
+    x: -1.1
+    z: -3.3
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 2（Seedling_02）
+  - name: Seedling_3_Stand
+    x: 3.259826
+    z: 12.368162
+    heightOffset: 0
+    yaw: 14.765416
+    note: 面向猴面包树苗 3
+  - name: Marker_Seedling_3
+    x: 3.4
+    z: 12.9
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 3（Seedling_03）
+  - name: Seedling_4_Stand
+    x: 12.1591625
+    z: 9.07112
+    heightOffset: 0
+    yaw: 53.275864
+    note: 面向猴面包树苗 4
+  - name: Marker_Seedling_4
+    x: 12.6
+    z: 9.4
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 4（Seedling_04）
+  - name: Seedling_5_Stand
+    x: 9.814885
+    z: -10.007334
+    heightOffset: 0
+    yaw: 135.55626
+    note: 面向猴面包树苗 5
+  - name: Marker_Seedling_5
+    x: 10.2
+    z: -10.4
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 5（Seedling_05）
+  - name: Seedling_6_Stand
+    x: -7.8597136
+    z: -1.4970883
+    heightOffset: 0
+    yaw: -100.7843
+    note: 面向猴面包树苗 6
+  - name: Marker_Seedling_6
+    x: -8.4
+    z: -1.6
+    heightOffset: 0
+    yaw: 0
+    note: 猴面包树苗 6（Seedling_06）
+  - name: Cloche_Stand
+    x: 0.11724489
+    z: -5.522824
+    heightOffset: 0
+    yaw: 160.11485
+    note: 罩子站位：面朝大石头双手从两侧捧起玻璃罩，原地转身 180° 面朝玫瑰，把罩子往花上放下一点点（不端着罩子走路）
+  reviewCameras:
+  - name: CAM_Entry
+    position: {x: -2.5186205, y: 1.9, z: 14.723065}
+    lookAt: {x: 7.243862, y: 0.2, z: 35.658775}
+    fov: 50
+    absoluteHeight: 0
+    note: 出生点第三人称：面朝东方朝阳与云海
+  - name: CAM_Rose_Main
+    position: {x: 2.2, y: 1.2, z: -3.9999998}
+    lookAt: {x: 0, y: 0.35, z: -5.2}
+    fov: 50
+    absoluteHeight: 0
+    note: 玫瑰南偏东约 2.5 m：土堆、身后三扇挡风屏、平石上的玻璃罩
+  - name: CAM_Rose_Side
+    position: {x: 2.3, y: 1.1, z: -6.6}
+    lookAt: {x: -0.3, y: 0.35, z: -4.8999996}
+    fov: 50
+    absoluteHeight: 0
+    note: 玫瑰南偏西：屏风折线、玫瑰、罩与圆石
+  - name: CAM_Volcano_Pass
+    position: {x: -6.5, y: 1.6, z: -1.5}
+    lookAt: {x: -16, y: 2.2, z: -1.5}
+    fov: 50
+    absoluteHeight: 0
+    note: 北侧草地看两座活火山与石环
+  - name: CAM_Volcano_Low
+    position: {x: -6.6, y: 0.6, z: -4.2}
+    lookAt: {x: -12.2, y: 2.8, z: -6.4}
+    fov: 50
+    absoluteHeight: 0
+    note: A 山脚低机位仰视
+  - name: CAM_Meadow_Stream
+    position: {x: 7.055616, y: 1.5, z: 2.3210745}
+    lookAt: {x: 11.2, y: 0, z: 0.8}
+    fov: 50
+    absoluteHeight: 0
+    note: 从小路边看泉眼：隔着一片草，岸边石头与芦苇露出
+  - name: CAM_Stream_Fetch
+    position: {x: 6.8676043, y: 1.5, z: 0.49054316}
+    lookAt: {x: 11.2, y: 0, z: 0.8}
+    fov: 50
+    absoluteHeight: 0
+    note: 取水站位后方
+  - name: CAM_Sunset_Stand
+    position: {x: -3.7700374, y: 1.45, z: -18.212051}
+    lookAt: {x: -7.135853, y: -1.5, z: -50.235657}
+    fov: 50
+    absoluteHeight: 0
+    note: 椅后站姿：落日、云海与星球弧线
+  - name: CAM_Sunset_Seated
+    position: {x: -3.801396, y: 1.25, z: -18.510408}
+    lookAt: {x: -7.135853, y: -1, z: -50.235657}
+    fov: 50
+    absoluteHeight: 0
+    note: 坐姿视角近似
+  - name: CAM_Exit_LookBack
+    position: {x: -12.8, y: 1.6, z: -17.2}
+    lookAt: {x: 0, y: 1, z: 0}
+    fov: 50
+    absoluteHeight: 0
+    note: 出发处（暂放）回望家园
+  - name: CAM_Overview
+    position: {x: 37, y: 26, z: 4}
+    lookAt: {x: -1, y: 0, z: -1}
+    fov: 58
+    absoluteHeight: 1
+    note: 总览：从南侧高处看整颗星球（对照星球总览参考图）
+  - name: CAM_Spring_Vent
+    position: {x: 8.762775, y: 1.35, z: 0.62591255}
+    lookAt: {x: 11.156309, y: -0.1, z: 0.64807856}
+    fov: 45
+    absoluteHeight: 0
+    note: 泉眼：沙涌、气泡、一圈圈涟漪，水面缓缓流向溢流口
+  - name: CAM_Brook_Steps
+    position: {x: 17.00151, y: 1.2, z: -6.2542768}
+    lookAt: {x: 13.994463, y: 0, z: -2.8089418}
+    fov: 45
+    absoluteHeight: 0
+    note: 从下游岸边看小溪台阶：跌水、白沫、石头后的尾流
+  - name: CAM_Waterfall_Lip
+    position: {x: 18.141544, y: 2.466422, z: -12.974115}
+    lookAt: {x: 20.736828, y: -6.0272365, z: -17.206669}
+    fov: 50
+    absoluteHeight: 1
+    note: 星球边缘看瀑布：薄水帘出唇口，断成水丝、水珠，飘成水雾落入云海

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SO_StainedGlass
+  m_Shader: {fileID: 4800000, guid: a4dbaa16295d59547be1e71c95854ae8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _STAINED
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1a0e7c2b23e63e740acfb1feac61022d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 2eb0ece178f9ca148b363f646536c33a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InteriorCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SmudgeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BaseBacklight: 0.6
+      _BodyLighting: 0.2
+      _DustOpacity: 0.15
+      _EdgeStrength: 0.45
+      _EdgeWidth: 0
+      _EnvClamp: 8
+      _F0: 0.04
+      _FresnelMax: 0.6
+      _GlowOpacity: 0
+      _GrainAmount: 0.1
+      _GrainDensity: 220
+      _InsideReflectMin: 0
+      _InsideSpecClamp: 20
+      _InsideSpecRough: 0
+      _InsideSpecular: 1
+      _InteriorCubeBlend: 0
+      _InteriorCubeMinMip: 0
+      _MainSpecular: 0.25
+      _OutsideReflection: 0.35
+      _OutsideSmudge: 1
+      _ReflectionStrength: 1
+      _Roughness: 0.06
+      _SmudgeOpacity: 0.03
+      _SmudgeRoughness: 0.25
+      _SpecularClamp: 3
+      _SpecularStrength: 6
+      _Stained: 1
+      _StainedOpacity: 0.9
+      _UseTransmissionMap: 1
+    m_Colors:
+      _BacklightInside: {r: 0.03, g: 0.07, b: 0.13, a: 1}
+      _BacklightOutside: {r: 0.08, g: 0.5, b: 0.74, a: 1}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _BuildingCentre: {r: 0, g: 2, b: 0, a: 0}
+      _DustColor: {r: 0.66, g: 0.6, b: 0.52, a: 1}
+      _GlowHeight: {r: 3.2, g: 4.6, b: 0, a: 0}
+      _InteriorGlow: {r: 0, g: 0, b: 0, a: 1}
+      _Sheen: {r: 0.006, g: 0.006, b: 0.008, a: 0.02}
+      _Tint: {r: 0.82, g: 0.88, b: 0.92, a: 0.05}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

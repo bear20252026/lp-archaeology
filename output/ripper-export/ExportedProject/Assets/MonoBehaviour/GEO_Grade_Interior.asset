@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: GEO_Grade_Interior
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 9982a86fcaba3414bb0c91c1bf2d5aa3, type: 2}
+  - {fileID: 11400000, guid: 75f4a8a2128663149865330fc96a84fe, type: 2}
+  - {fileID: 11400000, guid: dea176e3368f8034991c0a9c389b46e9, type: 2}
+  - {fileID: 11400000, guid: 9410fa84cb6ee944090bbff21e60e1dc, type: 2}

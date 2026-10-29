@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Island_Ground
+  m_Shader: {fileID: 4800000, guid: c27897a164e76404eb6024a74b288dbe, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DirtGravelMap:
+        m_Texture: {fileID: 2800000, guid: a68a523cd6edb6347880c0167713e0b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtGravelMask:
+        m_Texture: {fileID: 2800000, guid: 9e0e28e9e0c6846408e608a3d9c4a889, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtGravelNormal:
+        m_Texture: {fileID: 2800000, guid: 054bb688efee15649b66b9b6e2439367, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtMap:
+        m_Texture: {fileID: 2800000, guid: 2a454d86d013fc1439c5857856ba6815, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtMask:
+        m_Texture: {fileID: 2800000, guid: 9161a8e087ab76c41bd76696171fd880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtNormal:
+        m_Texture: {fileID: 2800000, guid: 97a24748eeb9b9d48a53e1bfe2899841, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FarCobbleMap:
+        m_Texture: {fileID: 2800000, guid: d2c7c13ad01cb81499e90c311139486c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FarCobbleMask:
+        m_Texture: {fileID: 2800000, guid: 030f209bde0e9ab408091847a4e6ce79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FarCobbleNormal:
+        m_Texture: {fileID: 2800000, guid: 5705836f6c321c74789c825bb6e635d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrassMap:
+        m_Texture: {fileID: 2800000, guid: 54accdd3e317de348aebe61d69b4d11f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrassMask:
+        m_Texture: {fileID: 2800000, guid: 44739946bdfea0c4d809aff71889a382, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrassNormal:
+        m_Texture: {fileID: 2800000, guid: f92a5b64d3651dc42a84fed782429f85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GravelMap:
+        m_Texture: {fileID: 2800000, guid: f3e211939b50a7f4485648385866d4c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GravelNormal:
+        m_Texture: {fileID: 2800000, guid: 93889486fc168234a97410ca36a812b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MossMap:
+        m_Texture: {fileID: 2800000, guid: 760aa37a3d484b645bcb25b1c74c3684, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MossNormal:
+        m_Texture: {fileID: 2800000, guid: 98c9571b2fc7450458ccf7a2251d9fee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PavingMap:
+        m_Texture: {fileID: 2800000, guid: acf9d639511793d45a902194bd7eb4d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SandMap:
+        m_Texture: {fileID: 2800000, guid: 5076392fea53b28488d8e0ef60052b9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SandNormal:
+        m_Texture: {fileID: 2800000, guid: a7b96895e8d797d4f80c56d1f638b7a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ZonesMap:
+        m_Texture: {fileID: 2800000, guid: b739bdf154da0f04790c1930bd603e24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BedGravelThreshold: 0.75
+      _Contrast: 1
+      _ContrastPivot: 0.5
+      _DirtGravelDarken: 1
+      _DirtGravelThreshold: 0.85
+      _DirtGravelTile: 1
+      _DirtTile: 1.3
+      _EdgeNoise: 0.9
+      _EdgeNoiseScale: 1.4
+      _EdgeSharpness: 2.5
+      _FarEnd: 23
+      _FarStart: 17
+      _FarStoneHi: 0.3
+      _FarStoneLo: 0.12
+      _FarStrength: 1
+      _FarTile: 1.5
+      _GrassTile: 2
+      _GravelSoftness: 0.2
+      _GravelTile: 0.5
+      _MossTile: 1.55
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _SandTile: 1
+      _Saturation: 1
+      _ShadeFloor: 0.58
+      _SmoothBed: 0.13
+      _SmoothDirt: 0.1
+      _SmoothFar: 0.3
+      _SmoothGrass: 0.08
+      _SmoothMoss: 0.06
+      _ZoneMossStrength: 0.8
+    m_Colors:
+      _DirtTint: {r: 1, g: 1, b: 1, a: 1}
+      _GrassTint: {r: 1, g: 1, b: 1, a: 1}
+      _GravelTint: {r: 0.6, g: 0.58, b: 0.55, a: 1}
+      _MossTint: {r: 0.85, g: 0.9, b: 0.75, a: 1}
+      _PavingRect: {r: -5.2, g: 12.25, b: -7.4, a: 8.25}
+      _SandTint: {r: 0.85, g: 0.82, b: 0.78, a: 1}
+      _ZoneRect: {r: -9.795, g: 16.30875, b: -9.47875, a: 15.04625}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

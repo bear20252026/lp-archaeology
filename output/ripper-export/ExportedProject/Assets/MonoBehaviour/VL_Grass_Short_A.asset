@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Grass_Short_A
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: 9cc5a8b9dbf647940ab3e464060a3426, type: 2}
+  meshLOD1: {fileID: 4300000, guid: 78ba3fa26123566448a12fd4dd37ad87, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 74e059339beeaf9468a59fe3a4c421d3, type: 2}
+  renderLayer: 9
+  castShadows: 0
+  shadowDistance: 9
+  receiveShadows: 1
+  densityKey: short
+  densityPerM2: 18
+  clusterScale: 0
+  clusterCoverage: 1
+  clusterSoftness: 0.3
+  seed: 11957
+  scaleRange: {x: 0.8, y: 1.3}
+  alignToNormal: 0.7
+  tiltJitterDeg: 5
+  windYawBias: 0
+  maxSlopeDeg: 66
+  heightOffset: 0
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 12
+  thinStart: 10
+  thinPower: 1.3
+  fadeStart: 30
+  fadeEnd: 40
+  scaleCompensation: 0.3
+  maxScaleCompensation: 1.5
+  nearFade: {x: 0, y: 0}

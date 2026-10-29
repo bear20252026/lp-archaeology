@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_StarObservatory
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 620e19528e9677448bf62a795f25e251, type: 2}
+  - {fileID: 11400000, guid: 71442189bf4d30546bba387041a422e5, type: 2}
+  - {fileID: 11400000, guid: db869cd5269f31e4898cfb2e1ba5491e, type: 2}
+  - {fileID: 11400000, guid: 8cbeb5271e2a059468849b1f819084f6, type: 2}
+  - {fileID: 11400000, guid: 435c1efb17582d24b84206c1dd10f5aa, type: 2}
+  - {fileID: 11400000, guid: a388506da4cae584c960cfc3e3ce1300, type: 2}

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Lighter_Sky
+  m_Shader: {fileID: 4800000, guid: bc89dcae079c7344dbfb78075809932b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CLOUDS_HDRIMOTION
+  m_InvalidKeywords:
+  - _CLOUDVIEWGRAD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BandNeg:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BandPos:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CloudPanoAlpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CloudPanoDay:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CloudPanoDusk:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CumulusNeg:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CumulusPos:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudDay:
+        m_Texture: {fileID: 2800000, guid: 8a4da59fe718ca4468cb71a32c631f7b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudDayAlpha:
+        m_Texture: {fileID: 2800000, guid: 1ed12a5a113313148af8aab773338f6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudDusk:
+        m_Texture: {fileID: 2800000, guid: aa9af2ebcae183647a218720fb6eea8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudDuskAlpha:
+        m_Texture: {fileID: 2800000, guid: e3b19f5bc4e315c4e8824aa3bd4dee1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudRingDay:
+        m_Texture: {fileID: 2800000, guid: e6b09c6cc4601814094e43eab74e001d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyCloudRingDusk:
+        m_Texture: {fileID: 2800000, guid: a8930eba8d5e27c49b1379fe0d2c90df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyHdriDay:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyHdriDusk:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyHdriRingDay:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyHdriRingDusk:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _CloudContrast: 1.15
+      _CloudDriftPeriod: 900
+      _CloudFlowFade: 0.25
+      _CloudFlowNoise: 4000
+      _CloudFlowPeriod: 40
+      _CloudHaze: 0.25
+      _CloudHeight: 1500
+      _CloudPanoDayScale: 1
+      _CloudPanoDuskScale: 1
+      _CloudPanoLatMin: -4
+      _CloudSoftness: 1
+      _CloudViewGrad: 1.8
+      _CloudWindSpeed: 7
+      _Clouds: 3
+      _DayExposure: 1.35
+      _DayHalo: 0.5
+      _DayHorizonRange: 18
+      _DaySaturation: 1
+      _DaySunDisk: 1
+      _DayYaw: 0
+      _DayZenithStart: 18
+      _DuskExposure: 0.45
+      _DuskHalo: 1
+      _DuskHorizonRange: 26
+      _DuskSaturation: 1.5
+      _DuskSunDisk: 0.45
+      _DuskYaw: 0
+      _DuskZenithStart: 8
+      _HdriDrift: 0
+      _HdriGroundBlend: 4
+      _HdriLatMin: 0
+      _HdriRingElevation: 2.5
+      _StarBrightness: 2
+      _StarHorizon: 14
+      _StarSize: 0.03
+      _StarTwinkle: 0.2
+      _SunFlatten: 0.22
+      _SunGlowOverClouds: 0.45
+      _SunOcclusionByClouds: 0.85
+    m_Colors:
+      _Cirrus: {r: 0.25, g: 0.0006, b: 4, a: 0.02}
+      _CirrusShape: {r: 0.45, g: 0.8, b: 0.6, a: 1.1}
+      _CirrusTint: {r: 1, g: 0.92, b: 0.86, a: 0}
+      _CloudDamp: {r: 1.5, g: 7, b: 0, a: 0}
+      _CloudEvolution: {r: 2600, g: 140, b: 1.8, a: 3.2}
+      _CloudHorizonFade: {r: 0.3, g: 3, b: 0, a: 0}
+      _CloudRelight: {r: 0.55, g: 5.3, b: 16, a: 0.35}
+      _CloudSilver: {r: 0.5, g: 7, b: 1, a: 0}
+      _DayCloudWarm: {r: 1.1, g: 0.86, b: 0.66, a: 0.7}
+      _DayHorizon: {r: 1, g: 1, b: 1, a: 0}
+      _DayKnee: {r: 2, g: 0, b: 0, a: 0}
+      _DaySunDim: {r: 0.58, g: 6.5, b: 80, a: 43}
+      _DayTint: {r: 0.96, g: 1, b: 1.05, a: 0}
+      _DayZenith: {r: 0.9, g: 0.95, b: 1, a: 0}
+      _DuskHaloColor: {r: 1, g: 0.42, b: 0.14, a: 0}
+      _DuskHorizon: {r: 0.62, g: 0.52, b: 0.9, a: 0}
+      _DuskKnee: {r: 1.1, g: 1.4, b: 0, a: 0}
+      _DuskSun: {r: 1, g: 1, b: 5, a: 10}
+      _DuskSunColor: {r: 1.45, g: 0.5, b: 0.13, a: 0}
+      _DuskSunDim: {r: 0, g: 8, b: 177, a: 1.5}
+      _DuskTint: {r: 1.25, g: 0.78, b: 0.55, a: 0}
+      _DuskZenith: {r: 0.36, g: 0.78, b: 0.86, a: 0}
+      _HdriBlend: {r: 0.3, g: 4.5, b: 0, a: 0}
+      _MilkyWay: {r: 0.012, g: 0.015, b: 0.022, a: 0.13}
+      _MilkyWayPole: {r: 0.36, g: -0.52, b: 0.77, a: 0}
+      _MoonColor: {r: 1, g: 0.98, b: 0.92, a: 0.9}
+      _MoonHalo: {r: 0.1, g: 700, b: 0.03, a: 16}
+      _MoonHaloColor: {r: 0.55, g: 0.66, b: 0.9, a: 0.6}
+      _PhotoCloudCut: {r: 0.3, g: 0.05, b: 0.2, a: 8}
+      _Rays: {r: 0.25, g: 34, b: 5, a: 28}
+      _RaysColor: {r: 1, g: 0.72, b: 0.45, a: 12}
+      _StarDensity: {r: 0.1, g: 0.07, b: 3, a: 0}
+      _SunLimb: {r: 0.45, g: 0.12, b: 0.25, a: 3000}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

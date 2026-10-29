@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Valley_Lush_Clover_A
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: 5ca324e20d707e0489e462289b4ba5d7, type: 2}
+  meshLOD1: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 719c1a63e89754f4998460a619e3d667, type: 2}
+  renderLayer: 9
+  castShadows: 0
+  shadowDistance: 9
+  receiveShadows: 1
+  densityKey: lush
+  densityPerM2: 0.5
+  clusterScale: 2
+  clusterCoverage: 0.6
+  clusterSoftness: 0.4
+  seed: 32196
+  scaleRange: {x: 0.8, y: 1.3}
+  alignToNormal: 1
+  tiltJitterDeg: 5
+  windYawBias: 0
+  maxSlopeDeg: 40
+  heightOffset: 0
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 15
+  thinStart: 7.5
+  thinPower: 1.3
+  fadeStart: 64.8
+  fadeEnd: 90
+  scaleCompensation: 0.3
+  maxScaleCompensation: 1.5
+  nearFade: {x: 0, y: 0}

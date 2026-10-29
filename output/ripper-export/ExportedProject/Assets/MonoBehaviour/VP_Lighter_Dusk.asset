@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_Lighter_Dusk
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 1ba3f1ccb39ab2347940112637dec281, type: 2}
+  - {fileID: 11400000, guid: 3f15c0f89c003664494a6dc9f4b13103, type: 2}
+  - {fileID: 11400000, guid: ea76758921f51494ebb566701cf16992, type: 2}
+  - {fileID: 11400000, guid: 3f2a31abfb9b6b945bf493dd1a1f1d58, type: 2}
+  - {fileID: 11400000, guid: 7dbdb100b36c9fe4bb269c548cb366e0, type: 2}
+  - {fileID: 11400000, guid: dc9dcca2728ea8a419e889784c3ed2bc, type: 2}

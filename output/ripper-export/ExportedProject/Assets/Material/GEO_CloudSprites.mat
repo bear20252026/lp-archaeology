@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GEO_CloudSprites
+  m_Shader: {fileID: 4800000, guid: 32eb3eba346bc0b47bbbe2f46feb1ace, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2945
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BackTex:
+        m_Texture: {fileID: 2800000, guid: 21aa4b36838f80a45b0f2b04dfebe7a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FrontTex:
+        m_Texture: {fileID: 2800000, guid: 0a58ca8815b462b4cbe6079944d7ef34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SideTex:
+        m_Texture: {fileID: 2800000, guid: cfa8aa1a197bfee4aa907799588fddf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BackExposure: 1.15
+      _Distort: 0.03
+      _Erode: 0.25
+      _Exposure: 1.3
+      _FadeSeconds: 30
+      _FarDistance: 2600
+      _HazeDistance: 1400
+      _HazeMax: 0.45
+      _HorizonWarmth: 2.5
+      _SoftDepth: 30
+      _Soften: 0.3
+    m_Colors:
+      _BelowColor: {r: 0.88, g: 0.9, b: 0.93, a: 1}
+      _HazeColor: {r: 0.7, g: 0.76, b: 0.88, a: 1}
+      _HorizonColor: {r: 0.86, g: 0.9, b: 0.94, a: 1}
+      _ShadeTint: {r: 0.88, g: 0.94, b: 1.08, a: 1}
+      _SoftTone: {r: 0.88, g: 0.89, b: 0.93, a: 1}
+      _SunHorizonColor: {r: 1, g: 0.88, b: 0.72, a: 1}
+      _Tint: {r: 1, g: 0.99, b: 0.97, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

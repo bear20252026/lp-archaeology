@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Desert_Sand_Dunes_Far
+  m_Shader: {fileID: 4800000, guid: bbf736dabf3f9ee469883c66addf3904, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _FAR_GROUND
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EstateMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GardenMask:
+        m_Texture: {fileID: 2800000, guid: 0b8d3274ee0e5d74cafb6dda7a176f83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrassAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GrassNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GravelAlbedo:
+        m_Texture: {fileID: 2800000, guid: 13bee61a4772f6b4bbc3e0bfbf835a0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GravelNormal:
+        m_Texture: {fileID: 2800000, guid: 73caf6db87ae0504bb10760da4f95229, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GroundMask:
+        m_Texture: {fileID: 2800000, guid: 59a64790c2f7dc64782c0121c05e27a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GroundMask2:
+        m_Texture: {fileID: 2800000, guid: 99e14f0eefa26a942a280ca26e3c1898, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GroundMask3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MacroNoise:
+        m_Texture: {fileID: 2800000, guid: 63fda14a0d4cbc24881440ba777e37f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PathAlbedo:
+        m_Texture: {fileID: 2800000, guid: 4fcd35fc92feaa14591ac7e9ce6c5d4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PathNormal:
+        m_Texture: {fileID: 2800000, guid: 2b6d931ffa5c00e44b32fabc0d72bcb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RippleNormal:
+        m_Texture: {fileID: 2800000, guid: d75e4f98e8b43ba4ca807e542a8f8f1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RockDetailAlbedo:
+        m_Texture: {fileID: 2800000, guid: 5a0a4f968fb7f49408c5c7db4e748ef7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RockDetailNormal:
+        m_Texture: {fileID: 2800000, guid: c483268a249b4464a98a25630ac14d89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SedimentTint:
+        m_Texture: {fileID: 2800000, guid: 985cf4639386f7647a09b5184a6f7a57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SoilAlbedo:
+        m_Texture: {fileID: 2800000, guid: 11ed2d75847417a4d858d7607953e485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SoilNormal:
+        m_Texture: {fileID: 2800000, guid: 383c5ec9560e96744b366d3e8c954f79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TrailNormal:
+        m_Texture: {fileID: 2800000, guid: dabb794a525c64348ad9906d0cc895a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _UserBase:
+        m_Texture: {fileID: 2800000, guid: abc3f7f9e0602404fb7b13b85218f960, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _UserCompacted:
+        m_Texture: {fileID: 2800000, guid: 5ff102aa620d5cc4190e3d8edf67d0b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _UserRipple:
+        m_Texture: {fileID: 2800000, guid: b91f8b40f6ddda449b1d09faf49e8d01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _UserRough:
+        m_Texture: {fileID: 2800000, guid: de7816f0f73e417489873cf305daedc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AmbientScale: 1
+      _CoverFar: 120
+      _CrestLight: 0.25
+      _EstateGrain: 0.6
+      _FarGround: 1
+      _GrassLuma: 0.078
+      _GrassTile: 3.2
+      _GravelTile: 2.5
+      _PathTile: 1.3
+      _RoadGrain: 0
+      _RoadSat: 1
+      _RockTile: 3.5
+      _RoseInA: 0
+      _SlopeDarken: 0.06
+      _SoilTile: 1.6
+      _Sparkle: 0
+      _SparkleDensity: 70
+      _SparkleFade: 14
+      _SteepRock: 0
+      _TrailTile: 1.8
+      _UserBrightness: 1
+      _UserRippleStrength: 1.1
+      _UserSpecular: 0.26
+      _UserTintMix: 0.15
+      _WindAzimuth: 70
+      _Wrap: 0.6
+    m_Colors:
+      _BankColor: {r: 0.33999997, g: 0.39999998, b: 0.15999997, a: 1}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _DampColor: {r: 0.5, g: 0.37999994, b: 0.27999997, a: 1}
+      _DryColor: {r: 0.8399999, g: 0.72, b: 0.47999996, a: 1}
+      _EstateColor: {r: 0.52, g: 0.41999996, b: 0.32999998, a: 1}
+      _EstateRect: {r: 0, g: 0, b: 0, a: 0}
+      _FieldColor: {r: 0.78, g: 0.54999995, b: 0.21999997, a: 1}
+      _FirmColor: {r: 0.96999997, g: 0.95, b: 0.93, a: 1}
+      _GardenRect: {r: -52, g: 2, b: 0.025, a: 0.025}
+      _GravelTint: {r: 0.95, g: 0.9, b: 0.86, a: 1}
+      _GreenColor: {r: 0.62, g: 0.6, b: 0.41999996, a: 1}
+      _GroundMaskRect: {r: -514, g: -490, b: 0.0009765625, a: 0.0009765625}
+      _LushColor: {r: 0.41999996, g: 0.56, b: 0.19999996, a: 1}
+      _MacroScale: {r: 190, g: 48, b: 9, a: 0}
+      _MacroStrength: {r: 0.8, g: 0.4, b: 0.14, a: 0}
+      _MeadowColor: {r: 0.76, g: 0.65999997, b: 0.29999998, a: 1}
+      _PavingColor: {r: 0.54999995, g: 0.47999996, b: 0.39999998, a: 1}
+      _PavingSize: {r: 0.9, g: 0.6, b: 0.025, a: 0}
+      _PetalColor: {r: 0.62, g: 0.059999965, b: 0.06999998, a: 1}
+      _RippleFade: {r: 16, g: 110, b: 0, a: 0}
+      _RippleSlope: {r: 0.22, g: 0.45, b: 0, a: 0}
+      _RippleStrength: {r: 0.32, g: 0.16, b: 0, a: 0}
+      _RippleTile: {r: 5, g: 42, b: 0, a: 0}
+      _RockColor: {r: 0.8, g: 0.65999997, b: 0.52, a: 1}
+      _RoseBedColor: {r: 0.39999998, g: 0.31999996, b: 0.21999997, a: 0}
+      _RoseFieldColor: {r: 0.54999995, g: 0.049999982, b: 0.059999965, a: 1}
+      _SandA: {r: 0.82, g: 0.63, b: 0.40999997, a: 1}
+      _SandB: {r: 0.87, g: 0.71, b: 0.5, a: 1}
+      _SandC: {r: 0.78999996, g: 0.56999993, b: 0.35999998, a: 1}
+      _SedimentFrame: {r: -62, g: -55, b: 30, a: 0}
+      _SedimentRect: {r: -1024, g: -1000, b: 0.00048828125, a: 0.00048828125}
+      _ShadowTint: {r: 1, g: 1, b: 1, a: 1}
+      _TrailColor: {r: 0.95, g: 0.93, b: 0.92, a: 1}
+      _UserFrame: {r: 0, g: 0, b: 0, a: 0}
+      _UserTiles: {r: 12, g: 4, b: 2.2, a: 0}
+      _UserWarp: {r: 0.25, g: 6, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

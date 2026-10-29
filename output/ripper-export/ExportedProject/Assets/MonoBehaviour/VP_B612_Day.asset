@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_B612_Day
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 447f1d5f06752064db371e6f65f84901, type: 2}
+  - {fileID: 11400000, guid: ac9099725f74ead4eaa1d061bc4b33fa, type: 2}
+  - {fileID: 11400000, guid: 30e049ed4f805494dac1b98a8a07bd58, type: 2}
+  - {fileID: 11400000, guid: d6cc9bc30939ee84fa3feb670a3b7d61, type: 2}
+  - {fileID: 11400000, guid: ab25121077e730248b52cde990ac4221, type: 2}
+  - {fileID: 11400000, guid: 3f72c6ad6f79ce143b485171d7da3e7a, type: 2}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_B612_Waterfall
+  m_Shader: {fileID: 4800000, guid: 7bab940b56eb5e14c8a598d7a2e6bf5b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _FoamTex:
+        m_Texture: {fileID: 2800000, guid: fbb02c5a06fecd8498cadd85f6e685d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _StreakTex:
+        m_Texture: {fileID: 2800000, guid: 47e857b84d8d9534bb85f6c53691d69a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BottomFade: 0.3
+      _Length: 12
+      _Opacity: 1
+      _Reflection: 0.5
+      _SheetThickness: 0.0052177734
+      _Speed: 2.6
+      _WindDrift: 0.4
+    m_Colors:
+      _Color: {r: 0.78, g: 0.86, b: 0.9, a: 1}
+      _Tile: {r: 2.4, g: 0.45, b: 0, a: 0}
+      _Zones: {r: 0.6, g: 4.5, b: 8.5, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

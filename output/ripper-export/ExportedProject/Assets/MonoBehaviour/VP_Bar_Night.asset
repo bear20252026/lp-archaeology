@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_Bar_Night
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: c86168093958b2341a7b79ce5297fba6, type: 2}
+  - {fileID: 11400000, guid: 0e0b938c5a735ae4e8abff5db850d137, type: 2}
+  - {fileID: 11400000, guid: 930481e2f5013c942a775f45fd46af02, type: 2}
+  - {fileID: 11400000, guid: 8dcde4375060b9d4689c92f98986cd01, type: 2}
+  - {fileID: 11400000, guid: e4290ed0cfef970409b621bebbe397e5, type: 2}
+  - {fileID: 11400000, guid: 61e083ebae52a9143a87628ccda72d04, type: 2}

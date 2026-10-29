@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_B612_CloudLayer
+  m_Shader: {fileID: 4800000, guid: ae3bc6d0b6950c549a54a1c48b4694f2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseNoise:
+        m_Texture: {fileID: 11700000, guid: 27899946c7806e74aa7bbcff7bd6362c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BlueNoise:
+        m_Texture: {fileID: 2800000, guid: aa1b4e3454a5ace48abc6aa5b05e96ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoise:
+        m_Texture: {fileID: 11700000, guid: 0eb60e2e6e06d2c42ad2bb4e15651032, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WeatherTex:
+        m_Texture: {fileID: 2800000, guid: 477cf7884fb0e4148b70f974159a3dff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BaseYScale: 1.5
+      _CompositeZTest: 4
+      _DebugView: 0
+      _HeapCarve: 2.2
+      _LaneMist: 0.07
+    m_Colors:
+      _Airiness: {r: 0.6, g: 0.5, b: 70, a: 280}
+      _Band: {r: 5, g: 1.5, b: 0.7, a: -0.85}
+      _BankLayout: {r: 0.35, g: 0.471, b: 0.173, a: 0.54}
+      _Breakup: {r: 1, g: 0.34, b: 0.65, a: 8}
+      _Calm: {r: 0, g: 0, b: 32.6, a: 79.6}
+      _CalmShape: {r: 3, g: 0.85, b: 0.5, a: 0.85}
+      _DuskHaloColor: {r: 1, g: 0.41999996, b: 0.13999996, a: 1}
+      _DuskSun: {r: 1, g: 1, b: 5, a: 3}
+      _DuskSunColor: {r: 1.45, g: 0.5, b: 0.12999997, a: 1}
+      _Flatten: {r: 350, g: 1400, b: 0.45, a: 0.4}
+      _Layer: {r: -28.174868, g: 14, b: 8, a: 6}
+      _LightFar: {r: 3, g: 0.2, b: 0.09, a: 2.5}
+      _LightMarch: {r: 5, g: 1.8, b: 2.4, a: 1}
+      _LkAmb: {r: 0.35, g: 0.35, b: 0.6, a: 0.8}
+      _LkGold: {r: 1, g: 0.74, b: 0.41999996, a: 1}
+      _LkGrade: {r: 0, g: 0, b: 0, a: 0}
+      _LkHaze: {r: 0.0006, g: 80, b: -2.6, a: 0.35}
+      _LkHaze2: {r: 0.72, g: 1, b: 0, a: 0}
+      _LkLav: {r: 0.74, g: 0.7, b: 0.95, a: 1}
+      _LkMS: {r: 0.5, g: 0.45, b: 0.6, a: 0.5}
+      _LkPhase: {r: 0.8, g: -0.25, b: 0.6, a: 10}
+      _LkRose: {r: 1, g: 0.6, b: 0.62, a: 1}
+      _LkSun: {r: 1, g: 0.5, b: 0.95, a: 1}
+      _March: {r: 96, g: 0.3, b: 0.006, a: 2800}
+      _MarchB: {r: 650, g: 400, b: 2.2, a: 0.02}
+      _Motion: {r: 0.12, g: 1.6, b: 0, a: 0}
+      _PlanetShadow: {r: -8.442433, g: 26.2, b: 13.442433, a: 0.25}
+      _PlanetShadowB: {r: 0.75, g: 0, b: 0, a: 0}
+      _Shape: {r: 48, g: 8, b: 0.45, a: 1}
+      _ShapeB: {r: 6, g: 0.28, b: 0.1, a: 2.5}
+      _Structure: {r: 1, g: 7, b: 0.8, a: 0.8}
+      _SunDisk: {r: 0.45, g: 0.25, b: 0, a: 0}
+      _Temporal: {r: 0.86, g: 1.4, b: 0.12, a: 1}
+      _Weather: {r: 2048, g: 2.5, b: 0.22, a: 1.3}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

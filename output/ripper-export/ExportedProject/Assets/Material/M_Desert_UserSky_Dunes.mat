@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Desert_UserSky_Dunes
+  m_Shader: {fileID: 4800000, guid: 0cb07fd7ca2266641b8d8fbc43bc5f23, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _SkyTex:
+        m_Texture: {fileID: 2800000, guid: 11c4819e38c62464ca670b3731eba89c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Exposure: 3.2
+      _FogMix: 0.1
+      _Saturation: 0.7
+      _SunDiskSize: 0.8
+      _SunGlowPower: 4
+      _SunHaloPower: 300
+      _UOffset: -0.28833333
+    m_Colors:
+      _BelowColor: {r: 0.41599998, g: 0.464, b: 0.592, a: 1}
+      _HorizonLift: {r: 0, g: 2, b: 0, a: 0}
+      _SunDiskColor: {r: 30, g: 22, b: 12, a: 1}
+      _SunGlowColor: {r: 1, g: 0.68, b: 0.32, a: 1}
+      _SunHaloColor: {r: 2, g: 1.4, b: 0.8, a: 1}
+      _VMap: {r: 0.5, g: 0.3, b: 0, a: 0}
+      _ZenithTint: {r: 0.9, g: 0.99, b: 1.05, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

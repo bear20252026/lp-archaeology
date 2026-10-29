@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Desert_FountainWater_Basin
+  m_Shader: {fileID: 4800000, guid: 45a3e2d6229cda346a3c3a16eb0709d6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: e26bd11ceb672ad42a7b917c37e19f64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _DetailStrength: 0.05
+      _DetailTile: 1.6
+      _Radius: 1.77
+      _Reflection: 1
+      _Roughness: 0.09
+      _Sun: 6
+    m_Colors:
+      _BodyColor: {r: 0.4, g: 0.56, b: 0.53, a: 1}
+      _Centre: {r: -247.437, g: 294.929, b: 0, a: 0}
+      _FoamColor: {r: 0.92, g: 0.95, b: 0.96, a: 1}
+      _Rings: {r: 1.007826, g: -1, b: 0.07, a: 0.7}
+      _Ripple: {r: 0.12, g: 0.13, b: 0.32, a: 1.8}
+      _ShallowColor: {r: 0.66, g: 0.68, b: 0.6, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

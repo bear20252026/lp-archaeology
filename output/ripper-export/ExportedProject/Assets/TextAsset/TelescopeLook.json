@@ -1,0 +1,31 @@
+{
+  "generatedBy": "tools/shared/animation/lp_telescope_look.py",
+  "note": "Telescope frame: prefab root, +Z = where the tube aims. The character stands at stance, facing +Z.",
+  "fps": 30,
+  "stance": [
+    -0.0437,
+    0.0,
+    -0.6204
+  ],
+  "eyepiece": [
+    0.0,
+    1.085,
+    -0.451
+  ],
+  "tubeElevationDeg": 30.0,
+  "lookClip": "LP_TelescopeLook",
+  "lookSeconds": 1.6,
+  "eyeAtEyepieceSeconds": 1.4,
+  "holdClip": "LP_TelescopeHold",
+  "holdSeconds": 3.0,
+  "takeFrames": {
+    "LP_TelescopeLook": [
+      0,
+      48
+    ],
+    "LP_TelescopeHold": [
+      49,
+      139
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1953259897 &1953259897
+TerrainLayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TL_FlowerMeadow
+  m_DiffuseTexture: {fileID: 2800000, guid: 6bfee816bb20b37489b0be84521309ef, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: d9741dc5a7ff80c4d8be1272ff0291b7, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 5e1fddc9d1f5dbe4388af789a2e8a8eb, type: 3}
+  m_TileSize: {x: 3.6, y: 3.6}
+  m_TileOffset: {x: 1.7, y: 0.4}
+  m_Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_Metallic: 0
+  m_Smoothness: 0.08
+  m_NormalScale: 0.6
+  m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+  m_DiffuseRemapMax: {x: 3.4, y: 3.9, z: 3.9, w: 1}
+  m_MaskMapRemapMin: {x: 0, y: 0.4, z: 0, w: 0}
+  m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+  m_SmoothnessSource: 1

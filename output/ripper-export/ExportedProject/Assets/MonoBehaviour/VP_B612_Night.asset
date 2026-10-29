@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: VP_B612_Night
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: a41cf9f89bbc57241b95fa8d6b856815, type: 2}
+  - {fileID: 11400000, guid: 35d68980d55b4a64693c0ca835aa1c03, type: 2}
+  - {fileID: 11400000, guid: 960ff286affac0649bdda124184cf605, type: 2}
+  - {fileID: 11400000, guid: 62935f37aae1371439c0685af67c569f, type: 2}
+  - {fileID: 11400000, guid: a301de6162b9a414093b112e93d48374, type: 2}

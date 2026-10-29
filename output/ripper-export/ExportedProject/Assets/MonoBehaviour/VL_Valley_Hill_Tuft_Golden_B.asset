@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Valley_Hill_Tuft_Golden_B
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: 6b1b9e01004ce264898d5039248b7fea, type: 2}
+  meshLOD1: {fileID: 4300000, guid: 1fdfd151deea296429c3c177e769f00e, type: 2}
+  materials:
+  - {fileID: 2100000, guid: d7ed9dc85f7e0054e8933adfa17822b1, type: 2}
+  renderLayer: 9
+  castShadows: 1
+  shadowDistance: 22
+  receiveShadows: 1
+  densityKey: dry
+  densityPerM2: 0.1
+  clusterScale: 7
+  clusterCoverage: 1
+  clusterSoftness: 0.35
+  seed: 13931
+  scaleRange: {x: 1.2, y: 1.8}
+  alignToNormal: 0.4
+  tiltJitterDeg: 8
+  windYawBias: 0
+  maxSlopeDeg: 45
+  heightOffset: 0
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 18
+  thinStart: 110
+  thinPower: 1.3
+  fadeStart: 240
+  fadeEnd: 300
+  scaleCompensation: 0.8
+  maxScaleCompensation: 2.4
+  nearFade: {x: 1, y: 2.2}

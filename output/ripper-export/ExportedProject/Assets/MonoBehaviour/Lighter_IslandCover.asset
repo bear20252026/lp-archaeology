@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a36f1c8fc0da54e78ab592a778b67f, type: 3}
+  m_Name: Lighter_IslandCover
+  m_EditorClassIdentifier:
+  chunkSize: 6
+  seed: 4412
+  region:
+    serializedVersion: 2
+    x: -6
+    y: -11
+    width: 12
+    height: 22
+  info: "Baked 3579 instances, region (x:-6.00, y:-11.00, width:12.00, height:22.00), chunk 6 m, seed 4412\nVL_Lighter_Lighter_Thrift_A: 262 instances in 8 chunks (0.99/m2 avg, cell 0.35 m)\nVL_Lighter_Lighter_Thrift_B: 195 instances in 8 chunks (0.74/m2 avg, cell 0.41 m)\nVL_Lighter_Lighter_Thrift_C: 237 instances in 8 chunks (0.90/m2 avg, cell 0.38 m)\nVL_Lighter_Grass_Short_A: 1751 instances in 8 chunks (6.63/m2 avg, cell 0.14 m)\nVL_Lighter_Lighter_SeaGrass_A: 486 instances in 8 chunks (1.84/m2 avg, cell 0.24 m)\nVL_Lighter_Lighter_SeaGrass_B: 423 instances in 8 chunks (1.60/m2 avg, cell 0.25 m)\nVL_Lighter_Grass_WetBank_A: 225 instances in 8 chunks (0.85/m2 avg, cell 0.21 m)\n"
+  layers:
+  - layer: {fileID: 11400000, guid: 4824e862474ebab49829b5fa4b0e878d, type: 2}
+    instanceStart: 0
+    instanceCount: 262
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 21
+      boundsMin: {x: -3.9171033, y: -0.6391561, z: -9.653019}
+      boundsMax: {x: 1.0833297, y: 2.614007, z: -4.671994}
+    - coord: {x: 0, y: -2}
+      start: 21
+      count: 17
+      boundsMin: {x: -1.0565884, y: -0.73996687, z: -9.961363}
+      boundsMax: {x: 4.164129, y: 2.6838956, z: -4.6076336}
+    - coord: {x: -1, y: -1}
+      start: 38
+      count: 66
+      boundsMin: {x: -5.3249345, y: -0.74478054, z: -6.4319444}
+      boundsMax: {x: 0.79577893, y: 4.3059697, z: 1.0629655}
+    - coord: {x: 0, y: -1}
+      start: 104
+      count: 32
+      boundsMin: {x: -0.4714961, y: -0.37145376, z: -6.5931334}
+      boundsMax: {x: 4.426293, y: 4.0531163, z: 0.95228326}
+    - coord: {x: -1, y: 0}
+      start: 136
+      count: 48
+      boundsMin: {x: -4.4993105, y: -0.08846581, z: -0.8784097}
+      boundsMax: {x: 1.0865377, y: 5.67095, z: 6.9747877}
+    - coord: {x: 0, y: 0}
+      start: 184
+      count: 53
+      boundsMin: {x: -0.59656084, y: -0.21213835, z: -0.8256479}
+      boundsMax: {x: 5.0104184, y: 5.7074037, z: 6.956826}
+    - coord: {x: -1, y: 1}
+      start: 237
+      count: 5
+      boundsMin: {x: -2.3921525, y: 0.39405334, z: 6.5913515}
+      boundsMax: {x: 0.931481, y: 3.6262558, z: 9.990678}
+    - coord: {x: 0, y: 1}
+      start: 242
+      count: 20
+      boundsMin: {x: -1.1827744, y: 0.0678103, z: 5.194069}
+      boundsMax: {x: 3.1379125, y: 5.4333405, z: 10.054162}
+  - layer: {fileID: 11400000, guid: 41b2dc4cb103871468627203e96fcaba, type: 2}
+    instanceStart: 262
+    instanceCount: 195
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 18
+      boundsMin: {x: -3.1423132, y: -0.5588626, z: -9.721109}
+      boundsMax: {x: 1.0616767, y: 2.7316499, z: -4.7250853}
+    - coord: {x: 0, y: -2}
+      start: 18
+      count: 9
+      boundsMin: {x: -0.9996618, y: -0.7766535, z: -9.534833}
+      boundsMax: {x: 3.627123, y: 2.2610822, z: -5.018736}
+    - coord: {x: -1, y: -1}
+      start: 27
+      count: 51
+      boundsMin: {x: -5.29174, y: -0.49376172, z: -6.581888}
+      boundsMax: {x: 0.742913, y: 4.2818174, z: 1.0986078}
+    - coord: {x: 0, y: -1}
+      start: 78
+      count: 19
+      boundsMin: {x: -0.5422196, y: -0.58070654, z: -6.3809447}
+      boundsMax: {x: 4.382409, y: 4.283425, z: 0.3323077}
+    - coord: {x: -1, y: 0}
+      start: 97
+      count: 42
+      boundsMin: {x: -4.744084, y: -0.35931337, z: -0.92171645}
+      boundsMax: {x: 0.5783018, y: 5.7585835, z: 6.7760944}
+    - coord: {x: 0, y: 0}
+      start: 139
+      count: 35
+      boundsMin: {x: -0.7865187, y: -0.21782804, z: -0.7416212}
+      boundsMax: {x: 5.03511, y: 5.68843, z: 7.0007524}
+    - coord: {x: -1, y: 1}
+      start: 174
+      count: 6
+      boundsMin: {x: -2.4162078, y: 0.7646122, z: 6.454955}
+      boundsMax: {x: 1.2338688, y: 4.0329533, z: 9.748586}
+    - coord: {x: 0, y: 1}
+      start: 180
+      count: 15
+      boundsMin: {x: -1.0887446, y: 0.11033642, z: 5.149618}
+      boundsMax: {x: 3.272968, y: 5.293274, z: 10.032365}
+  - layer: {fileID: 11400000, guid: 21354dce0e8b7584eaa4414d579a5764, type: 2}
+    instanceStart: 457
+    instanceCount: 237
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 23
+      boundsMin: {x: -3.0578518, y: -0.54604256, z: -9.553967}
+      boundsMax: {x: 0.91229755, y: 2.298076, z: -4.6751146}
+    - coord: {x: 0, y: -2}
+      start: 23
+      count: 12
+      boundsMin: {x: -0.76965016, y: -0.33639568, z: -8.827901}
+      boundsMax: {x: 3.3135595, y: 2.1560998, z: -5.0625634}
+    - coord: {x: -1, y: -1}
+      start: 35
+      count: 54
+      boundsMin: {x: -5.1323833, y: -0.258357, z: -6.4057155}
+      boundsMax: {x: 0.3669576, y: 4.160102, z: 0.87388664}
+    - coord: {x: 0, y: -1}
+      start: 89
+      count: 27
+      boundsMin: {x: -0.6630846, y: -0.2715808, z: -6.5004067}
+      boundsMax: {x: 4.362998, y: 4.1391397, z: 0.51498294}
+    - coord: {x: -1, y: 0}
+      start: 116
+      count: 45
+      boundsMin: {x: -4.1876383, y: 0.29607224, z: -0.7793871}
+      boundsMax: {x: 0.5341656, y: 5.492148, z: 6.801041}
+    - coord: {x: 0, y: 0}
+      start: 161
+      count: 46
+      boundsMin: {x: -0.6164815, y: -0.039981663, z: -0.26565266}
+      boundsMax: {x: 4.835276, y: 5.4765143, z: 6.5782175}
+    - coord: {x: -1, y: 1}
+      start: 207
+      count: 15
+      boundsMin: {x: -2.5537405, y: 0.91247964, z: 5.249026}
+      boundsMax: {x: 0.7679957, y: 5.209346, z: 9.435007}
+    - coord: {x: 0, y: 1}
+      start: 222
+      count: 15
+      boundsMin: {x: -0.9019542, y: 0.27974015, z: 5.4385757}
+      boundsMax: {x: 3.2483134, y: 5.154152, z: 9.921976}
+  - layer: {fileID: 11400000, guid: 33e53c619701a95479c4e564808ab9c7, type: 2}
+    instanceStart: 694
+    instanceCount: 1751
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 144
+      boundsMin: {x: -2.5993683, y: -0.029507607, z: -9.164622}
+      boundsMax: {x: 0.43212655, y: 1.9119568, z: -5.545209}
+    - coord: {x: 0, y: -2}
+      start: 144
+      count: 101
+      boundsMin: {x: -0.39511454, y: -0.01849714, z: -9.054558}
+      boundsMax: {x: 3.1268606, y: 1.998623, z: -5.4844217}
+    - coord: {x: -1, y: -1}
+      start: 245
+      count: 417
+      boundsMin: {x: -4.628637, y: -0.0979211, z: -6.370259}
+      boundsMax: {x: 0.36748084, y: 3.892559, z: 0.43825325}
+    - coord: {x: 0, y: -1}
+      start: 662
+      count: 244
+      boundsMin: {x: -0.38455084, y: -0.021001846, z: -6.3425674}
+      boundsMax: {x: 4.037185, y: 3.8775766, z: 0.44083086}
+    - coord: {x: -1, y: 0}
+      start: 906
+      count: 343
+      boundsMin: {x: -3.968989, y: 0.42478704, z: -0.4153332}
+      boundsMax: {x: 0.42766336, y: 4.9668374, z: 6.4188495}
+    - coord: {x: 0, y: 0}
+      start: 1249
+      count: 335
+      boundsMin: {x: -0.42484742, y: 0.094304174, z: -0.41434816}
+      boundsMax: {x: 4.540383, y: 4.9690185, z: 6.49004}
+    - coord: {x: -1, y: 1}
+      start: 1584
+      count: 64
+      boundsMin: {x: -2.1317854, y: 1.1282694, z: 5.691408}
+      boundsMax: {x: 0.42349392, y: 4.861248, z: 9.246516}
+    - coord: {x: 0, y: 1}
+      start: 1648
+      count: 103
+      boundsMin: {x: -0.45759815, y: -0.10252616, z: 5.768294}
+      boundsMax: {x: 2.7586253, y: 4.700558, z: 10.108899}
+  - layer: {fileID: 11400000, guid: d7e1461ef96524b449dfd1114f0663d8, type: 2}
+    instanceStart: 2445
+    instanceCount: 486
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 51
+      boundsMin: {x: -2.9077995, y: -0.5154987, z: -9.590656}
+      boundsMax: {x: 0.8495548, y: 2.2536836, z: -5.291292}
+    - coord: {x: 0, y: -2}
+      start: 51
+      count: 21
+      boundsMin: {x: -0.7659789, y: -0.6103596, z: -8.948961}
+      boundsMax: {x: 4.1617284, y: 2.277502, z: -5.2209735}
+    - coord: {x: -1, y: -1}
+      start: 72
+      count: 112
+      boundsMin: {x: -4.8687315, y: -0.16569984, z: -6.6692495}
+      boundsMax: {x: 0.37698317, y: 4.113725, z: 0.710042}
+    - coord: {x: 0, y: -1}
+      start: 184
+      count: 69
+      boundsMin: {x: -0.5014482, y: -0.50941074, z: -6.5605307}
+      boundsMax: {x: 4.598032, y: 4.29889, z: 0.7639667}
+    - coord: {x: -1, y: 0}
+      start: 253
+      count: 99
+      boundsMin: {x: -4.3819823, y: 0.06899941, z: -0.6831067}
+      boundsMax: {x: 0.80712265, y: 5.4205217, z: 6.957224}
+    - coord: {x: 0, y: 0}
+      start: 352
+      count: 69
+      boundsMin: {x: -0.79086155, y: 0.029815972, z: -0.73675394}
+      boundsMax: {x: 4.722075, y: 5.434639, z: 6.8333516}
+    - coord: {x: -1, y: 1}
+      start: 421
+      count: 23
+      boundsMin: {x: -2.6848326, y: -0.5564405, z: 5.444094}
+      boundsMax: {x: 0.90019846, y: 4.958402, z: 10.396116}
+    - coord: {x: 0, y: 1}
+      start: 444
+      count: 42
+      boundsMin: {x: -0.89545834, y: -0.5025197, z: 5.306677}
+      boundsMax: {x: 4.3021526, y: 5.2842298, z: 10.018482}
+  - layer: {fileID: 11400000, guid: ac354e101aa69d64588f793fad57d3af, type: 2}
+    instanceStart: 2931
+    instanceCount: 423
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 43
+      boundsMin: {x: -2.7158167, y: -0.27243584, z: -9.324298}
+      boundsMax: {x: 0.79219705, y: 2.3211732, z: -5.304111}
+    - coord: {x: 0, y: -2}
+      start: 43
+      count: 23
+      boundsMin: {x: -0.8947569, y: -0.3092646, z: -8.821935}
+      boundsMax: {x: 3.2387075, y: 2.136689, z: -5.3176174}
+    - coord: {x: -1, y: -1}
+      start: 66
+      count: 100
+      boundsMin: {x: -5.047035, y: -0.4075519, z: -6.683513}
+      boundsMax: {x: 0.70458096, y: 4.1047783, z: 0.6687957}
+    - coord: {x: 0, y: -1}
+      start: 166
+      count: 56
+      boundsMin: {x: -0.460025, y: -0.3020844, z: -6.879408}
+      boundsMax: {x: 4.084395, y: 4.138961, z: 0.73228616}
+    - coord: {x: -1, y: 0}
+      start: 222
+      count: 87
+      boundsMin: {x: -4.310139, y: 0.08896601, z: -0.7766176}
+      boundsMax: {x: 0.66031873, y: 5.41707, z: 6.714667}
+    - coord: {x: 0, y: 0}
+      start: 309
+      count: 61
+      boundsMin: {x: -0.7531936, y: -0.4681123, z: 0.18306303}
+      boundsMax: {x: 5.172723, y: 5.412729, z: 6.700094}
+    - coord: {x: -1, y: 1}
+      start: 370
+      count: 14
+      boundsMin: {x: -2.4986136, y: 0.8063689, z: 5.40145}
+      boundsMax: {x: 0.7206065, y: 5.043476, z: 9.5745735}
+    - coord: {x: 0, y: 1}
+      start: 384
+      count: 39
+      boundsMin: {x: -0.82335275, y: 0.3115, z: 5.285533}
+      boundsMax: {x: 2.7247913, y: 5.2991457, z: 9.870099}
+  - layer: {fileID: 11400000, guid: 5673d33e5961fcd419a69dd627552859, type: 2}
+    instanceStart: 3354
+    instanceCount: 225
+    chunks:
+    - coord: {x: -1, y: -2}
+      start: 0
+      count: 70
+      boundsMin: {x: -3.8955832, y: -0.57186055, z: -9.796927}
+      boundsMax: {x: 0.7286135, y: 1.7998403, z: -5.293588}
+    - coord: {x: 0, y: -2}
+      start: 70
+      count: 55
+      boundsMin: {x: -0.7049952, y: -0.57105446, z: -10.027149}
+      boundsMax: {x: 3.3709831, y: 1.8914442, z: -5.4140086}
+    - coord: {x: -1, y: -1}
+      start: 125
+      count: 47
+      boundsMin: {x: -5.2850337, y: -0.5246657, z: -6.653339}
+      boundsMax: {x: -1.1305737, y: 1.9597976, z: -0.24886882}
+    - coord: {x: 0, y: -1}
+      start: 172
+      count: 38
+      boundsMin: {x: 1.3581014, y: -0.42646018, z: -6.7964077}
+      boundsMax: {x: 4.765921, y: 1.8611453, z: 0.17308879}
+    - coord: {x: -1, y: 0}
+      start: 210
+      count: 5
+      boundsMin: {x: -4.347491, y: 0.040857017, z: -0.64090264}
+      boundsMax: {x: -2.575306, y: 1.8668175, z: 1.3338289}
+    - coord: {x: 0, y: 0}
+      start: 215
+      count: 5
+      boundsMin: {x: 3.1021197, y: -0.5411083, z: -0.20694292}
+      boundsMax: {x: 5.068119, y: 1.5766813, z: 1.7794418}
+    - coord: {x: -1, y: 1}
+      start: 220
+      count: 1
+      boundsMin: {x: -0.99196565, y: -0.46616566, z: 8.994421}
+      boundsMax: {x: 0.47434735, y: 1.0001473, z: 10.460733}
+    - coord: {x: 0, y: 1}
+      start: 221
+      count: 4
+      boundsMin: {x: -0.66323125, y: -0.6183598, z: 8.670917}
+      boundsMax: {x: 1.9042861, y: 1.1677115, z: 10.64121}
+  payload: {fileID: 4900000, guid: b98be7bd72ca55d4da2a08953a2d7a52, type: 3}
+  flowerMap: {fileID: 2800000, guid: 13ea24933afe9724cb5c219b1d375899, type: 3}
+  flowerMapRect:
+    serializedVersion: 2
+    x: -6
+    y: -11
+    width: 12
+    height: 22

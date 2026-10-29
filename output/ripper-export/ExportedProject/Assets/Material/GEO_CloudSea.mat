@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GEO_CloudSea
+  m_Shader: {fileID: 4800000, guid: 30ff1f77bbbb6684fbea79c44159c91f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2940
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: cf43b12342bc1b045a1d3762ddaef951, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BaseY: -90
+      _Blanket: 0.7
+      _ClearDepth: 0
+      _CottonAmount: 0.32
+      _CreaseDark: 0.35
+      _DetailFade: 420
+      _DetailScale: 9
+      _DetailStrength: 0.8
+      _EdgeSkin: 3
+      _FadeRadius: 1800
+      _FuzzHeight: 3.5
+      _FuzzStrength: 0.02
+      _GoldRim: 0.25
+      _HazeDistance: 1800
+      _HazePower: 1.3
+      _HorizonWarmth: 2.5
+      _LodScale: 0.006
+      _MaxMarch: 1100
+      _MidHazeDistance: 900
+      _MidHazeMax: 0.4
+      _NormalSoft: 0.45
+      _PuffAmp: 0.18
+      _PuffSwell: 0.3
+      _RimShade: 0.12
+      _ScatterPower: 6
+      _ScatterStrength: 0.3
+      _ShadowDensity: 0
+      _SmallAmp: 0.06
+      _SoftDepth: 20
+      _StepScale: 0.045
+      _SunStrength: 0.36
+      _SwellAmp: 0.12
+      _TileSize: 900
+      _TopY: -55
+      _Wrap: 0.7
+    m_Colors:
+      _Albedo: {r: 0.95, g: 0.96, b: 0.98, a: 1}
+      _AmbientBottom: {r: 0.5, g: 0.55, b: 0.68, a: 1}
+      _AmbientTop: {r: 0.62, g: 0.68, b: 0.82, a: 1}
+      _BelowColor: {r: 0.88, g: 0.9, b: 0.93, a: 1}
+      _ClearCentre: {r: -1.5, g: 2, b: 80, a: 260}
+      _GoldColor: {r: 1, g: 0.72, b: 0.42, a: 1}
+      _HorizonColor: {r: 0.86, g: 0.9, b: 0.94, a: 1}
+      _MidHazeColor: {r: 0.74, g: 0.78, b: 0.88, a: 1}
+      _RimColor: {r: 0.62, g: 0.68, b: 0.86, a: 1}
+      _ScatterColor: {r: 1, g: 0.82, b: 0.58, a: 1}
+      _SunHorizonColor: {r: 1, g: 0.88, b: 0.72, a: 1}
+      _SunTint: {r: 1, g: 1.06, b: 1.2, a: 1}
+      _Wind: {r: 0.9, g: 0, b: 0.35, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

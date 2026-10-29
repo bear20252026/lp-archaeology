@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Valley_Golden_Dry_B
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: 90511ad6a84344f4ba6982413c0a6bbe, type: 2}
+  meshLOD1: {fileID: 4300000, guid: bf43979fbf597c74d8dc9d31cc04aa9b, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 2a60f98a9354f674a889ce48a6e340be, type: 2}
+  renderLayer: 9
+  castShadows: 0
+  shadowDistance: 9
+  receiveShadows: 1
+  densityKey: golden
+  densityPerM2: 4.5
+  clusterScale: 1.2
+  clusterCoverage: 0.3
+  clusterSoftness: 0.3
+  seed: 7145
+  scaleRange: {x: 0.6, y: 1.5}
+  alignToNormal: 0.9
+  tiltJitterDeg: 6
+  windYawBias: 0
+  maxSlopeDeg: 40
+  heightOffset: 0
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 12
+  thinStart: 11.25
+  thinPower: 1.3
+  fadeStart: 86.4
+  fadeEnd: 120
+  scaleCompensation: 0.3
+  maxScaleCompensation: 1.5
+  nearFade: {x: 0, y: 0}

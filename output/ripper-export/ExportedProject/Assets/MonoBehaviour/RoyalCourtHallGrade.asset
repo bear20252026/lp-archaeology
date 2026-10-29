@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: RoyalCourtHallGrade
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: d7190cc8422d3d64e9b787ccce116b9d, type: 2}
+  - {fileID: 11400000, guid: cd37d226cf2f68742a55ab07ed691e72, type: 2}
+  - {fileID: 11400000, guid: 00fb3859984ff0d40b43348855083f68, type: 2}
+  - {fileID: 11400000, guid: 574b4ced10518f940847935145f41f6e, type: 2}
+  - {fileID: 11400000, guid: adbec0a07e54eaa4896ead842d5859d9, type: 2}

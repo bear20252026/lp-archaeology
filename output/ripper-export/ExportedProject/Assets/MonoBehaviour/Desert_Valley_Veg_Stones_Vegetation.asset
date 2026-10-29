@@ -1,0 +1,3164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a36f1c8fc0da54e78ab592a778b67f, type: 3}
+  m_Name: Desert_Valley_Veg_Stones_Vegetation
+  m_EditorClassIdentifier:
+  chunkSize: 16
+  seed: 612
+  region:
+    serializedVersion: 2
+    x: -311.8
+    y: 185
+    width: 175.99998
+    height: 192
+  info: "Baked 4738 instances, region (x:-311.80, y:185.00, width:176.00, height:192.00), chunk 16 m, seed 612\nVL_Valley_Bank_Granite_Stone_B: 35 instances in 13 chunks (0.00/m2 avg, cell 3.16 m)\nVL_Valley_Bank_Granite_Stone_C: 26 instances in 12 chunks (0.00/m2 avg, cell 3.54 m)\nVL_Valley_Bank_Granite_Stone_D: 17 instances in 9 chunks (0.00/m2 avg, cell 4.08 m)\nVL_Valley_Gravel_Stone_B: 121 instances in 21 chunks (0.00/m2 avg, cell 2.00 m)\nVL_Valley_Gravel_Stone_C: 77 instances in 20 chunks (0.00/m2 avg, cell 2.58 m)\nVL_Valley_Gravel_Stone_D: 26 instances in 17 chunks (0.00/m2 avg, cell 4.08 m)\nVL_Valley_RidgeSkirt_Granite_Stone_A: 197 instances in 18 chunks (0.01/m2 avg, cell 2.00 m)\nVL_Valley_RidgeSkirt_Granite_Stone_B: 115 instances in 16 chunks (0.00/m2 avg, cell 2.58 m)\nVL_Valley_RidgeSkirt_Granite_Stone_C: 43 instances in 15 chunks (0.00/m2 avg, cell 4.47 m)\nVL_Valley_HillStone_Granite_Stone_A_rock_feet: 2005 instances in 119 chunks (0.06/m2 avg, cell 1.69 m)\nVL_Valley_HillStone_Granite_Stone_B_rock_feet: 1182 instances in 117 chunks (0.03/m2 avg, cell 2.24 m)\nVL_Valley_HillStone_Granite_Stone_A_dry: 676 instances in 131 chunks (0.02/m2 avg, cell 4.47 m)\nVL_Valley_HillStone_Granite_Stone_C_dry: 218 instances in 108 chunks (0.01/m2 avg, cell 8.16 m)\n\nCLIP1: 518 reachable stones sunk to 0.04 m over the sand\nCLIP1: 15 reachable stones sunk to 0.04 m over the sand"
+  layers:
+  - layer: {fileID: 11400000, guid: f5edb3fbbc23ed04ba4d9fae692d1a2b, type: 2}
+    instanceStart: 0
+    instanceCount: 35
+    chunks:
+    - coord: {x: -13, y: 18}
+      start: 0
+      count: 3
+      boundsMin: {x: -199.00055, y: 4.034743, z: 299.4487}
+      boundsMax: {x: -191.0016, y: 7.4344525, z: 307.51303}
+    - coord: {x: -12, y: 18}
+      start: 3
+      count: 7
+      boundsMin: {x: -187.91559, y: 4.010349, z: 292.90878}
+      boundsMax: {x: -173.06801, y: 6.9938326, z: 305.60654}
+    - coord: {x: -10, y: 18}
+      start: 10
+      count: 1
+      boundsMin: {x: -157.06503, y: 4.1123867, z: 291.63028}
+      boundsMax: {x: -154.65921, y: 6.5182056, z: 294.0361}
+    - coord: {x: -18, y: 19}
+      start: 11
+      count: 1
+      boundsMin: {x: -274.51892, y: 5.0363874, z: 318.7826}
+      boundsMax: {x: -271.14252, y: 8.412793, z: 322.159}
+    - coord: {x: -17, y: 19}
+      start: 12
+      count: 2
+      boundsMin: {x: -268.16913, y: 5.2119107, z: 320.9142}
+      boundsMax: {x: -259.44852, y: 7.9478316, z: 323.65012}
+    - coord: {x: -14, y: 19}
+      start: 14
+      count: 1
+      boundsMin: {x: -208.55728, y: 4.833384, z: 318.68573}
+      boundsMax: {x: -206.70486, y: 6.6857896, z: 320.53815}
+    - coord: {x: -13, y: 19}
+      start: 15
+      count: 2
+      boundsMin: {x: -202.90993, y: 4.3718557, z: 305.928}
+      boundsMax: {x: -188.68506, y: 7.5957966, z: 323.02994}
+    - coord: {x: -18, y: 20}
+      start: 17
+      count: 2
+      boundsMin: {x: -276.86816, y: 5.808602, z: 322.33392}
+      boundsMax: {x: -273.11588, y: 8.908366, z: 327.05646}
+    - coord: {x: -17, y: 20}
+      start: 19
+      count: 5
+      boundsMin: {x: -270.5048, y: 4.847481, z: 323.2675}
+      boundsMax: {x: -253.9707, y: 8.255291, z: 329.64474}
+    - coord: {x: -16, y: 20}
+      start: 24
+      count: 3
+      boundsMin: {x: -251.81053, y: 5.3332777, z: 322.12466}
+      boundsMax: {x: -237.07668, y: 7.560174, z: 325.27045}
+    - coord: {x: -15, y: 20}
+      start: 27
+      count: 5
+      boundsMin: {x: -237.93033, y: 4.0677657, z: 321.85596}
+      boundsMax: {x: -221.70184, y: 7.7882147, z: 331.03958}
+    - coord: {x: -14, y: 20}
+      start: 32
+      count: 2
+      boundsMin: {x: -215.02956, y: 4.5932016, z: 328.074}
+      boundsMax: {x: -205.17473, y: 7.2238326, z: 333.9014}
+    - coord: {x: -13, y: 20}
+      start: 34
+      count: 1
+      boundsMin: {x: -204.31488, y: 4.5695796, z: 323.83685}
+      boundsMax: {x: -201.43192, y: 7.4525447, z: 326.71985}
+  - layer: {fileID: 11400000, guid: ab30b807b0c403b4599a166d70bf0268, type: 2}
+    instanceStart: 35
+    instanceCount: 26
+    chunks:
+    - coord: {x: -12, y: 18}
+      start: 0
+      count: 5
+      boundsMin: {x: -192.72429, y: 3.2297394, z: 295.18164}
+      boundsMax: {x: -179.21613, y: 8.125376, z: 304.1746}
+    - coord: {x: -11, y: 18}
+      start: 5
+      count: 1
+      boundsMin: {x: -162.45715, y: 3.7216582, z: 293.75427}
+      boundsMax: {x: -158.983, y: 7.1957955, z: 297.2284}
+    - coord: {x: -18, y: 19}
+      start: 6
+      count: 1
+      boundsMin: {x: -282.08646, y: 5.14328, z: 317.5837}
+      boundsMax: {x: -277.34848, y: 9.881275, z: 322.3217}
+    - coord: {x: -17, y: 19}
+      start: 7
+      count: 1
+      boundsMin: {x: -269.46536, y: 4.6048393, z: 318.9018}
+      boundsMax: {x: -265.10837, y: 8.961838, z: 323.2588}
+    - coord: {x: -14, y: 19}
+      start: 8
+      count: 1
+      boundsMin: {x: -209.43074, y: 3.6222138, z: 317.40726}
+      boundsMax: {x: -205.37587, y: 7.677078, z: 321.46213}
+    - coord: {x: -13, y: 19}
+      start: 9
+      count: 3
+      boundsMin: {x: -202.52145, y: 3.3880339, z: 302.343}
+      boundsMax: {x: -192.94954, y: 7.586976, z: 313.6126}
+    - coord: {x: -12, y: 19}
+      start: 12
+      count: 1
+      boundsMin: {x: -189.12366, y: 4.148371, z: 303.32117}
+      boundsMax: {x: -186.47308, y: 6.798939, z: 305.97174}
+    - coord: {x: -18, y: 20}
+      start: 13
+      count: 3
+      boundsMin: {x: -279.09708, y: 4.6788836, z: 321.717}
+      boundsMax: {x: -268.54132, y: 10.050858, z: 327.8473}
+    - coord: {x: -17, y: 20}
+      start: 16
+      count: 2
+      boundsMin: {x: -268.21884, y: 4.3186145, z: 319.8547}
+      boundsMax: {x: -257.57364, y: 8.837402, z: 325.68484}
+    - coord: {x: -16, y: 20}
+      start: 18
+      count: 3
+      boundsMin: {x: -249.80292, y: 4.2907333, z: 320.42792}
+      boundsMax: {x: -235.41324, y: 8.697706, z: 329.73117}
+    - coord: {x: -15, y: 20}
+      start: 21
+      count: 4
+      boundsMin: {x: -238.23222, y: 3.6975195, z: 322.41846}
+      boundsMax: {x: -222.49657, y: 8.27575, z: 332.1578}
+    - coord: {x: -14, y: 20}
+      start: 25
+      count: 1
+      boundsMin: {x: -220.21358, y: 3.372749, z: 327.76962}
+      boundsMax: {x: -215.73784, y: 7.8484955, z: 332.2454}
+  - layer: {fileID: 11400000, guid: 82d3ac8fa13e2794083b51d1f9f859f1, type: 2}
+    instanceStart: 61
+    instanceCount: 17
+    chunks:
+    - coord: {x: -11, y: 17}
+      start: 0
+      count: 2
+      boundsMin: {x: -165.54393, y: 2.9388316, z: 285.74283}
+      boundsMax: {x: -158.06084, y: 8.553965, z: 291.35794}
+    - coord: {x: -13, y: 18}
+      start: 2
+      count: 1
+      boundsMin: {x: -196.99011, y: 3.3262386, z: 300.76608}
+      boundsMax: {x: -192.33533, y: 7.981024, z: 305.42087}
+    - coord: {x: -12, y: 18}
+      start: 3
+      count: 2
+      boundsMin: {x: -188.37587, y: 2.4280915, z: 293.2333}
+      boundsMax: {x: -181.86945, y: 8.246391, z: 299.7259}
+    - coord: {x: -18, y: 19}
+      start: 5
+      count: 1
+      boundsMin: {x: -283.5362, y: 5.1886625, z: 317.45398}
+      boundsMax: {x: -278.85327, y: 9.87161, z: 322.1369}
+    - coord: {x: -17, y: 19}
+      start: 6
+      count: 2
+      boundsMin: {x: -266.63315, y: 4.3263965, z: 318.6863}
+      boundsMax: {x: -257.3171, y: 9.660944, z: 324.02084}
+    - coord: {x: -17, y: 20}
+      start: 8
+      count: 3
+      boundsMin: {x: -268.8861, y: 3.6945448, z: 323.27756}
+      boundsMax: {x: -251.97581, y: 9.152322, z: 330.80203}
+    - coord: {x: -16, y: 20}
+      start: 11
+      count: 3
+      boundsMin: {x: -254.70073, y: 3.6506994, z: 323.72992}
+      boundsMax: {x: -235.1293, y: 8.868705, z: 331.5884}
+    - coord: {x: -15, y: 20}
+      start: 14
+      count: 2
+      boundsMin: {x: -236.82037, y: 3.4327118, z: 321.38187}
+      boundsMax: {x: -223.66713, y: 8.810864, z: 332.57663}
+    - coord: {x: -14, y: 20}
+      start: 16
+      count: 1
+      boundsMin: {x: -214.04428, y: 2.838995, z: 328.31604}
+      boundsMax: {x: -208.67288, y: 8.21039, z: 333.68744}
+  - layer: {fileID: 11400000, guid: a2111da9e7d2742409bdb23963a30a92, type: 2}
+    instanceStart: 78
+    instanceCount: 121
+    chunks:
+    - coord: {x: -16, y: 17}
+      start: 0
+      count: 11
+      boundsMin: {x: -252.50017, y: 6.801583, z: 276.3064}
+      boundsMax: {x: -239.77513, y: 8.031451, z: 287.32516}
+    - coord: {x: -15, y: 17}
+      start: 11
+      count: 2
+      boundsMin: {x: -239.87788, y: 6.996855, z: 285.9079}
+      boundsMax: {x: -233.94682, y: 7.856415, z: 287.5264}
+    - coord: {x: -11, y: 17}
+      start: 13
+      count: 2
+      boundsMin: {x: -163.47162, y: 5.9157124, z: 286.8767}
+      boundsMax: {x: -161.40096, y: 7.2571445, z: 288.34488}
+    - coord: {x: -10, y: 17}
+      start: 15
+      count: 1
+      boundsMin: {x: -155.63979, y: 6.059909, z: 287.20975}
+      boundsMax: {x: -154.50139, y: 7.198308, z: 288.34818}
+    - coord: {x: -17, y: 18}
+      start: 16
+      count: 7
+      boundsMin: {x: -266.36542, y: 6.7832885, z: 292.5145}
+      boundsMax: {x: -256.0092, y: 8.048742, z: 303.1609}
+    - coord: {x: -16, y: 18}
+      start: 23
+      count: 10
+      boundsMin: {x: -255.46756, y: 6.7746587, z: 289.33035}
+      boundsMax: {x: -239.66003, y: 8.016887, z: 303.86084}
+    - coord: {x: -15, y: 18}
+      start: 33
+      count: 3
+      boundsMin: {x: -235.1388, y: 6.7925963, z: 293.2581}
+      boundsMax: {x: -228.76283, y: 8.001766, z: 295.67447}
+    - coord: {x: -13, y: 18}
+      start: 36
+      count: 4
+      boundsMin: {x: -197.2499, y: 5.729502, z: 300.63812}
+      boundsMax: {x: -192.7124, y: 7.00379, z: 303.18192}
+    - coord: {x: -12, y: 18}
+      start: 40
+      count: 13
+      boundsMin: {x: -189.75304, y: 4.8129683, z: 289.24155}
+      boundsMax: {x: -175.68642, y: 7.384934, z: 304.25912}
+    - coord: {x: -11, y: 18}
+      start: 53
+      count: 7
+      boundsMin: {x: -176.30899, y: 5.306715, z: 287.9834}
+      boundsMax: {x: -166.02847, y: 7.2661457, z: 299.51022}
+    - coord: {x: -10, y: 18}
+      start: 60
+      count: 1
+      boundsMin: {x: -157.03482, y: 5.701782, z: 287.58252}
+      boundsMax: {x: -156.02322, y: 6.713379, z: 288.59412}
+    - coord: {x: -17, y: 19}
+      start: 61
+      count: 2
+      boundsMin: {x: -271.33542, y: 7.038032, z: 305.29196}
+      boundsMax: {x: -256.31433, y: 8.529297, z: 319.3629}
+    - coord: {x: -16, y: 19}
+      start: 63
+      count: 2
+      boundsMin: {x: -251.79114, y: 6.9386053, z: 303.87766}
+      boundsMax: {x: -249.22305, y: 7.893548, z: 307.6459}
+    - coord: {x: -13, y: 19}
+      start: 65
+      count: 4
+      boundsMin: {x: -200.61086, y: 5.3227124, z: 307.3292}
+      boundsMax: {x: -194.15736, y: 7.33066, z: 315.7347}
+    - coord: {x: -12, y: 19}
+      start: 69
+      count: 3
+      boundsMin: {x: -189.6585, y: 5.408874, z: 304.38885}
+      boundsMax: {x: -183.71565, y: 6.974152, z: 307.28357}
+    - coord: {x: -18, y: 20}
+      start: 72
+      count: 4
+      boundsMin: {x: -278.57275, y: 7.358485, z: 325.58557}
+      boundsMax: {x: -272.86212, y: 9.111335, z: 328.6683}
+    - coord: {x: -17, y: 20}
+      start: 76
+      count: 7
+      boundsMin: {x: -270.02603, y: 6.345036, z: 321.20743}
+      boundsMax: {x: -255.50569, y: 8.027552, z: 329.5975}
+    - coord: {x: -16, y: 20}
+      start: 83
+      count: 12
+      boundsMin: {x: -255.29842, y: 6.048875, z: 320.77298}
+      boundsMax: {x: -241.19908, y: 8.762149, z: 332.46182}
+    - coord: {x: -15, y: 20}
+      start: 95
+      count: 10
+      boundsMin: {x: -239.28085, y: 5.929496, z: 321.9454}
+      boundsMax: {x: -225.27388, y: 7.9795537, z: 332.58966}
+    - coord: {x: -14, y: 20}
+      start: 105
+      count: 11
+      boundsMin: {x: -223.40273, y: 5.415904, z: 323.25623}
+      boundsMax: {x: -208.8696, y: 7.584959, z: 334.96973}
+    - coord: {x: -13, y: 20}
+      start: 116
+      count: 5
+      boundsMin: {x: -208.16528, y: 5.1949754, z: 326.34668}
+      boundsMax: {x: -202.78583, y: 7.340303, z: 332.23468}
+  - layer: {fileID: 11400000, guid: a79161abee04c2b4a81bb76f2b0e4ba7, type: 2}
+    instanceStart: 199
+    instanceCount: 77
+    chunks:
+    - coord: {x: -16, y: 17}
+      start: 0
+      count: 3
+      boundsMin: {x: -246.47455, y: 6.6646643, z: 277.14597}
+      boundsMax: {x: -237.9329, y: 8.174402, z: 284.37997}
+    - coord: {x: -11, y: 17}
+      start: 3
+      count: 2
+      boundsMin: {x: -172.86761, y: 5.063353, z: 287.567}
+      boundsMax: {x: -169.29472, y: 6.726094, z: 289.83145}
+    - coord: {x: -17, y: 18}
+      start: 5
+      count: 3
+      boundsMin: {x: -265.24176, y: 6.7267203, z: 293.61002}
+      boundsMax: {x: -258.68674, y: 8.119859, z: 301.9778}
+    - coord: {x: -16, y: 18}
+      start: 8
+      count: 13
+      boundsMin: {x: -256.1564, y: 6.4762993, z: 288.50693}
+      boundsMax: {x: -237.27963, y: 8.402372, z: 305.0077}
+    - coord: {x: -15, y: 18}
+      start: 21
+      count: 3
+      boundsMin: {x: -235.88011, y: 6.4961596, z: 288.77176}
+      boundsMax: {x: -230.07704, y: 8.30043, z: 297.21503}
+    - coord: {x: -13, y: 18}
+      start: 24
+      count: 2
+      boundsMin: {x: -194.24298, y: 5.929718, z: 297.6611}
+      boundsMax: {x: -191.87393, y: 7.235428, z: 300.65564}
+    - coord: {x: -12, y: 18}
+      start: 26
+      count: 6
+      boundsMin: {x: -186.38986, y: 4.5876756, z: 289.7673}
+      boundsMax: {x: -174.7297, y: 7.155154, z: 303.84387}
+    - coord: {x: -11, y: 18}
+      start: 32
+      count: 6
+      boundsMin: {x: -174.9654, y: 4.25427, z: 288.6164}
+      boundsMax: {x: -162.62836, y: 6.756334, z: 297.6153}
+    - coord: {x: -18, y: 19}
+      start: 38
+      count: 1
+      boundsMin: {x: -273.262, y: 6.834432, z: 318.91772}
+      boundsMax: {x: -272.2545, y: 7.841926, z: 319.92523}
+    - coord: {x: -17, y: 19}
+      start: 39
+      count: 1
+      boundsMin: {x: -268.3469, y: 6.7130337, z: 319.03064}
+      boundsMax: {x: -266.72153, y: 8.338394, z: 320.656}
+    - coord: {x: -16, y: 19}
+      start: 40
+      count: 4
+      boundsMin: {x: -251.21303, y: 6.5389113, z: 304.29553}
+      boundsMax: {x: -242.08922, y: 8.270884, z: 312.7995}
+    - coord: {x: -14, y: 19}
+      start: 44
+      count: 2
+      boundsMin: {x: -209.16852, y: 5.0901146, z: 316.0011}
+      boundsMax: {x: -206.2582, y: 6.952222, z: 320.87402}
+    - coord: {x: -13, y: 19}
+      start: 46
+      count: 4
+      boundsMin: {x: -201.98827, y: 5.555778, z: 304.0614}
+      boundsMax: {x: -192.98149, y: 7.1431613, z: 312.42444}
+    - coord: {x: -12, y: 19}
+      start: 50
+      count: 1
+      boundsMin: {x: -189.72739, y: 5.2016454, z: 306.3446}
+      boundsMax: {x: -188.2898, y: 6.639252, z: 307.78223}
+    - coord: {x: -18, y: 20}
+      start: 51
+      count: 1
+      boundsMin: {x: -272.8767, y: 6.13965, z: 325.74933}
+      boundsMax: {x: -271.13654, y: 7.8798137, z: 327.4895}
+    - coord: {x: -17, y: 20}
+      start: 52
+      count: 3
+      boundsMin: {x: -269.9434, y: 6.327313, z: 320.77158}
+      boundsMax: {x: -258.61368, y: 8.631437, z: 330.97354}
+    - coord: {x: -16, y: 20}
+      start: 55
+      count: 4
+      boundsMin: {x: -253.03482, y: 5.9239635, z: 320.22836}
+      boundsMax: {x: -238.96004, y: 8.315583, z: 331.68646}
+    - coord: {x: -15, y: 20}
+      start: 59
+      count: 8
+      boundsMin: {x: -237.41699, y: 5.1911044, z: 321.281}
+      boundsMax: {x: -222.48451, y: 8.301646, z: 333.37128}
+    - coord: {x: -14, y: 20}
+      start: 67
+      count: 6
+      boundsMin: {x: -220.7844, y: 4.8926835, z: 320.71118}
+      boundsMax: {x: -205.9681, y: 7.8901987, z: 331.51346}
+    - coord: {x: -13, y: 20}
+      start: 73
+      count: 4
+      boundsMin: {x: -205.65825, y: 5.15485, z: 322.465}
+      boundsMax: {x: -201.6712, y: 7.167304, z: 329.99875}
+  - layer: {fileID: 11400000, guid: 701771a21cc243440a74f9c2f623c209, type: 2}
+    instanceStart: 276
+    instanceCount: 26
+    chunks:
+    - coord: {x: -17, y: 17}
+      start: 0
+      count: 1
+      boundsMin: {x: -259.33002, y: 6.5083666, z: 288.40848}
+      boundsMax: {x: -257.41003, y: 8.428339, z: 290.32846}
+    - coord: {x: -17, y: 18}
+      start: 1
+      count: 3
+      boundsMin: {x: -265.47244, y: 5.9454846, z: 290.51056}
+      boundsMax: {x: -260.75754, y: 8.875082, z: 300.00635}
+    - coord: {x: -16, y: 18}
+      start: 4
+      count: 1
+      boundsMin: {x: -250.18597, y: 6.6580443, z: 300.5741}
+      boundsMax: {x: -248.59058, y: 8.253434, z: 302.1695}
+    - coord: {x: -15, y: 18}
+      start: 5
+      count: 2
+      boundsMin: {x: -235.3648, y: 6.443339, z: 296.2839}
+      boundsMax: {x: -232.58788, y: 8.391315, z: 299.19165}
+    - coord: {x: -13, y: 18}
+      start: 7
+      count: 1
+      boundsMin: {x: -197.68477, y: 4.79933, z: 302.97485}
+      boundsMax: {x: -195.42314, y: 7.060966, z: 305.2365}
+    - coord: {x: -12, y: 18}
+      start: 8
+      count: 3
+      boundsMin: {x: -191.37709, y: 4.584233, z: 291.5608}
+      boundsMax: {x: -175.82814, y: 7.51076, z: 300.5582}
+    - coord: {x: -11, y: 18}
+      start: 11
+      count: 2
+      boundsMin: {x: -174.91083, y: 4.6942244, z: 294.8633}
+      boundsMax: {x: -159.69145, y: 7.515619, z: 299.63818}
+    - coord: {x: -18, y: 19}
+      start: 13
+      count: 2
+      boundsMin: {x: -277.48428, y: 5.9793396, z: 315.60843}
+      boundsMax: {x: -272.55826, y: 10.079139, z: 320.6822}
+    - coord: {x: -17, y: 19}
+      start: 15
+      count: 1
+      boundsMin: {x: -254.99852, y: 5.4837556, z: 320.29736}
+      boundsMax: {x: -251.82051, y: 8.6617565, z: 323.47534}
+    - coord: {x: -16, y: 19}
+      start: 16
+      count: 1
+      boundsMin: {x: -248.53508, y: 6.5840282, z: 308.831}
+      boundsMax: {x: -246.86339, y: 8.255727, z: 310.5027}
+    - coord: {x: -15, y: 19}
+      start: 17
+      count: 1
+      boundsMin: {x: -232.40842, y: 5.7309456, z: 320.87955}
+      boundsMax: {x: -229.8216, y: 8.317778, z: 323.4664}
+    - coord: {x: -13, y: 19}
+      start: 18
+      count: 1
+      boundsMin: {x: -195.59317, y: 4.9531574, z: 309.834}
+      boundsMax: {x: -193.71411, y: 6.8322153, z: 311.71304}
+    - coord: {x: -18, y: 20}
+      start: 19
+      count: 1
+      boundsMin: {x: -278.41684, y: 6.800025, z: 324.65146}
+      boundsMax: {x: -275.69315, y: 9.523746, z: 327.37515}
+    - coord: {x: -17, y: 20}
+      start: 20
+      count: 1
+      boundsMin: {x: -265.72568, y: 5.7858963, z: 327.1955}
+      boundsMax: {x: -262.6674, y: 8.844198, z: 330.25378}
+    - coord: {x: -16, y: 20}
+      start: 21
+      count: 2
+      boundsMin: {x: -253.02206, y: 4.798356, z: 328.20074}
+      boundsMax: {x: -236.28015, y: 10.110369, z: 334.0267}
+    - coord: {x: -15, y: 20}
+      start: 23
+      count: 2
+      boundsMin: {x: -234.5396, y: 5.79626, z: 330.19635}
+      boundsMax: {x: -231.54228, y: 8.517595, z: 333.024}
+    - coord: {x: -14, y: 20}
+      start: 25
+      count: 1
+      boundsMin: {x: -211.34, y: 4.9643836, z: 331.30472}
+      boundsMax: {x: -208.47928, y: 7.825106, z: 334.16544}
+  - layer: {fileID: 11400000, guid: f84cc600a1f9b3044a18f2956cb38400, type: 2}
+    instanceStart: 302
+    instanceCount: 197
+    chunks:
+    - coord: {x: -13, y: 15}
+      start: 0
+      count: 6
+      boundsMin: {x: -201.76453, y: 8.337725, z: 250.0926}
+      boundsMax: {x: -196.18945, y: 13.109554, z: 255.59879}
+    - coord: {x: -20, y: 16}
+      start: 6
+      count: 2
+      boundsMin: {x: -310.2691, y: 7.4221687, z: 268.47687}
+      boundsMax: {x: -306.5563, y: 9.602678, z: 271.25824}
+    - coord: {x: -19, y: 16}
+      start: 8
+      count: 10
+      boundsMin: {x: -299.6715, y: 8.127924, z: 267.5227}
+      boundsMax: {x: -288.15692, y: 14.636745, z: 272.7254}
+    - coord: {x: -18, y: 16}
+      start: 18
+      count: 6
+      boundsMin: {x: -280.93857, y: 12.180382, z: 266.5434}
+      boundsMax: {x: -273.46143, y: 17.658056, z: 271.66357}
+    - coord: {x: -17, y: 16}
+      start: 24
+      count: 7
+      boundsMin: {x: -264.93658, y: 9.897778, z: 266.81506}
+      boundsMax: {x: -256.6327, y: 15.343811, z: 272.6237}
+    - coord: {x: -16, y: 16}
+      start: 31
+      count: 19
+      boundsMin: {x: -255.61435, y: 6.4481974, z: 262.9689}
+      boundsMax: {x: -240.09567, y: 15.3242855, z: 272.65793}
+    - coord: {x: -15, y: 16}
+      start: 50
+      count: 24
+      boundsMin: {x: -240.54991, y: 6.386116, z: 262.0485}
+      boundsMax: {x: -223.10565, y: 9.22102, z: 270.41922}
+    - coord: {x: -14, y: 16}
+      start: 74
+      count: 21
+      boundsMin: {x: -224.51773, y: 6.3347545, z: 257.89792}
+      boundsMax: {x: -207.39294, y: 9.225992, z: 268.71347}
+    - coord: {x: -13, y: 16}
+      start: 95
+      count: 21
+      boundsMin: {x: -208.48204, y: 6.422565, z: 255.26651}
+      boundsMax: {x: -191.39455, y: 12.138021, z: 264.17752}
+    - coord: {x: -12, y: 16}
+      start: 116
+      count: 22
+      boundsMin: {x: -191.70963, y: 6.360155, z: 255.5065}
+      boundsMax: {x: -175.69785, y: 12.452099, z: 264.85098}
+    - coord: {x: -11, y: 16}
+      start: 138
+      count: 19
+      boundsMin: {x: -176.17181, y: 7.0552363, z: 257.2851}
+      boundsMax: {x: -160.34123, y: 12.748311, z: 266.9314}
+    - coord: {x: -10, y: 16}
+      start: 157
+      count: 7
+      boundsMin: {x: -149.20302, y: 9.214999, z: 263.60815}
+      boundsMax: {x: -143.72356, y: 11.718024, z: 271.2561}
+    - coord: {x: -9, y: 16}
+      start: 164
+      count: 16
+      boundsMin: {x: -144.53723, y: 9.187185, z: 261.0576}
+      boundsMax: {x: -134.96661, y: 11.731796, z: 271.09927}
+    - coord: {x: -20, y: 17}
+      start: 180
+      count: 2
+      boundsMin: {x: -310.2025, y: 7.3149977, z: 272.3835}
+      boundsMax: {x: -306.14136, y: 9.393403, z: 274.74792}
+    - coord: {x: -19, y: 17}
+      start: 182
+      count: 10
+      boundsMin: {x: -304.0898, y: 7.4142094, z: 271.2596}
+      boundsMax: {x: -288.28513, y: 14.837137, z: 277.11542}
+    - coord: {x: -18, y: 17}
+      start: 192
+      count: 3
+      boundsMin: {x: -281.9783, y: 12.43682, z: 271.99655}
+      boundsMax: {x: -274.0355, y: 17.578499, z: 278.16833}
+    - coord: {x: -17, y: 17}
+      start: 195
+      count: 1
+      boundsMin: {x: -269.40393, y: 10.356938, z: 274.64777}
+      boundsMax: {x: -268.15253, y: 11.608342, z: 275.89917}
+    - coord: {x: -16, y: 17}
+      start: 196
+      count: 1
+      boundsMin: {x: -250.62936, y: 8.126963, z: 271.91675}
+      boundsMax: {x: -249.16595, y: 9.590384, z: 273.3802}
+  - layer: {fileID: 11400000, guid: f9dcc228c26db334582081b0782e8e99, type: 2}
+    instanceStart: 499
+    instanceCount: 115
+    chunks:
+    - coord: {x: -13, y: 15}
+      start: 0
+      count: 8
+      boundsMin: {x: -203.55121, y: 6.656766, z: 252.08589}
+      boundsMax: {x: -191.58936, y: 13.943989, z: 259.1774}
+    - coord: {x: -12, y: 15}
+      start: 8
+      count: 2
+      boundsMin: {x: -191.23462, y: 9.6656275, z: 255.85895}
+      boundsMax: {x: -187.11653, y: 12.178397, z: 258.3717}
+    - coord: {x: -20, y: 16}
+      start: 10
+      count: 2
+      boundsMin: {x: -309.9326, y: 7.6941085, z: 268.73767}
+      boundsMax: {x: -307.7653, y: 9.643036, z: 272.69418}
+    - coord: {x: -19, y: 16}
+      start: 12
+      count: 10
+      boundsMin: {x: -301.42453, y: 7.161317, z: 268.0084}
+      boundsMax: {x: -285.691, y: 15.781254, z: 274.95847}
+    - coord: {x: -18, y: 16}
+      start: 22
+      count: 6
+      boundsMin: {x: -281.57205, y: 10.84761, z: 268.3067}
+      boundsMax: {x: -271.68097, y: 18.280806, z: 274.2205}
+    - coord: {x: -17, y: 16}
+      start: 28
+      count: 6
+      boundsMin: {x: -265.01907, y: 9.44223, z: 266.17453}
+      boundsMax: {x: -255.7935, y: 15.685678, z: 273.27322}
+    - coord: {x: -16, y: 16}
+      start: 34
+      count: 10
+      boundsMin: {x: -252.1978, y: 6.658207, z: 263.80927}
+      boundsMax: {x: -238.68358, y: 11.260795, z: 273.49356}
+    - coord: {x: -15, y: 16}
+      start: 44
+      count: 14
+      boundsMin: {x: -238.64388, y: 6.0707526, z: 262.82333}
+      boundsMax: {x: -221.6631, y: 9.593177, z: 271.12894}
+    - coord: {x: -14, y: 16}
+      start: 58
+      count: 12
+      boundsMin: {x: -222.85603, y: 6.3838673, z: 258.71707}
+      boundsMax: {x: -207.09198, y: 9.614921, z: 268.10266}
+    - coord: {x: -13, y: 16}
+      start: 70
+      count: 7
+      boundsMin: {x: -207.17036, y: 6.1984215, z: 256.88544}
+      boundsMax: {x: -190.29025, y: 10.557257, z: 264.84448}
+    - coord: {x: -12, y: 16}
+      start: 77
+      count: 12
+      boundsMin: {x: -191.65578, y: 6.649497, z: 258.28195}
+      boundsMax: {x: -174.35701, y: 11.5959215, z: 265.5106}
+    - coord: {x: -11, y: 16}
+      start: 89
+      count: 10
+      boundsMin: {x: -176.57382, y: 6.9275856, z: 259.0346}
+      boundsMax: {x: -160.72273, y: 12.03595, z: 268.5639}
+    - coord: {x: -10, y: 16}
+      start: 99
+      count: 7
+      boundsMin: {x: -150.75392, y: 8.882582, z: 262.04947}
+      boundsMax: {x: -141.78188, y: 12.067672, z: 271.01816}
+    - coord: {x: -9, y: 16}
+      start: 106
+      count: 7
+      boundsMin: {x: -143.14838, y: 8.833455, z: 262.3706}
+      boundsMax: {x: -133.82614, y: 11.916123, z: 270.8309}
+    - coord: {x: -20, y: 17}
+      start: 113
+      count: 1
+      boundsMin: {x: -310.69077, y: 7.534606, z: 273.74985}
+      boundsMax: {x: -308.8149, y: 9.4104395, z: 275.6257}
+    - coord: {x: -17, y: 17}
+      start: 114
+      count: 1
+      boundsMin: {x: -263.3557, y: 8.455875, z: 272.78793}
+      boundsMax: {x: -260.47345, y: 11.338167, z: 275.6702}
+  - layer: {fileID: 11400000, guid: 32815897a27eb714ea0e3fedba8e3773, type: 2}
+    instanceStart: 614
+    instanceCount: 43
+    chunks:
+    - coord: {x: -13, y: 15}
+      start: 0
+      count: 5
+      boundsMin: {x: -203.14613, y: 6.9763293, z: 251.78287}
+      boundsMax: {x: -195.18314, y: 12.437835, z: 258.9331}
+    - coord: {x: -12, y: 15}
+      start: 5
+      count: 1
+      boundsMin: {x: -183.58954, y: 8.548998, z: 256.9853}
+      boundsMax: {x: -179.96564, y: 12.172888, z: 260.6092}
+    - coord: {x: -11, y: 15}
+      start: 6
+      count: 1
+      boundsMin: {x: -167.50256, y: 9.814548, z: 257.41257}
+      boundsMax: {x: -164.07663, y: 13.240485, z: 260.83853}
+    - coord: {x: -19, y: 16}
+      start: 7
+      count: 2
+      boundsMin: {x: -297.52408, y: 8.140918, z: 268.5732}
+      boundsMax: {x: -285.6752, y: 15.798968, z: 273.3975}
+    - coord: {x: -18, y: 16}
+      start: 9
+      count: 2
+      boundsMin: {x: -279.2765, y: 13.6529665, z: 270.15002}
+      boundsMax: {x: -275.66888, y: 17.260569, z: 273.84854}
+    - coord: {x: -17, y: 16}
+      start: 11
+      count: 1
+      boundsMin: {x: -264.64786, y: 11.523048, z: 268.0585}
+      boundsMax: {x: -261.85434, y: 14.316593, z: 270.85202}
+    - coord: {x: -16, y: 16}
+      start: 12
+      count: 4
+      boundsMin: {x: -248.08185, y: 6.1178813, z: 263.34937}
+      boundsMax: {x: -236.05411, y: 10.110519, z: 271.28174}
+    - coord: {x: -15, y: 16}
+      start: 16
+      count: 4
+      boundsMin: {x: -234.02817, y: 5.7655277, z: 263.46045}
+      boundsMax: {x: -222.99559, y: 9.651899, z: 271.3226}
+    - coord: {x: -14, y: 16}
+      start: 20
+      count: 5
+      boundsMin: {x: -221.09, y: 6.298504, z: 260.8922}
+      boundsMax: {x: -206.20302, y: 9.767408, z: 265.94766}
+    - coord: {x: -13, y: 16}
+      start: 25
+      count: 3
+      boundsMin: {x: -204.42499, y: 5.775671, z: 258.418}
+      boundsMax: {x: -189.9244, y: 10.434963, z: 264.44855}
+    - coord: {x: -12, y: 16}
+      start: 28
+      count: 3
+      boundsMin: {x: -187.06178, y: 6.6411796, z: 258.94977}
+      boundsMax: {x: -176.0001, y: 11.153234, z: 263.44034}
+    - coord: {x: -11, y: 16}
+      start: 31
+      count: 4
+      boundsMin: {x: -173.8264, y: 6.686047, z: 260.1526}
+      boundsMax: {x: -159.23634, y: 12.646452, z: 266.86804}
+    - coord: {x: -10, y: 16}
+      start: 35
+      count: 4
+      boundsMin: {x: -152.28075, y: 8.82341, z: 265.97104}
+      boundsMax: {x: -145.97694, y: 12.694916, z: 271.9171}
+    - coord: {x: -9, y: 16}
+      start: 39
+      count: 3
+      boundsMin: {x: -141.56253, y: 8.4449415, z: 262.0524}
+      boundsMax: {x: -135.80037, y: 12.386645, z: 270.24063}
+    - coord: {x: -18, y: 17}
+      start: 42
+      count: 1
+      boundsMin: {x: -278.87402, y: 14.208523, z: 273.81262}
+      boundsMax: {x: -275.94183, y: 17.140734, z: 276.7448}
+  - layer: {fileID: 11400000, guid: 22b73051ae14be645a52cdf63941078d, type: 2}
+    instanceStart: 657
+    instanceCount: 2005
+    chunks:
+    - coord: {x: -20, y: 11}
+      start: 0
+      count: 4
+      boundsMin: {x: -309.48956, y: 8.642419, z: 185.74962}
+      boundsMax: {x: -302.06345, y: 9.936123, z: 187.30981}
+    - coord: {x: -19, y: 11}
+      start: 4
+      count: 1
+      boundsMin: {x: -302.23917, y: 8.636952, z: 185.50337}
+      boundsMax: {x: -301.1653, y: 9.710776, z: 186.5772}
+    - coord: {x: -18, y: 11}
+      start: 5
+      count: 5
+      boundsMin: {x: -280.54877, y: 7.951373, z: 185.72992}
+      boundsMax: {x: -271.6309, y: 9.193458, z: 193.2072}
+    - coord: {x: -17, y: 11}
+      start: 10
+      count: 13
+      boundsMin: {x: -270.07162, y: 7.634144, z: 185.81966}
+      boundsMax: {x: -255.44177, y: 8.996897, z: 192.59953}
+    - coord: {x: -16, y: 11}
+      start: 23
+      count: 8
+      boundsMin: {x: -255.47084, y: 7.5278707, z: 185.62215}
+      boundsMax: {x: -238.66171, y: 8.770006, z: 192.63345}
+    - coord: {x: -15, y: 11}
+      start: 31
+      count: 14
+      boundsMin: {x: -238.52487, y: 7.274118, z: 185.65903}
+      boundsMax: {x: -224.25964, y: 8.772815, z: 192.99823}
+    - coord: {x: -20, y: 12}
+      start: 45
+      count: 4
+      boundsMin: {x: -311.4951, y: 8.68248, z: 192.57147}
+      boundsMax: {x: -308.81805, y: 9.980521, z: 200.79196}
+    - coord: {x: -19, y: 12}
+      start: 49
+      count: 31
+      boundsMin: {x: -302.77414, y: 8.201561, z: 193.39528}
+      boundsMax: {x: -288.43494, y: 9.769819, z: 209.92453}
+    - coord: {x: -18, y: 12}
+      start: 80
+      count: 29
+      boundsMin: {x: -283.0289, y: 7.935864, z: 192.49544}
+      boundsMax: {x: -270.65778, y: 9.37393, z: 208.32262}
+    - coord: {x: -17, y: 12}
+      start: 109
+      count: 1
+      boundsMin: {x: -257.01428, y: 7.59261, z: 192.29718}
+      boundsMax: {x: -256.02167, y: 8.5851965, z: 193.28976}
+    - coord: {x: -15, y: 12}
+      start: 110
+      count: 27
+      boundsMin: {x: -235.20683, y: 7.351848, z: 192.95227}
+      boundsMax: {x: -222.9321, y: 9.360426, z: 209.66403}
+    - coord: {x: -14, y: 12}
+      start: 137
+      count: 1
+      boundsMin: {x: -222.60051, y: 8.961235, z: 208.85454}
+      boundsMax: {x: -222.04646, y: 9.515276, z: 209.40858}
+    - coord: {x: -12, y: 12}
+      start: 138
+      count: 18
+      boundsMin: {x: -190.92365, y: 7.452376, z: 202.91557}
+      boundsMax: {x: -176.70992, y: 10.719662, z: 209.78232}
+    - coord: {x: -10, y: 12}
+      start: 156
+      count: 3
+      boundsMin: {x: -156.01553, y: 11.1723175, z: 205.28668}
+      boundsMax: {x: -150.31902, y: 12.122244, z: 209.73506}
+    - coord: {x: -20, y: 13}
+      start: 159
+      count: 23
+      boundsMin: {x: -311.23007, y: 8.361743, z: 209.13724}
+      boundsMax: {x: -302.1587, y: 11.497942, z: 225.2625}
+    - coord: {x: -19, y: 13}
+      start: 182
+      count: 17
+      boundsMin: {x: -303.11798, y: 8.101042, z: 209.32751}
+      boundsMax: {x: -287.2336, y: 10.487654, z: 222.7419}
+    - coord: {x: -18, y: 13}
+      start: 199
+      count: 3
+      boundsMin: {x: -286.82343, y: 7.9975014, z: 212.36906}
+      boundsMax: {x: -285.03363, y: 9.214856, z: 217.62518}
+    - coord: {x: -17, y: 13}
+      start: 202
+      count: 15
+      boundsMin: {x: -265.46915, y: 7.599574, z: 211.96347}
+      boundsMax: {x: -255.36456, y: 11.2524605, z: 225.16399}
+    - coord: {x: -16, y: 13}
+      start: 217
+      count: 26
+      boundsMin: {x: -255.04744, y: 7.625267, z: 210.8169}
+      boundsMax: {x: -239.3615, y: 11.228878, z: 225.13664}
+    - coord: {x: -15, y: 13}
+      start: 243
+      count: 22
+      boundsMin: {x: -238.45389, y: 7.4584002, z: 209.37903}
+      boundsMax: {x: -227.07712, y: 11.862861, z: 225.03532}
+    - coord: {x: -14, y: 13}
+      start: 265
+      count: 25
+      boundsMin: {x: -223.51431, y: 9.373909, z: 209.54886}
+      boundsMax: {x: -207.88068, y: 16.220121, z: 225.14622}
+    - coord: {x: -13, y: 13}
+      start: 290
+      count: 11
+      boundsMin: {x: -207.60344, y: 11.694203, z: 214.71086}
+      boundsMax: {x: -190.5725, y: 16.3558, z: 225.0928}
+    - coord: {x: -12, y: 13}
+      start: 301
+      count: 24
+      boundsMin: {x: -191.20203, y: 9.870301, z: 209.87463}
+      boundsMax: {x: -178.46716, y: 14.952932, z: 222.85587}
+    - coord: {x: -11, y: 13}
+      start: 325
+      count: 13
+      boundsMin: {x: -164.83499, y: 11.065591, z: 210.31412}
+      boundsMax: {x: -158.67885, y: 13.108221, z: 224.73442}
+    - coord: {x: -10, y: 13}
+      start: 338
+      count: 22
+      boundsMin: {x: -159.14073, y: 11.098078, z: 209.1844}
+      boundsMax: {x: -143.56583, y: 12.737037, z: 225.2191}
+    - coord: {x: -9, y: 13}
+      start: 360
+      count: 10
+      boundsMin: {x: -144.20854, y: 10.895008, z: 213.42474}
+      boundsMax: {x: -135.62523, y: 13.042881, z: 224.14417}
+    - coord: {x: -20, y: 14}
+      start: 370
+      count: 16
+      boundsMin: {x: -311.38077, y: 10.394674, z: 224.56941}
+      boundsMax: {x: -303.4871, y: 14.324818, z: 240.246}
+    - coord: {x: -19, y: 14}
+      start: 386
+      count: 22
+      boundsMin: {x: -299.68634, y: 10.281648, z: 225.4867}
+      boundsMax: {x: -287.6576, y: 14.583275, z: 239.70638}
+    - coord: {x: -18, y: 14}
+      start: 408
+      count: 15
+      boundsMin: {x: -287.2433, y: 10.195854, z: 228.95517}
+      boundsMax: {x: -273.3906, y: 14.421473, z: 240.41585}
+    - coord: {x: -17, y: 14}
+      start: 423
+      count: 29
+      boundsMin: {x: -268.15155, y: 8.218173, z: 224.73521}
+      boundsMax: {x: -255.0335, y: 16.193447, z: 240.33069}
+    - coord: {x: -16, y: 14}
+      start: 452
+      count: 27
+      boundsMin: {x: -255.34488, y: 10.799144, z: 224.83144}
+      boundsMax: {x: -238.66957, y: 18.907784, z: 240.0815}
+    - coord: {x: -15, y: 14}
+      start: 479
+      count: 25
+      boundsMin: {x: -238.70647, y: 11.09584, z: 224.56723}
+      boundsMax: {x: -225.1014, y: 17.038523, z: 240.36876}
+    - coord: {x: -14, y: 14}
+      start: 504
+      count: 13
+      boundsMin: {x: -222.639, y: 12.754314, z: 224.71642}
+      boundsMax: {x: -208.76674, y: 18.476677, z: 240.52107}
+    - coord: {x: -13, y: 14}
+      start: 517
+      count: 25
+      boundsMin: {x: -208.18347, y: 15.200756, z: 224.90718}
+      boundsMax: {x: -192.27434, y: 18.540009, z: 240.19559}
+    - coord: {x: -12, y: 14}
+      start: 542
+      count: 20
+      boundsMin: {x: -189.05804, y: 14.750709, z: 228.03629}
+      boundsMax: {x: -175.52882, y: 18.040928, z: 239.29193}
+    - coord: {x: -11, y: 14}
+      start: 562
+      count: 25
+      boundsMin: {x: -176.09715, y: 12.183215, z: 224.35785}
+      boundsMax: {x: -158.52544, y: 18.240406, z: 240.2122}
+    - coord: {x: -10, y: 14}
+      start: 587
+      count: 28
+      boundsMin: {x: -159.41156, y: 11.366167, z: 225.06123}
+      boundsMax: {x: -145.4815, y: 16.525288, z: 240.35155}
+    - coord: {x: -9, y: 14}
+      start: 615
+      count: 7
+      boundsMin: {x: -143.34483, y: 10.714571, z: 225.68492}
+      boundsMax: {x: -135.68393, y: 12.651311, z: 229.6519}
+    - coord: {x: -20, y: 15}
+      start: 622
+      count: 17
+      boundsMin: {x: -310.85913, y: 13.329279, z: 239.79758}
+      boundsMax: {x: -302.3849, y: 16.85162, z: 256.77698}
+    - coord: {x: -19, y: 15}
+      start: 639
+      count: 21
+      boundsMin: {x: -302.14835, y: 13.664833, z: 239.78587}
+      boundsMax: {x: -287.70734, y: 16.775408, z: 255.8788}
+    - coord: {x: -18, y: 15}
+      start: 660
+      count: 30
+      boundsMin: {x: -287.70996, y: 11.620875, z: 239.79861}
+      boundsMax: {x: -270.84106, y: 16.756622, z: 257.12408}
+    - coord: {x: -17, y: 15}
+      start: 690
+      count: 18
+      boundsMin: {x: -268.45413, y: 10.568868, z: 239.71501}
+      boundsMax: {x: -255.02682, y: 19.391521, z: 257.06342}
+    - coord: {x: -16, y: 15}
+      start: 708
+      count: 27
+      boundsMin: {x: -255.17627, y: 12.271326, z: 239.82672}
+      boundsMax: {x: -238.63141, y: 21.006796, z: 257.43124}
+    - coord: {x: -15, y: 15}
+      start: 735
+      count: 16
+      boundsMin: {x: -236.11536, y: 11.708001, z: 240.3176}
+      boundsMax: {x: -222.8658, y: 17.379929, z: 257.11288}
+    - coord: {x: -14, y: 15}
+      start: 751
+      count: 26
+      boundsMin: {x: -223.44722, y: 10.196355, z: 240.16776}
+      boundsMax: {x: -208.62184, y: 18.358774, z: 257.1737}
+    - coord: {x: -13, y: 15}
+      start: 777
+      count: 29
+      boundsMin: {x: -207.37744, y: 8.239684, z: 240.13148}
+      boundsMax: {x: -190.8867, y: 18.149408, z: 256.58}
+    - coord: {x: -12, y: 15}
+      start: 806
+      count: 20
+      boundsMin: {x: -190.45741, y: 11.304027, z: 239.44891}
+      boundsMax: {x: -177.04366, y: 18.527416, z: 257.2941}
+    - coord: {x: -11, y: 15}
+      start: 826
+      count: 25
+      boundsMin: {x: -175.7541, y: 13.639452, z: 239.80293}
+      boundsMax: {x: -158.99593, y: 18.453087, z: 256.41977}
+    - coord: {x: -10, y: 15}
+      start: 851
+      count: 26
+      boundsMin: {x: -158.3141, y: 12.301133, z: 242.406}
+      boundsMax: {x: -143.90352, y: 16.754969, z: 257.06384}
+    - coord: {x: -9, y: 15}
+      start: 877
+      count: 25
+      boundsMin: {x: -143.8754, y: 11.193784, z: 241.97858}
+      boundsMax: {x: -134.79753, y: 13.835663, z: 256.9157}
+    - coord: {x: -20, y: 16}
+      start: 902
+      count: 9
+      boundsMin: {x: -310.64575, y: 8.139029, z: 260.8831}
+      boundsMax: {x: -306.7069, y: 13.80204, z: 271.95273}
+    - coord: {x: -19, y: 16}
+      start: 911
+      count: 24
+      boundsMin: {x: -300.15237, y: 8.440373, z: 256.73038}
+      boundsMax: {x: -286.82715, y: 16.759018, z: 272.24667}
+    - coord: {x: -18, y: 16}
+      start: 935
+      count: 35
+      boundsMin: {x: -287.4361, y: 12.438957, z: 256.6525}
+      boundsMax: {x: -272.74487, y: 17.20123, z: 270.9655}
+    - coord: {x: -17, y: 16}
+      start: 970
+      count: 25
+      boundsMin: {x: -270.57217, y: 10.460543, z: 258.65097}
+      boundsMax: {x: -260.2807, y: 17.893211, z: 272.55917}
+    - coord: {x: -16, y: 16}
+      start: 995
+      count: 18
+      boundsMin: {x: -252.60538, y: 7.4527025, z: 256.45166}
+      boundsMax: {x: -238.35669, y: 15.052554, z: 271.8331}
+    - coord: {x: -15, y: 16}
+      start: 1013
+      count: 19
+      boundsMin: {x: -237.8316, y: 7.38049, z: 257.7328}
+      boundsMax: {x: -224.34729, y: 11.539265, z: 268.81842}
+    - coord: {x: -14, y: 16}
+      start: 1032
+      count: 14
+      boundsMin: {x: -223.07831, y: 7.35595, z: 256.96793}
+      boundsMax: {x: -207.67651, y: 10.219466, z: 266.6987}
+    - coord: {x: -13, y: 16}
+      start: 1046
+      count: 6
+      boundsMin: {x: -207.93417, y: 7.4796844, z: 257.09265}
+      boundsMax: {x: -201.81004, y: 8.918973, z: 261.63858}
+    - coord: {x: -12, y: 16}
+      start: 1052
+      count: 16
+      boundsMin: {x: -184.53804, y: 7.521796, z: 256.91537}
+      boundsMax: {x: -175.59186, y: 12.13424, z: 271.34045}
+    - coord: {x: -11, y: 16}
+      start: 1068
+      count: 30
+      boundsMin: {x: -175.45027, y: 8.174216, z: 256.73032}
+      boundsMax: {x: -159.69301, y: 13.848167, z: 271.9296}
+    - coord: {x: -10, y: 16}
+      start: 1098
+      count: 19
+      boundsMin: {x: -155.22928, y: 10.197837, z: 256.9182}
+      boundsMax: {x: -143.82727, y: 13.726594, z: 272.45016}
+    - coord: {x: -9, y: 16}
+      start: 1117
+      count: 16
+      boundsMin: {x: -144.0032, y: 10.218264, z: 256.61542}
+      boundsMax: {x: -135.02148, y: 12.220542, z: 272.52563}
+    - coord: {x: -20, y: 17}
+      start: 1133
+      count: 12
+      boundsMin: {x: -311.18408, y: 8.104358, z: 271.91058}
+      boundsMax: {x: -302.2616, y: 9.381879, z: 289.14157}
+    - coord: {x: -19, y: 17}
+      start: 1145
+      count: 30
+      boundsMin: {x: -302.15533, y: 8.175551, z: 271.8851}
+      boundsMax: {x: -289.61475, y: 15.072766, z: 289.29877}
+    - coord: {x: -18, y: 17}
+      start: 1175
+      count: 25
+      boundsMin: {x: -287.22235, y: 9.478964, z: 272.01007}
+      boundsMax: {x: -271.56036, y: 17.156406, z: 289.04727}
+    - coord: {x: -17, y: 17}
+      start: 1200
+      count: 31
+      boundsMin: {x: -270.67346, y: 6.9663467, z: 271.97504}
+      boundsMax: {x: -255.10704, y: 11.894238, z: 289.2501}
+    - coord: {x: -16, y: 17}
+      start: 1231
+      count: 12
+      boundsMin: {x: -255.62889, y: 6.9131517, z: 272.6853}
+      boundsMax: {x: -248.64203, y: 9.128044, z: 281.67715}
+    - coord: {x: -12, y: 17}
+      start: 1243
+      count: 10
+      boundsMin: {x: -182.84126, y: 7.471345, z: 273.1259}
+      boundsMax: {x: -175.53415, y: 9.085808, z: 281.05664}
+    - coord: {x: -11, y: 17}
+      start: 1253
+      count: 21
+      boundsMin: {x: -174.71945, y: 5.746764, z: 272.368}
+      boundsMax: {x: -159.26445, y: 12.162956, z: 288.33292}
+    - coord: {x: -10, y: 17}
+      start: 1274
+      count: 34
+      boundsMin: {x: -158.93161, y: 5.7957315, z: 271.88663}
+      boundsMax: {x: -144.06866, y: 11.914442, z: 289.2736}
+    - coord: {x: -9, y: 17}
+      start: 1308
+      count: 13
+      boundsMin: {x: -141.51653, y: 7.7096386, z: 272.83945}
+      boundsMax: {x: -135.27817, y: 11.564723, z: 289.0772}
+    - coord: {x: -20, y: 18}
+      start: 1321
+      count: 7
+      boundsMin: {x: -310.55566, y: 8.151924, z: 289.04742}
+      boundsMax: {x: -303.07562, y: 14.91501, z: 303.65567}
+    - coord: {x: -19, y: 18}
+      start: 1328
+      count: 3
+      boundsMin: {x: -302.42422, y: 14.173989, z: 299.83023}
+      boundsMax: {x: -297.78464, y: 15.361901, z: 303.28687}
+    - coord: {x: -18, y: 18}
+      start: 1331
+      count: 19
+      boundsMin: {x: -278.24017, y: 7.3406677, z: 288.86972}
+      boundsMax: {x: -270.48438, y: 9.209027, z: 304.17984}
+    - coord: {x: -17, y: 18}
+      start: 1350
+      count: 3
+      boundsMin: {x: -270.1693, y: 7.02411, z: 288.65335}
+      boundsMax: {x: -265.17487, y: 8.667648, z: 304.50455}
+    - coord: {x: -13, y: 18}
+      start: 1353
+      count: 8
+      boundsMin: {x: -198.24333, y: 5.4135036, z: 297.15915}
+      boundsMax: {x: -190.9344, y: 6.9999533, z: 304.53024}
+    - coord: {x: -12, y: 18}
+      start: 1361
+      count: 13
+      boundsMin: {x: -190.15872, y: 5.0429726, z: 290.0807}
+      boundsMax: {x: -175.45618, y: 8.775804, z: 303.66785}
+    - coord: {x: -11, y: 18}
+      start: 1374
+      count: 18
+      boundsMin: {x: -175.89574, y: 5.72793, z: 296.02496}
+      boundsMax: {x: -158.99312, y: 9.045052, z: 304.50977}
+    - coord: {x: -10, y: 18}
+      start: 1392
+      count: 10
+      boundsMin: {x: -159.36642, y: 5.0269547, z: 288.6301}
+      boundsMax: {x: -144.57878, y: 8.935563, z: 303.79132}
+    - coord: {x: -9, y: 18}
+      start: 1402
+      count: 4
+      boundsMin: {x: -143.9439, y: 7.5827074, z: 288.54886}
+      boundsMax: {x: -135.7538, y: 9.060869, z: 303.92438}
+    - coord: {x: -20, y: 19}
+      start: 1406
+      count: 8
+      boundsMin: {x: -305.34875, y: 13.932662, z: 304.80304}
+      boundsMax: {x: -302.241, y: 16.441927, z: 320.61737}
+    - coord: {x: -19, y: 19}
+      start: 1414
+      count: 9
+      boundsMin: {x: -302.96243, y: 14.210344, z: 304.53937}
+      boundsMax: {x: -298.7418, y: 17.15793, z: 314.13614}
+    - coord: {x: -18, y: 19}
+      start: 1423
+      count: 13
+      boundsMin: {x: -279.38385, y: 7.6504593, z: 304.29446}
+      boundsMax: {x: -270.31274, y: 9.193624, z: 317.4987}
+    - coord: {x: -17, y: 19}
+      start: 1436
+      count: 10
+      boundsMin: {x: -270.71, y: 7.389469, z: 303.96875}
+      boundsMax: {x: -266.28372, y: 9.019199, z: 314.15967}
+    - coord: {x: -16, y: 19}
+      start: 1446
+      count: 12
+      boundsMin: {x: -247.1158, y: 7.0202937, z: 313.55576}
+      boundsMax: {x: -238.41656, y: 8.987235, z: 321.71}
+    - coord: {x: -15, y: 19}
+      start: 1458
+      count: 7
+      boundsMin: {x: -238.6021, y: 7.6135135, z: 314.14648}
+      boundsMax: {x: -235.17532, y: 8.90375, z: 320.8239}
+    - coord: {x: -14, y: 19}
+      start: 1465
+      count: 2
+      boundsMin: {x: -210.37099, y: 6.652727, z: 313.55914}
+      boundsMax: {x: -208.70871, y: 7.9284472, z: 316.38702}
+    - coord: {x: -13, y: 19}
+      start: 1467
+      count: 19
+      boundsMin: {x: -208.06705, y: 5.31108, z: 306.67065}
+      boundsMax: {x: -190.76604, y: 8.927082, z: 319.92822}
+    - coord: {x: -12, y: 19}
+      start: 1486
+      count: 29
+      boundsMin: {x: -191.4118, y: 5.432301, z: 307.03625}
+      boundsMax: {x: -175.89738, y: 9.005997, z: 321.26593}
+    - coord: {x: -11, y: 19}
+      start: 1515
+      count: 35
+      boundsMin: {x: -176.22801, y: 7.593758, z: 304.0638}
+      boundsMax: {x: -159.91211, y: 11.440931, z: 318.78842}
+    - coord: {x: -10, y: 19}
+      start: 1550
+      count: 32
+      boundsMin: {x: -158.7676, y: 7.870983, z: 304.49155}
+      boundsMax: {x: -143.87512, y: 11.285561, z: 315.60052}
+    - coord: {x: -9, y: 19}
+      start: 1582
+      count: 17
+      boundsMin: {x: -143.5544, y: 8.224993, z: 305.21817}
+      boundsMax: {x: -135.23361, y: 10.842743, z: 320.9567}
+    - coord: {x: -20, y: 20}
+      start: 1599
+      count: 18
+      boundsMin: {x: -310.1248, y: 12.826593, z: 321.45294}
+      boundsMax: {x: -302.29608, y: 17.025719, z: 333.74823}
+    - coord: {x: -19, y: 20}
+      start: 1617
+      count: 9
+      boundsMin: {x: -302.43027, y: 11.81793, z: 320.95135}
+      boundsMax: {x: -299.08612, y: 17.153551, z: 335.67114}
+    - coord: {x: -18, y: 20}
+      start: 1626
+      count: 17
+      boundsMin: {x: -280.81863, y: 7.35406, z: 327.0027}
+      boundsMax: {x: -270.21063, y: 10.89359, z: 336.87598}
+    - coord: {x: -17, y: 20}
+      start: 1643
+      count: 17
+      boundsMin: {x: -269.50772, y: 6.409289, z: 327.5793}
+      boundsMax: {x: -255.38266, y: 9.0910845, z: 333.86234}
+    - coord: {x: -16, y: 20}
+      start: 1660
+      count: 24
+      boundsMin: {x: -255.67923, y: 5.949606, z: 320.83807}
+      boundsMax: {x: -239.28336, y: 8.993346, z: 334.94556}
+    - coord: {x: -15, y: 20}
+      start: 1684
+      count: 10
+      boundsMin: {x: -238.72462, y: 5.6179633, z: 321.5543}
+      boundsMax: {x: -222.84679, y: 9.894931, z: 336.23633}
+    - coord: {x: -14, y: 20}
+      start: 1694
+      count: 17
+      boundsMin: {x: -222.54303, y: 5.138093, z: 321.55917}
+      boundsMax: {x: -209.53131, y: 7.3530536, z: 335.52667}
+    - coord: {x: -13, y: 20}
+      start: 1711
+      count: 8
+      boundsMin: {x: -208.06313, y: 5.1205435, z: 321.25012}
+      boundsMax: {x: -190.7612, y: 8.706208, z: 333.17072}
+    - coord: {x: -12, y: 20}
+      start: 1719
+      count: 8
+      boundsMin: {x: -191.21255, y: 7.5059476, z: 321.04553}
+      boundsMax: {x: -177.0342, y: 8.749076, z: 325.8444}
+    - coord: {x: -11, y: 20}
+      start: 1727
+      count: 24
+      boundsMin: {x: -176.26212, y: 7.503358, z: 323.48566}
+      boundsMax: {x: -158.7907, y: 11.823765, z: 336.70404}
+    - coord: {x: -10, y: 20}
+      start: 1751
+      count: 22
+      boundsMin: {x: -159.28412, y: 9.53836, z: 321.8327}
+      boundsMax: {x: -143.52356, y: 11.572587, z: 335.4493}
+    - coord: {x: -9, y: 20}
+      start: 1773
+      count: 1
+      boundsMin: {x: -136.1512, y: 9.447526, z: 321.55432}
+      boundsMax: {x: -135.4478, y: 10.150935, z: 322.25775}
+    - coord: {x: -20, y: 21}
+      start: 1774
+      count: 7
+      boundsMin: {x: -311.05304, y: 7.280942, z: 344.3411}
+      boundsMax: {x: -302.99048, y: 9.698573, z: 348.00192}
+    - coord: {x: -19, y: 21}
+      start: 1781
+      count: 15
+      boundsMin: {x: -302.8903, y: 7.0356464, z: 338.51605}
+      boundsMax: {x: -288.11404, y: 13.443572, z: 348.11298}
+    - coord: {x: -18, y: 21}
+      start: 1796
+      count: 20
+      boundsMin: {x: -287.87384, y: 7.1306343, z: 336.59787}
+      boundsMax: {x: -271.31693, y: 12.858093, z: 348.68942}
+    - coord: {x: -17, y: 21}
+      start: 1816
+      count: 16
+      boundsMin: {x: -270.70773, y: 7.324108, z: 342.3724}
+      boundsMax: {x: -254.91046, y: 11.319914, z: 347.90814}
+    - coord: {x: -16, y: 21}
+      start: 1832
+      count: 16
+      boundsMin: {x: -253.37721, y: 7.0208025, z: 343.35245}
+      boundsMax: {x: -238.62517, y: 10.626099, z: 348.0692}
+    - coord: {x: -15, y: 21}
+      start: 1848
+      count: 3
+      boundsMin: {x: -236.6154, y: 7.6952596, z: 337.35016}
+      boundsMax: {x: -234.48837, y: 10.836356, z: 345.2092}
+    - coord: {x: -11, y: 21}
+      start: 1851
+      count: 18
+      boundsMin: {x: -169.69785, y: 7.5599966, z: 336.54446}
+      boundsMax: {x: -159.04126, y: 11.753125, z: 347.00983}
+    - coord: {x: -10, y: 21}
+      start: 1869
+      count: 17
+      boundsMin: {x: -158.66348, y: 9.740183, z: 336.16998}
+      boundsMax: {x: -143.86018, y: 11.786196, z: 343.56418}
+    - coord: {x: -9, y: 21}
+      start: 1886
+      count: 6
+      boundsMin: {x: -143.10233, y: 8.527047, z: 343.23175}
+      boundsMax: {x: -134.7522, y: 10.478398, z: 345.6335}
+    - coord: {x: -11, y: 22}
+      start: 1892
+      count: 23
+      boundsMin: {x: -172.9229, y: 7.4079514, z: 356.47235}
+      boundsMax: {x: -158.56627, y: 11.15766, z: 368.83334}
+    - coord: {x: -10, y: 22}
+      start: 1915
+      count: 21
+      boundsMin: {x: -158.5146, y: 7.0472794, z: 354.87527}
+      boundsMax: {x: -143.52527, y: 11.704051, z: 368.4661}
+    - coord: {x: -9, y: 22}
+      start: 1936
+      count: 11
+      boundsMin: {x: -143.88948, y: 7.1483107, z: 356.1108}
+      boundsMax: {x: -135.0959, y: 11.015815, z: 362.66107}
+    - coord: {x: -11, y: 23}
+      start: 1947
+      count: 30
+      boundsMin: {x: -173.98973, y: 7.4665794, z: 368.05267}
+      boundsMax: {x: -159.30263, y: 11.1125765, z: 378.4577}
+    - coord: {x: -10, y: 23}
+      start: 1977
+      count: 21
+      boundsMin: {x: -159.30147, y: 8.049801, z: 368.13647}
+      boundsMax: {x: -143.22658, y: 10.979142, z: 378.29144}
+    - coord: {x: -9, y: 23}
+      start: 1998
+      count: 7
+      boundsMin: {x: -143.98338, y: 7.7282476, z: 370.1325}
+      boundsMax: {x: -137.34505, y: 9.59676, z: 378.117}
+  - layer: {fileID: 11400000, guid: 376b7a338c7ee5240864d05993b4d236, type: 2}
+    instanceStart: 2662
+    instanceCount: 1182
+    chunks:
+    - coord: {x: -20, y: 11}
+      start: 0
+      count: 3
+      boundsMin: {x: -308.3281, y: 8.336139, z: 185.67227}
+      boundsMax: {x: -303.79727, y: 10.203347, z: 190.02025}
+    - coord: {x: -18, y: 11}
+      start: 3
+      count: 4
+      boundsMin: {x: -278.93106, y: 7.7697997, z: 184.86551}
+      boundsMax: {x: -270.50705, y: 9.359992, z: 192.32014}
+    - coord: {x: -17, y: 11}
+      start: 7
+      count: 10
+      boundsMin: {x: -271.0317, y: 7.279574, z: 184.77599}
+      boundsMax: {x: -254.89482, y: 9.439375, z: 191.86433}
+    - coord: {x: -16, y: 11}
+      start: 17
+      count: 7
+      boundsMin: {x: -255.0528, y: 7.2136383, z: 185.7931}
+      boundsMax: {x: -240.42601, y: 8.837662, z: 191.64609}
+    - coord: {x: -15, y: 11}
+      start: 24
+      count: 7
+      boundsMin: {x: -239.57239, y: 7.192963, z: 187.16656}
+      boundsMax: {x: -224.1468, y: 9.026076, z: 192.88402}
+    - coord: {x: -20, y: 12}
+      start: 31
+      count: 5
+      boundsMin: {x: -310.49454, y: 8.287091, z: 195.46573}
+      boundsMax: {x: -304.11713, y: 10.054526, z: 210.33987}
+    - coord: {x: -19, y: 12}
+      start: 36
+      count: 22
+      boundsMin: {x: -301.68793, y: 7.9017944, z: 193.39003}
+      boundsMax: {x: -288.74826, y: 10.052145, z: 210.61192}
+    - coord: {x: -18, y: 12}
+      start: 58
+      count: 21
+      boundsMin: {x: -283.30743, y: 7.406699, z: 192.65536}
+      boundsMax: {x: -270.0405, y: 9.800825, z: 207.98709}
+    - coord: {x: -15, y: 12}
+      start: 79
+      count: 16
+      boundsMin: {x: -236.12962, y: 7.094807, z: 194.7488}
+      boundsMax: {x: -223.22896, y: 9.568056, z: 209.75023}
+    - coord: {x: -12, y: 12}
+      start: 95
+      count: 9
+      boundsMin: {x: -189.01555, y: 7.06073, z: 202.87791}
+      boundsMax: {x: -177.91017, y: 10.707909, z: 210.56906}
+    - coord: {x: -11, y: 12}
+      start: 104
+      count: 1
+      boundsMin: {x: -161.98485, y: 10.811082, z: 208.90556}
+      boundsMax: {x: -160.24315, y: 12.552789, z: 210.64726}
+    - coord: {x: -10, y: 12}
+      start: 105
+      count: 2
+      boundsMin: {x: -154.65892, y: 10.635338, z: 207.82953}
+      boundsMax: {x: -150.12524, y: 12.499313, z: 210.46231}
+    - coord: {x: -20, y: 13}
+      start: 107
+      count: 12
+      boundsMin: {x: -311.30786, y: 7.9469056, z: 211.17453}
+      boundsMax: {x: -303.09067, y: 11.68662, z: 225.2504}
+    - coord: {x: -19, y: 13}
+      start: 119
+      count: 7
+      boundsMin: {x: -294.23618, y: 7.7948017, z: 209.25679}
+      boundsMax: {x: -286.27377, y: 9.716101, z: 217.56017}
+    - coord: {x: -18, y: 13}
+      start: 126
+      count: 3
+      boundsMin: {x: -286.61133, y: 7.615037, z: 213.47018}
+      boundsMax: {x: -284.02377, y: 9.48426, z: 219.26541}
+    - coord: {x: -17, y: 13}
+      start: 129
+      count: 11
+      boundsMin: {x: -268.38394, y: 7.1545706, z: 211.34924}
+      boundsMax: {x: -256.0413, y: 12.145842, z: 226.57515}
+    - coord: {x: -16, y: 13}
+      start: 140
+      count: 16
+      boundsMin: {x: -253.60826, y: 7.060015, z: 211.42715}
+      boundsMax: {x: -240.35107, y: 12.530718, z: 226.47356}
+    - coord: {x: -15, y: 13}
+      start: 156
+      count: 15
+      boundsMin: {x: -238.7077, y: 6.9741807, z: 209.62483}
+      boundsMax: {x: -224.36961, y: 13.4560995, z: 226.06508}
+    - coord: {x: -14, y: 13}
+      start: 171
+      count: 16
+      boundsMin: {x: -223.84053, y: 9.128069, z: 210.17534}
+      boundsMax: {x: -207.69566, y: 16.258469, z: 226.01411}
+    - coord: {x: -13, y: 13}
+      start: 187
+      count: 8
+      boundsMin: {x: -206.9418, y: 11.777408, z: 214.85664}
+      boundsMax: {x: -190.54437, y: 15.44221, z: 222.32835}
+    - coord: {x: -12, y: 13}
+      start: 195
+      count: 11
+      boundsMin: {x: -190.04222, y: 10.360537, z: 210.72983}
+      boundsMax: {x: -179.0263, y: 15.231092, z: 222.33119}
+    - coord: {x: -11, y: 13}
+      start: 206
+      count: 8
+      boundsMin: {x: -163.33691, y: 10.765198, z: 210.1496}
+      boundsMax: {x: -158.29306, y: 13.421055, z: 225.79729}
+    - coord: {x: -10, y: 13}
+      start: 214
+      count: 10
+      boundsMin: {x: -158.26685, y: 10.959446, z: 209.69333}
+      boundsMax: {x: -142.30463, y: 13.157586, z: 226.04138}
+    - coord: {x: -9, y: 13}
+      start: 224
+      count: 7
+      boundsMin: {x: -143.63777, y: 10.732715, z: 212.06752}
+      boundsMax: {x: -137.05896, y: 12.986749, z: 225.44687}
+    - coord: {x: -20, y: 14}
+      start: 231
+      count: 8
+      boundsMin: {x: -311.2257, y: 10.464187, z: 225.16428}
+      boundsMax: {x: -304.02158, y: 15.399908, z: 241.84312}
+    - coord: {x: -19, y: 14}
+      start: 239
+      count: 9
+      boundsMin: {x: -299.0222, y: 10.702726, z: 226.90036}
+      boundsMax: {x: -290.44672, y: 14.795931, z: 240.4897}
+    - coord: {x: -18, y: 14}
+      start: 248
+      count: 16
+      boundsMin: {x: -285.85687, y: 9.800553, z: 229.35103}
+      boundsMax: {x: -273.6542, y: 14.852222, z: 241.94032}
+    - coord: {x: -17, y: 14}
+      start: 264
+      count: 17
+      boundsMin: {x: -268.30304, y: 9.036741, z: 225.4355}
+      boundsMax: {x: -255.39053, y: 18.914824, z: 241.96886}
+    - coord: {x: -16, y: 14}
+      start: 281
+      count: 17
+      boundsMin: {x: -255.33324, y: 11.081847, z: 225.88495}
+      boundsMax: {x: -240.43146, y: 21.292543, z: 241.51784}
+    - coord: {x: -15, y: 14}
+      start: 298
+      count: 17
+      boundsMin: {x: -239.45065, y: 11.537991, z: 225.63525}
+      boundsMax: {x: -224.31416, y: 17.10764, z: 241.26115}
+    - coord: {x: -14, y: 14}
+      start: 315
+      count: 10
+      boundsMin: {x: -220.1823, y: 14.225583, z: 225.26447}
+      boundsMax: {x: -207.62187, y: 18.713951, z: 240.89734}
+    - coord: {x: -13, y: 14}
+      start: 325
+      count: 15
+      boundsMin: {x: -207.77959, y: 14.8657055, z: 225.47348}
+      boundsMax: {x: -190.16577, y: 19.079184, z: 241.84108}
+    - coord: {x: -12, y: 14}
+      start: 340
+      count: 14
+      boundsMin: {x: -190.2908, y: 14.551771, z: 227.50365}
+      boundsMax: {x: -174.23422, y: 18.703428, z: 241.40802}
+    - coord: {x: -11, y: 14}
+      start: 354
+      count: 14
+      boundsMin: {x: -173.89339, y: 12.507075, z: 225.51022}
+      boundsMax: {x: -158.54279, y: 18.693258, z: 242.14465}
+    - coord: {x: -10, y: 14}
+      start: 368
+      count: 19
+      boundsMin: {x: -159.44307, y: 11.045636, z: 225.17456}
+      boundsMax: {x: -145.80728, y: 15.431501, z: 241.61096}
+    - coord: {x: -9, y: 14}
+      start: 387
+      count: 5
+      boundsMin: {x: -142.97717, y: 10.357442, z: 225.74115}
+      boundsMax: {x: -134.41599, y: 12.347963, z: 242.03703}
+    - coord: {x: -20, y: 15}
+      start: 392
+      count: 5
+      boundsMin: {x: -310.43732, y: 13.967382, z: 240.96211}
+      boundsMax: {x: -302.07693, y: 16.882751, z: 256.59113}
+    - coord: {x: -19, y: 15}
+      start: 397
+      count: 12
+      boundsMin: {x: -301.61267, y: 13.607991, z: 241.04599}
+      boundsMax: {x: -287.24158, y: 16.946774, z: 255.45525}
+    - coord: {x: -18, y: 15}
+      start: 409
+      count: 11
+      boundsMin: {x: -286.12152, y: 11.632469, z: 240.74223}
+      boundsMax: {x: -270.7501, y: 16.987259, z: 256.45068}
+    - coord: {x: -17, y: 15}
+      start: 420
+      count: 10
+      boundsMin: {x: -266.02264, y: 11.413489, z: 241.51964}
+      boundsMax: {x: -254.49289, y: 19.86829, z: 257.50824}
+    - coord: {x: -16, y: 15}
+      start: 430
+      count: 10
+      boundsMin: {x: -254.4571, y: 12.433639, z: 240.87692}
+      boundsMax: {x: -243.31267, y: 21.420141, z: 257.41434}
+    - coord: {x: -15, y: 15}
+      start: 440
+      count: 7
+      boundsMin: {x: -235.59732, y: 15.024355, z: 240.90822}
+      boundsMax: {x: -224.59897, y: 17.607521, z: 247.7196}
+    - coord: {x: -14, y: 15}
+      start: 447
+      count: 10
+      boundsMin: {x: -223.08919, y: 14.53104, z: 240.83147}
+      boundsMax: {x: -208.32434, y: 18.385435, z: 249.10329}
+    - coord: {x: -13, y: 15}
+      start: 457
+      count: 16
+      boundsMin: {x: -203.21797, y: 7.839118, z: 241.02623}
+      boundsMax: {x: -193.02711, y: 18.406843, z: 257.08118}
+    - coord: {x: -12, y: 15}
+      start: 473
+      count: 8
+      boundsMin: {x: -189.35449, y: 11.89648, z: 251.3872}
+      boundsMax: {x: -181.01198, y: 16.358425, z: 256.3538}
+    - coord: {x: -11, y: 15}
+      start: 481
+      count: 12
+      boundsMin: {x: -167.45667, y: 13.452658, z: 241.19667}
+      boundsMax: {x: -158.08354, y: 18.14321, z: 257.05667}
+    - coord: {x: -10, y: 15}
+      start: 493
+      count: 18
+      boundsMin: {x: -158.40894, y: 11.96053, z: 241.42642}
+      boundsMax: {x: -143.70917, y: 17.061068, z: 257.76157}
+    - coord: {x: -9, y: 15}
+      start: 511
+      count: 8
+      boundsMin: {x: -142.05875, y: 11.047646, z: 243.86958}
+      boundsMax: {x: -134.8205, y: 13.710411, z: 256.41602}
+    - coord: {x: -20, y: 16}
+      start: 519
+      count: 6
+      boundsMin: {x: -310.94504, y: 7.936462, z: 260.52158}
+      boundsMax: {x: -306.14197, y: 14.0042305, z: 273.03125}
+    - coord: {x: -19, y: 16}
+      start: 525
+      count: 20
+      boundsMin: {x: -299.90207, y: 7.9730053, z: 259.19412}
+      boundsMax: {x: -285.5753, y: 15.540194, z: 272.71652}
+    - coord: {x: -18, y: 16}
+      start: 545
+      count: 20
+      boundsMin: {x: -286.2808, y: 12.381556, z: 256.78674}
+      boundsMax: {x: -271.44098, y: 17.289164, z: 270.41855}
+    - coord: {x: -17, y: 16}
+      start: 565
+      count: 12
+      boundsMin: {x: -270.07678, y: 10.014453, z: 256.90707}
+      boundsMax: {x: -259.50067, y: 16.444374, z: 273.25507}
+    - coord: {x: -16, y: 16}
+      start: 577
+      count: 9
+      boundsMin: {x: -248.30894, y: 7.353926, z: 257.24295}
+      boundsMax: {x: -238.65823, y: 13.162784, z: 269.53348}
+    - coord: {x: -15, y: 16}
+      start: 586
+      count: 14
+      boundsMin: {x: -238.64462, y: 7.04398, z: 258.02176}
+      boundsMax: {x: -224.07034, y: 10.918611, z: 267.66525}
+    - coord: {x: -14, y: 16}
+      start: 600
+      count: 7
+      boundsMin: {x: -221.78104, y: 7.378595, z: 258.08786}
+      boundsMax: {x: -207.32861, y: 9.327522, z: 267.1784}
+    - coord: {x: -13, y: 16}
+      start: 607
+      count: 5
+      boundsMin: {x: -208.56741, y: 7.4511275, z: 256.86862}
+      boundsMax: {x: -200.19841, y: 9.346884, z: 262.7658}
+    - coord: {x: -12, y: 16}
+      start: 612
+      count: 11
+      boundsMin: {x: -185.97835, y: 7.008329, z: 259.61642}
+      boundsMax: {x: -175.09753, y: 10.856087, z: 273.4576}
+    - coord: {x: -11, y: 16}
+      start: 623
+      count: 18
+      boundsMin: {x: -174.21117, y: 7.429676, z: 257.04626}
+      boundsMax: {x: -161.41254, y: 13.758358, z: 271.55078}
+    - coord: {x: -10, y: 16}
+      start: 641
+      count: 14
+      boundsMin: {x: -158.59203, y: 10.033267, z: 256.8762}
+      boundsMax: {x: -143.20912, y: 13.26371, z: 273.64606}
+    - coord: {x: -9, y: 16}
+      start: 655
+      count: 9
+      boundsMin: {x: -142.5834, y: 9.924959, z: 256.65488}
+      boundsMax: {x: -134.034, y: 12.166791, z: 272.60367}
+    - coord: {x: -20, y: 17}
+      start: 664
+      count: 9
+      boundsMin: {x: -310.04468, y: 7.726076, z: 272.38098}
+      boundsMax: {x: -301.28912, y: 9.5954275, z: 287.12088}
+    - coord: {x: -19, y: 17}
+      start: 673
+      count: 20
+      boundsMin: {x: -302.21274, y: 8.053427, z: 272.96634}
+      boundsMax: {x: -287.00986, y: 16.29454, z: 287.77386}
+    - coord: {x: -18, y: 17}
+      start: 693
+      count: 10
+      boundsMin: {x: -283.28433, y: 9.361183, z: 277.92374}
+      boundsMax: {x: -273.12527, y: 17.041319, z: 288.29434}
+    - coord: {x: -17, y: 17}
+      start: 703
+      count: 15
+      boundsMin: {x: -269.6648, y: 6.6303587, z: 274.52396}
+      boundsMax: {x: -255.53807, y: 12.129643, z: 288.7269}
+    - coord: {x: -16, y: 17}
+      start: 718
+      count: 5
+      boundsMin: {x: -254.53857, y: 6.927241, z: 271.8916}
+      boundsMax: {x: -248.75966, y: 9.789285, z: 279.4478}
+    - coord: {x: -12, y: 17}
+      start: 723
+      count: 5
+      boundsMin: {x: -184.09908, y: 7.2238445, z: 272.64972}
+      boundsMax: {x: -176.4092, y: 9.14587, z: 279.59012}
+    - coord: {x: -11, y: 17}
+      start: 728
+      count: 11
+      boundsMin: {x: -174.70789, y: 5.447872, z: 272.94543}
+      boundsMax: {x: -158.02162, y: 12.670472, z: 288.61285}
+    - coord: {x: -10, y: 17}
+      start: 739
+      count: 25
+      boundsMin: {x: -159.29518, y: 6.1686406, z: 272.26816}
+      boundsMax: {x: -143.88342, y: 12.194275, z: 288.53793}
+    - coord: {x: -9, y: 17}
+      start: 764
+      count: 8
+      boundsMin: {x: -139.25783, y: 7.370424, z: 273.16382}
+      boundsMax: {x: -133.42198, y: 11.838483, z: 284.796}
+    - coord: {x: -20, y: 18}
+      start: 772
+      count: 7
+      boundsMin: {x: -310.7004, y: 8.11347, z: 288.51508}
+      boundsMax: {x: -301.9288, y: 15.45328, z: 304.4116}
+    - coord: {x: -19, y: 18}
+      start: 779
+      count: 2
+      boundsMin: {x: -299.75165, y: 12.2007, z: 288.69385}
+      boundsMax: {x: -297.48987, y: 15.210903, z: 301.6815}
+    - coord: {x: -18, y: 18}
+      start: 781
+      count: 13
+      boundsMin: {x: -278.16644, y: 7.14412, z: 288.1686}
+      boundsMax: {x: -271.0283, y: 11.491315, z: 304.07407}
+    - coord: {x: -17, y: 18}
+      start: 794
+      count: 4
+      boundsMin: {x: -271.11496, y: 6.7012067, z: 287.93436}
+      boundsMax: {x: -263.5227, y: 8.762549, z: 292.96606}
+    - coord: {x: -13, y: 18}
+      start: 798
+      count: 1
+      boundsMin: {x: -191.76147, y: 6.1368027, z: 296.47565}
+      boundsMax: {x: -190.88058, y: 7.017704, z: 297.35657}
+    - coord: {x: -12, y: 18}
+      start: 799
+      count: 10
+      boundsMin: {x: -190.26512, y: 5.1741514, z: 290.91513}
+      boundsMax: {x: -174.72296, y: 8.919873, z: 304.8118}
+    - coord: {x: -11, y: 18}
+      start: 809
+      count: 14
+      boundsMin: {x: -174.94492, y: 4.505494, z: 294.251}
+      boundsMax: {x: -158.27417, y: 9.215714, z: 303.13214}
+    - coord: {x: -10, y: 18}
+      start: 823
+      count: 5
+      boundsMin: {x: -158.75754, y: 5.8955784, z: 295.4458}
+      boundsMax: {x: -144.61057, y: 9.3500805, z: 303.03873}
+    - coord: {x: -9, y: 18}
+      start: 828
+      count: 3
+      boundsMin: {x: -141.51971, y: 7.712978, z: 289.1932}
+      boundsMax: {x: -135.11116, y: 9.20656, z: 303.99054}
+    - coord: {x: -20, y: 19}
+      start: 831
+      count: 7
+      boundsMin: {x: -304.66513, y: 13.637215, z: 304.8047}
+      boundsMax: {x: -301.46042, y: 16.925377, z: 321.842}
+    - coord: {x: -19, y: 19}
+      start: 838
+      count: 5
+      boundsMin: {x: -302.28195, y: 13.997266, z: 306.75113}
+      boundsMax: {x: -297.2324, y: 17.552668, z: 312.4872}
+    - coord: {x: -18, y: 19}
+      start: 843
+      count: 9
+      boundsMin: {x: -279.17722, y: 6.3675294, z: 306.9737}
+      boundsMax: {x: -271.17667, y: 9.394397, z: 320.1063}
+    - coord: {x: -17, y: 19}
+      start: 852
+      count: 5
+      boundsMin: {x: -270.62634, y: 7.1853766, z: 303.69907}
+      boundsMax: {x: -265.83984, y: 9.266005, z: 312.7654}
+    - coord: {x: -16, y: 19}
+      start: 857
+      count: 8
+      boundsMin: {x: -250.35802, y: 6.590579, z: 311.96127}
+      boundsMax: {x: -239.56653, y: 8.98036, z: 321.53488}
+    - coord: {x: -15, y: 19}
+      start: 865
+      count: 5
+      boundsMin: {x: -238.88762, y: 6.3987527, z: 315.68936}
+      boundsMax: {x: -229.95956, y: 9.037573, z: 322.62976}
+    - coord: {x: -14, y: 19}
+      start: 870
+      count: 4
+      boundsMin: {x: -210.33499, y: 5.877934, z: 313.34872}
+      boundsMax: {x: -207.16309, y: 7.9576154, z: 320.81567}
+    - coord: {x: -13, y: 19}
+      start: 874
+      count: 14
+      boundsMin: {x: -208.11479, y: 4.8602247, z: 306.94244}
+      boundsMax: {x: -190.24562, y: 8.913267, z: 321.43472}
+    - coord: {x: -12, y: 19}
+      start: 888
+      count: 13
+      boundsMin: {x: -190.11368, y: 7.240794, z: 307.73615}
+      boundsMax: {x: -174.37906, y: 9.16341, z: 322.59427}
+    - coord: {x: -11, y: 19}
+      start: 901
+      count: 22
+      boundsMin: {x: -174.29294, y: 7.249549, z: 303.95685}
+      boundsMax: {x: -158.27612, y: 11.407408, z: 315.9991}
+    - coord: {x: -10, y: 19}
+      start: 923
+      count: 17
+      boundsMin: {x: -158.17229, y: 7.2098684, z: 304.5468}
+      boundsMax: {x: -143.32748, y: 11.682241, z: 316.91742}
+    - coord: {x: -9, y: 19}
+      start: 940
+      count: 11
+      boundsMin: {x: -143.73439, y: 8.614543, z: 309.32135}
+      boundsMax: {x: -133.89143, y: 11.351879, z: 321.15106}
+    - coord: {x: -20, y: 20}
+      start: 951
+      count: 9
+      boundsMin: {x: -311.73654, y: 12.894335, z: 322.52307}
+      boundsMax: {x: -302.0606, y: 17.455967, z: 334.77905}
+    - coord: {x: -19, y: 20}
+      start: 960
+      count: 4
+      boundsMin: {x: -301.41586, y: 11.4836035, z: 323.86713}
+      boundsMax: {x: -297.39307, y: 16.62126, z: 334.6702}
+    - coord: {x: -18, y: 20}
+      start: 964
+      count: 12
+      boundsMin: {x: -280.8893, y: 7.19149, z: 327.70892}
+      boundsMax: {x: -271.43097, y: 10.60462, z: 336.47702}
+    - coord: {x: -17, y: 20}
+      start: 976
+      count: 12
+      boundsMin: {x: -269.92734, y: 6.1747847, z: 327.73642}
+      boundsMax: {x: -255.04927, y: 9.375266, z: 332.96918}
+    - coord: {x: -16, y: 20}
+      start: 988
+      count: 12
+      boundsMin: {x: -251.77211, y: 6.0451107, z: 321.05753}
+      boundsMax: {x: -238.74562, y: 9.160238, z: 334.2842}
+    - coord: {x: -15, y: 20}
+      start: 1000
+      count: 4
+      boundsMin: {x: -239.71188, y: 5.5407324, z: 321.84622}
+      boundsMax: {x: -233.10318, y: 10.452151, z: 336.83566}
+    - coord: {x: -14, y: 20}
+      start: 1004
+      count: 8
+      boundsMin: {x: -222.1691, y: 5.5894294, z: 322.16476}
+      boundsMax: {x: -210.91154, y: 7.6650085, z: 334.71725}
+    - coord: {x: -13, y: 20}
+      start: 1012
+      count: 2
+      boundsMin: {x: -205.36197, y: 5.7893972, z: 321.41617}
+      boundsMax: {x: -192.73393, y: 8.960048, z: 330.11688}
+    - coord: {x: -12, y: 20}
+      start: 1014
+      count: 4
+      boundsMin: {x: -189.23462, y: 7.237481, z: 321.19174}
+      boundsMax: {x: -175.30968, y: 8.888291, z: 327.04083}
+    - coord: {x: -11, y: 20}
+      start: 1018
+      count: 16
+      boundsMin: {x: -174.02544, y: 7.4465814, z: 323.63477}
+      boundsMax: {x: -159.2312, y: 12.478098, z: 337.46365}
+    - coord: {x: -10, y: 20}
+      start: 1034
+      count: 12
+      boundsMin: {x: -158.14555, y: 9.442032, z: 323.13455}
+      boundsMax: {x: -143.3097, y: 11.799451, z: 338.39682}
+    - coord: {x: -20, y: 21}
+      start: 1046
+      count: 6
+      boundsMin: {x: -311.5299, y: 7.122574, z: 342.43134}
+      boundsMax: {x: -301.60947, y: 11.09278, z: 347.7679}
+    - coord: {x: -19, y: 21}
+      start: 1052
+      count: 10
+      boundsMin: {x: -301.01184, y: 7.779657, z: 338.10205}
+      boundsMax: {x: -286.11484, y: 13.757369, z: 346.99084}
+    - coord: {x: -18, y: 21}
+      start: 1062
+      count: 13
+      boundsMin: {x: -286.84027, y: 7.0823517, z: 337.15192}
+      boundsMax: {x: -270.96732, y: 12.9555, z: 347.72812}
+    - coord: {x: -17, y: 21}
+      start: 1075
+      count: 8
+      boundsMin: {x: -270.5701, y: 7.165233, z: 344.11066}
+      boundsMax: {x: -256.12283, y: 10.216852, z: 348.334}
+    - coord: {x: -16, y: 21}
+      start: 1083
+      count: 9
+      boundsMin: {x: -254.39297, y: 6.81367, z: 343.9659}
+      boundsMax: {x: -238.82156, y: 10.180479, z: 348.1834}
+    - coord: {x: -15, y: 21}
+      start: 1092
+      count: 4
+      boundsMin: {x: -239.29446, y: 7.0374713, z: 337.5249}
+      boundsMax: {x: -234.96117, y: 10.901155, z: 348.14944}
+    - coord: {x: -11, y: 21}
+      start: 1096
+      count: 8
+      boundsMin: {x: -169.16365, y: 7.3549795, z: 339.1718}
+      boundsMax: {x: -159.58768, y: 11.756767, z: 345.16083}
+    - coord: {x: -10, y: 21}
+      start: 1104
+      count: 9
+      boundsMin: {x: -159.32675, y: 9.355433, z: 338.21683}
+      boundsMax: {x: -143.81772, y: 11.661247, z: 343.7467}
+    - coord: {x: -9, y: 21}
+      start: 1113
+      count: 2
+      boundsMin: {x: -136.7837, y: 7.757859, z: 343.0797}
+      boundsMax: {x: -134.83533, y: 10.687731, z: 346.4919}
+    - coord: {x: -12, y: 22}
+      start: 1115
+      count: 1
+      boundsMin: {x: -175.70018, y: 7.4047966, z: 361.06454}
+      boundsMax: {x: -174.47194, y: 8.633026, z: 362.29276}
+    - coord: {x: -11, y: 22}
+      start: 1116
+      count: 17
+      boundsMin: {x: -172.79628, y: 7.228823, z: 357.1288}
+      boundsMax: {x: -159.00587, y: 11.491028, z: 369.33936}
+    - coord: {x: -10, y: 22}
+      start: 1133
+      count: 14
+      boundsMin: {x: -159.06569, y: 7.7781587, z: 356.5817}
+      boundsMax: {x: -142.42001, y: 11.533433, z: 369.53937}
+    - coord: {x: -9, y: 22}
+      start: 1147
+      count: 6
+      boundsMin: {x: -142.79271, y: 6.918827, z: 355.80396}
+      boundsMax: {x: -135.09506, y: 11.117216, z: 361.92642}
+    - coord: {x: -11, y: 23}
+      start: 1153
+      count: 12
+      boundsMin: {x: -174.53838, y: 7.095579, z: 368.39478}
+      boundsMax: {x: -158.80084, y: 11.160591, z: 378.3324}
+    - coord: {x: -10, y: 23}
+      start: 1165
+      count: 13
+      boundsMin: {x: -156.85818, y: 7.6973124, z: 368.40182}
+      boundsMax: {x: -143.8077, y: 11.208927, z: 378.08365}
+    - coord: {x: -9, y: 23}
+      start: 1178
+      count: 4
+      boundsMin: {x: -143.51588, y: 7.459815, z: 373.07748}
+      boundsMax: {x: -137.65631, y: 9.319797, z: 377.92056}
+  - layer: {fileID: 11400000, guid: 0c042acf7c659294c9dd316231e5c1aa, type: 2}
+    instanceStart: 3844
+    instanceCount: 676
+    chunks:
+    - coord: {x: -20, y: 11}
+      start: 0
+      count: 2
+      boundsMin: {x: -307.3385, y: 8.690334, z: 189.42726}
+      boundsMax: {x: -301.1405, y: 9.613273, z: 190.43893}
+    - coord: {x: -18, y: 11}
+      start: 2
+      count: 3
+      boundsMin: {x: -285.15768, y: 8.060376, z: 188.55026}
+      boundsMax: {x: -268.17825, y: 9.212691, z: 190.66502}
+    - coord: {x: -17, y: 11}
+      start: 5
+      count: 3
+      boundsMin: {x: -267.06873, y: 7.7851367, z: 188.13692}
+      boundsMax: {x: -258.07596, y: 8.743387, z: 189.70778}
+    - coord: {x: -16, y: 11}
+      start: 8
+      count: 4
+      boundsMin: {x: -255.00616, y: 7.6430326, z: 189.1853}
+      boundsMax: {x: -237.75296, y: 8.610253, z: 192.19524}
+    - coord: {x: -15, y: 11}
+      start: 12
+      count: 3
+      boundsMin: {x: -233.78918, y: 7.490861, z: 189.11841}
+      boundsMax: {x: -224.6813, y: 8.580369, z: 192.07106}
+    - coord: {x: -14, y: 11}
+      start: 15
+      count: 1
+      boundsMin: {x: -206.10477, y: 7.7890067, z: 189.66432}
+      boundsMax: {x: -205.41495, y: 8.47884, z: 190.35414}
+    - coord: {x: -13, y: 11}
+      start: 16
+      count: 2
+      boundsMin: {x: -204.30392, y: 7.8515115, z: 191.5621}
+      boundsMax: {x: -198.93155, y: 8.521072, z: 192.33203}
+    - coord: {x: -12, y: 11}
+      start: 18
+      count: 1
+      boundsMin: {x: -182.93913, y: 7.8422055, z: 190.0492}
+      boundsMax: {x: -182.3657, y: 8.41564, z: 190.62262}
+    - coord: {x: -11, y: 11}
+      start: 19
+      count: 1
+      boundsMin: {x: -158.42294, y: 12.107937, z: 190.22876}
+      boundsMax: {x: -157.81128, y: 12.719591, z: 190.84042}
+    - coord: {x: -9, y: 11}
+      start: 20
+      count: 2
+      boundsMin: {x: -139.59369, y: 10.7458315, z: 189.49947}
+      boundsMax: {x: -137.95552, y: 11.430217, z: 190.84427}
+    - coord: {x: -20, y: 12}
+      start: 22
+      count: 7
+      boundsMin: {x: -308.1747, y: 8.508894, z: 193.84648}
+      boundsMax: {x: -300.40906, y: 9.693775, z: 210.45583}
+    - coord: {x: -19, y: 12}
+      start: 29
+      count: 7
+      boundsMin: {x: -297.97522, y: 8.214141, z: 195.60611}
+      boundsMax: {x: -286.72412, y: 9.424535, z: 209.65634}
+    - coord: {x: -18, y: 12}
+      start: 36
+      count: 7
+      boundsMin: {x: -285.48706, y: 7.901806, z: 194.25464}
+      boundsMax: {x: -268.15677, y: 9.121317, z: 209.9408}
+    - coord: {x: -17, y: 12}
+      start: 43
+      count: 10
+      boundsMin: {x: -267.67896, y: 7.482078, z: 192.09984}
+      boundsMax: {x: -255.46393, y: 8.746141, z: 209.27664}
+    - coord: {x: -16, y: 12}
+      start: 53
+      count: 8
+      boundsMin: {x: -252.6256, y: 7.470237, z: 192.59888}
+      boundsMax: {x: -238.13452, y: 8.679779, z: 209.66942}
+    - coord: {x: -15, y: 12}
+      start: 61
+      count: 8
+      boundsMin: {x: -237.22023, y: 7.6269197, z: 192.70044}
+      boundsMax: {x: -223.74565, y: 8.639147, z: 210.3495}
+    - coord: {x: -14, y: 12}
+      start: 69
+      count: 6
+      boundsMin: {x: -221.77615, y: 7.7139378, z: 196.32928}
+      boundsMax: {x: -207.99124, y: 10.392973, z: 208.77795}
+    - coord: {x: -13, y: 12}
+      start: 75
+      count: 8
+      boundsMin: {x: -203.25124, y: 7.5886183, z: 193.08215}
+      boundsMax: {x: -189.49245, y: 11.034474, z: 210.12909}
+    - coord: {x: -12, y: 12}
+      start: 83
+      count: 6
+      boundsMin: {x: -188.10567, y: 7.4976373, z: 196.8718}
+      boundsMax: {x: -175.87115, y: 10.324392, z: 210.59668}
+    - coord: {x: -11, y: 12}
+      start: 89
+      count: 8
+      boundsMin: {x: -173.8333, y: 7.7393785, z: 192.07114}
+      boundsMax: {x: -158.74623, y: 12.445212, z: 210.24078}
+    - coord: {x: -10, y: 12}
+      start: 97
+      count: 4
+      boundsMin: {x: -156.35359, y: 10.924761, z: 195.44633}
+      boundsMax: {x: -143.86658, y: 12.653443, z: 210.2344}
+    - coord: {x: -9, y: 12}
+      start: 101
+      count: 2
+      boundsMin: {x: -138.49602, y: 10.231459, z: 200.30232}
+      boundsMax: {x: -133.85838, y: 11.009314, z: 208.35237}
+    - coord: {x: -20, y: 13}
+      start: 103
+      count: 6
+      boundsMin: {x: -307.70282, y: 8.532416, z: 212.28984}
+      boundsMax: {x: -300.30432, y: 11.872838, z: 227.70576}
+    - coord: {x: -19, y: 13}
+      start: 109
+      count: 7
+      boundsMin: {x: -297.49982, y: 8.181787, z: 209.81978}
+      boundsMax: {x: -286.8522, y: 9.380574, z: 221.28539}
+    - coord: {x: -18, y: 13}
+      start: 116
+      count: 8
+      boundsMin: {x: -286.21048, y: 7.800184, z: 211.01874}
+      boundsMax: {x: -269.42395, y: 9.126642, z: 226.01286}
+    - coord: {x: -17, y: 13}
+      start: 124
+      count: 10
+      boundsMin: {x: -268.37302, y: 7.537559, z: 211.47267}
+      boundsMax: {x: -256.97424, y: 12.200709, z: 227.69504}
+    - coord: {x: -16, y: 13}
+      start: 134
+      count: 8
+      boundsMin: {x: -253.08624, y: 7.593134, z: 209.85422}
+      boundsMax: {x: -239.84067, y: 12.585997, z: 226.47964}
+    - coord: {x: -15, y: 13}
+      start: 142
+      count: 7
+      boundsMin: {x: -236.02094, y: 7.4654326, z: 210.70026}
+      boundsMax: {x: -224.72568, y: 12.366449, z: 225.166}
+    - coord: {x: -14, y: 13}
+      start: 149
+      count: 11
+      boundsMin: {x: -223.34592, y: 10.436823, z: 213.11555}
+      boundsMax: {x: -207.50284, y: 15.921372, z: 227.51584}
+    - coord: {x: -13, y: 13}
+      start: 160
+      count: 6
+      boundsMin: {x: -204.9037, y: 11.231149, z: 212.67937}
+      boundsMax: {x: -188.13019, y: 17.19161, z: 228.38072}
+    - coord: {x: -12, y: 13}
+      start: 166
+      count: 6
+      boundsMin: {x: -185.63359, y: 10.735725, z: 212.07236}
+      boundsMax: {x: -175.71059, y: 15.313024, z: 225.76979}
+    - coord: {x: -11, y: 13}
+      start: 172
+      count: 9
+      boundsMin: {x: -172.58646, y: 10.451286, z: 211.29807}
+      boundsMax: {x: -159.37215, y: 14.827854, z: 227.4833}
+    - coord: {x: -10, y: 13}
+      start: 181
+      count: 6
+      boundsMin: {x: -156.42493, y: 11.4824505, z: 209.84467}
+      boundsMax: {x: -143.00694, y: 13.457481, z: 228.10051}
+    - coord: {x: -9, y: 13}
+      start: 187
+      count: 6
+      boundsMin: {x: -143.36862, y: 10.624178, z: 210.51085}
+      boundsMax: {x: -134.81082, y: 12.599617, z: 228.241}
+    - coord: {x: -20, y: 14}
+      start: 193
+      count: 4
+      boundsMin: {x: -308.95758, y: 12.72414, z: 233.88246}
+      boundsMax: {x: -299.50232, y: 14.573924, z: 241.60765}
+    - coord: {x: -19, y: 14}
+      start: 197
+      count: 4
+      boundsMin: {x: -297.96143, y: 11.239665, z: 228.04182}
+      boundsMax: {x: -289.075, y: 14.760887, z: 241.17488}
+    - coord: {x: -18, y: 14}
+      start: 201
+      count: 8
+      boundsMin: {x: -286.37, y: 8.928745, z: 228.94083}
+      boundsMax: {x: -267.83325, y: 14.736098, z: 241.33504}
+    - coord: {x: -17, y: 14}
+      start: 209
+      count: 4
+      boundsMin: {x: -267.94284, y: 9.568141, z: 233.22032}
+      boundsMax: {x: -256.22797, y: 17.513733, z: 240.25089}
+    - coord: {x: -16, y: 14}
+      start: 213
+      count: 9
+      boundsMin: {x: -253.56989, y: 14.245976, z: 230.82466}
+      boundsMax: {x: -237.12213, y: 20.522509, z: 239.77457}
+    - coord: {x: -15, y: 14}
+      start: 222
+      count: 6
+      boundsMin: {x: -236.25539, y: 12.319838, z: 227.80565}
+      boundsMax: {x: -223.69699, y: 16.663473, z: 240.66461}
+    - coord: {x: -14, y: 14}
+      start: 228
+      count: 8
+      boundsMin: {x: -220.82922, y: 14.626729, z: 228.61664}
+      boundsMax: {x: -206.55423, y: 18.30823, z: 241.75084}
+    - coord: {x: -13, y: 14}
+      start: 236
+      count: 7
+      boundsMin: {x: -203.66907, y: 15.906488, z: 229.09007}
+      boundsMax: {x: -188.48256, y: 18.07375, z: 241.40097}
+    - coord: {x: -12, y: 14}
+      start: 243
+      count: 4
+      boundsMin: {x: -185.02763, y: 14.732721, z: 227.59142}
+      boundsMax: {x: -175.85568, y: 18.691425, z: 241.6434}
+    - coord: {x: -11, y: 14}
+      start: 247
+      count: 9
+      boundsMin: {x: -173.92392, y: 13.744692, z: 228.80563}
+      boundsMax: {x: -159.12926, y: 18.294855, z: 238.57043}
+    - coord: {x: -10, y: 14}
+      start: 256
+      count: 7
+      boundsMin: {x: -155.84167, y: 11.354988, z: 228.18787}
+      boundsMax: {x: -142.90643, y: 14.556165, z: 238.15706}
+    - coord: {x: -9, y: 14}
+      start: 263
+      count: 3
+      boundsMin: {x: -140.16486, y: 10.118227, z: 230.101}
+      boundsMax: {x: -134.3122, y: 12.56692, z: 241.46214}
+    - coord: {x: -20, y: 15}
+      start: 266
+      count: 5
+      boundsMin: {x: -307.37906, y: 15.083934, z: 248.44821}
+      boundsMax: {x: -299.53665, y: 16.87814, z: 257.40393}
+    - coord: {x: -19, y: 15}
+      start: 271
+      count: 6
+      boundsMin: {x: -299.4347, y: 14.910639, z: 245.44943}
+      boundsMax: {x: -286.0007, y: 16.898329, z: 256.13858}
+    - coord: {x: -18, y: 15}
+      start: 277
+      count: 11
+      boundsMin: {x: -283.7847, y: 12.460528, z: 242.09442}
+      boundsMax: {x: -269.68985, y: 16.951414, z: 259.32568}
+    - coord: {x: -17, y: 15}
+      start: 288
+      count: 7
+      boundsMin: {x: -267.67102, y: 11.558427, z: 245.3994}
+      boundsMax: {x: -257.15424, y: 18.325302, z: 259.48886}
+    - coord: {x: -16, y: 15}
+      start: 295
+      count: 13
+      boundsMin: {x: -253.90652, y: 11.646059, z: 241.92648}
+      boundsMax: {x: -237.23535, y: 21.010538, z: 259.2783}
+    - coord: {x: -15, y: 15}
+      start: 308
+      count: 7
+      boundsMin: {x: -236.18346, y: 10.750031, z: 244.4085}
+      boundsMax: {x: -226.70264, y: 17.750237, z: 258.89883}
+    - coord: {x: -14, y: 15}
+      start: 315
+      count: 11
+      boundsMin: {x: -222.2254, y: 8.284588, z: 241.5288}
+      boundsMax: {x: -206.11702, y: 18.221828, z: 259.04514}
+    - coord: {x: -13, y: 15}
+      start: 326
+      count: 11
+      boundsMin: {x: -202.7514, y: 8.698824, z: 241.63571}
+      boundsMax: {x: -187.8259, y: 18.25395, z: 257.80408}
+    - coord: {x: -12, y: 15}
+      start: 337
+      count: 7
+      boundsMin: {x: -186.88191, y: 14.96346, z: 242.90727}
+      boundsMax: {x: -176.60062, y: 18.720453, z: 253.48521}
+    - coord: {x: -11, y: 15}
+      start: 344
+      count: 8
+      boundsMin: {x: -173.0721, y: 12.721206, z: 243.07538}
+      boundsMax: {x: -157.62503, y: 18.53419, z: 258.3742}
+    - coord: {x: -10, y: 15}
+      start: 352
+      count: 7
+      boundsMin: {x: -155.1991, y: 10.78645, z: 241.38348}
+      boundsMax: {x: -142.8678, y: 16.52013, z: 259.6625}
+    - coord: {x: -9, y: 15}
+      start: 359
+      count: 6
+      boundsMin: {x: -141.66801, y: 10.621963, z: 244.4724}
+      boundsMax: {x: -135.9826, y: 13.470852, z: 258.76083}
+    - coord: {x: -20, y: 16}
+      start: 365
+      count: 4
+      boundsMin: {x: -307.9065, y: 8.725759, z: 264.2823}
+      boundsMax: {x: -300.81622, y: 11.380208, z: 271.70325}
+    - coord: {x: -19, y: 16}
+      start: 369
+      count: 6
+      boundsMin: {x: -298.3392, y: 8.986023, z: 262.1059}
+      boundsMax: {x: -286.59665, y: 15.452154, z: 273.23624}
+    - coord: {x: -18, y: 16}
+      start: 375
+      count: 7
+      boundsMin: {x: -286.36063, y: 12.897642, z: 259.17755}
+      boundsMax: {x: -269.05518, y: 17.411642, z: 272.2075}
+    - coord: {x: -17, y: 16}
+      start: 382
+      count: 3
+      boundsMin: {x: -266.95752, y: 11.9859, z: 260.97137}
+      boundsMax: {x: -261.2698, y: 16.53314, z: 271.09515}
+    - coord: {x: -16, y: 16}
+      start: 385
+      count: 2
+      boundsMin: {x: -248.27141, y: 7.824494, z: 266.1413}
+      boundsMax: {x: -239.48778, y: 10.628423, z: 267.55023}
+    - coord: {x: -15, y: 16}
+      start: 387
+      count: 6
+      boundsMin: {x: -235.64476, y: 7.423434, z: 260.92383}
+      boundsMax: {x: -224.52612, y: 8.942445, z: 269.3257}
+    - coord: {x: -14, y: 16}
+      start: 393
+      count: 5
+      boundsMin: {x: -223.97537, y: 7.543111, z: 259.029}
+      boundsMax: {x: -207.51347, y: 8.804365, z: 270.48224}
+    - coord: {x: -13, y: 16}
+      start: 398
+      count: 4
+      boundsMin: {x: -205.18518, y: 7.5702777, z: 260.17432}
+      boundsMax: {x: -190.93164, y: 8.750647, z: 266.64703}
+    - coord: {x: -12, y: 16}
+      start: 402
+      count: 4
+      boundsMin: {x: -186.0705, y: 8.0531845, z: 260.00964}
+      boundsMax: {x: -174.87244, y: 9.891264, z: 264.48468}
+    - coord: {x: -11, y: 16}
+      start: 406
+      count: 6
+      boundsMin: {x: -173.6998, y: 8.450713, z: 259.5801}
+      boundsMax: {x: -160.24106, y: 12.465901, z: 269.55576}
+    - coord: {x: -10, y: 16}
+      start: 412
+      count: 5
+      boundsMin: {x: -154.53317, y: 10.468142, z: 259.50766}
+      boundsMax: {x: -142.8913, y: 12.293333, z: 272.5531}
+    - coord: {x: -9, y: 16}
+      start: 417
+      count: 5
+      boundsMin: {x: -142.81133, y: 10.2023735, z: 261.66718}
+      boundsMax: {x: -134.83485, y: 11.481935, z: 271.90134}
+    - coord: {x: -20, y: 17}
+      start: 422
+      count: 5
+      boundsMin: {x: -307.25464, y: 8.26228, z: 274.57922}
+      boundsMax: {x: -300.5925, y: 10.994242, z: 285.91068}
+    - coord: {x: -19, y: 17}
+      start: 427
+      count: 7
+      boundsMin: {x: -298.3121, y: 10.39887, z: 272.79755}
+      boundsMax: {x: -288.69217, y: 15.185774, z: 289.3143}
+    - coord: {x: -18, y: 17}
+      start: 434
+      count: 11
+      boundsMin: {x: -285.95157, y: 8.939772, z: 274.44406}
+      boundsMax: {x: -268.71808, y: 17.201206, z: 288.93866}
+    - coord: {x: -17, y: 17}
+      start: 445
+      count: 5
+      boundsMin: {x: -267.37317, y: 7.0562873, z: 274.73007}
+      boundsMax: {x: -257.1086, y: 10.176356, z: 288.9468}
+    - coord: {x: -16, y: 17}
+      start: 450
+      count: 1
+      boundsMin: {x: -246.7301, y: 6.986477, z: 273.7309}
+      boundsMax: {x: -245.73938, y: 7.977187, z: 274.72162}
+    - coord: {x: -11, y: 17}
+      start: 451
+      count: 4
+      boundsMin: {x: -166.02087, y: 9.423285, z: 272.68677}
+      boundsMax: {x: -159.25562, y: 12.563232, z: 278.2881}
+    - coord: {x: -10, y: 17}
+      start: 455
+      count: 6
+      boundsMin: {x: -155.98462, y: 7.4610777, z: 274.22394}
+      boundsMax: {x: -143.6372, y: 12.272867, z: 286.1778}
+    - coord: {x: -9, y: 17}
+      start: 461
+      count: 5
+      boundsMin: {x: -142.40692, y: 8.115866, z: 273.0878}
+      boundsMax: {x: -135.1422, y: 11.553203, z: 288.5532}
+    - coord: {x: -20, y: 18}
+      start: 466
+      count: 2
+      boundsMin: {x: -306.8855, y: 12.373552, z: 295.82916}
+      boundsMax: {x: -302.12796, y: 14.388046, z: 303.44724}
+    - coord: {x: -19, y: 18}
+      start: 468
+      count: 5
+      boundsMin: {x: -296.43042, y: 15.555135, z: 296.36557}
+      boundsMax: {x: -288.4429, y: 17.078672, z: 303.13486}
+    - coord: {x: -18, y: 18}
+      start: 473
+      count: 4
+      boundsMin: {x: -286.06854, y: 12.094693, z: 291.98074}
+      boundsMax: {x: -279.50458, y: 16.128914, z: 300.14127}
+    - coord: {x: -11, y: 18}
+      start: 477
+      count: 2
+      boundsMin: {x: -164.76555, y: 6.0100336, z: 296.12363}
+      boundsMax: {x: -158.31728, y: 8.901045, z: 300.93597}
+    - coord: {x: -10, y: 18}
+      start: 479
+      count: 1
+      boundsMin: {x: -153.86105, y: 8.103121, z: 299.67117}
+      boundsMax: {x: -152.75488, y: 9.20928, z: 300.7773}
+    - coord: {x: -9, y: 18}
+      start: 480
+      count: 3
+      boundsMin: {x: -140.94948, y: 8.142073, z: 291.64334}
+      boundsMax: {x: -136.12224, y: 9.125517, z: 303.6109}
+    - coord: {x: -20, y: 19}
+      start: 483
+      count: 5
+      boundsMin: {x: -308.5111, y: 14.721424, z: 305.12943}
+      boundsMax: {x: -299.68085, y: 17.638426, z: 315.36926}
+    - coord: {x: -19, y: 19}
+      start: 488
+      count: 7
+      boundsMin: {x: -299.75543, y: 12.081548, z: 305.3155}
+      boundsMax: {x: -288.15198, y: 17.674799, z: 319.80667}
+    - coord: {x: -11, y: 19}
+      start: 495
+      count: 7
+      boundsMin: {x: -167.57243, y: 7.7993326, z: 304.6944}
+      boundsMax: {x: -157.58629, y: 11.347934, z: 322.13293}
+    - coord: {x: -10, y: 19}
+      start: 502
+      count: 4
+      boundsMin: {x: -154.08626, y: 7.8641844, z: 305.1768}
+      boundsMax: {x: -144.26292, y: 11.147442, z: 316.09857}
+    - coord: {x: -9, y: 19}
+      start: 506
+      count: 4
+      boundsMin: {x: -141.73523, y: 9.322112, z: 309.6655}
+      boundsMax: {x: -135.00903, y: 10.915383, z: 318.7813}
+    - coord: {x: -20, y: 20}
+      start: 510
+      count: 2
+      boundsMin: {x: -308.4512, y: 12.542955, z: 321.94458}
+      boundsMax: {x: -302.09653, y: 16.580362, z: 329.57623}
+    - coord: {x: -19, y: 20}
+      start: 512
+      count: 8
+      boundsMin: {x: -299.43246, y: 11.204842, z: 322.1265}
+      boundsMax: {x: -286.33792, y: 16.656158, z: 339.3008}
+    - coord: {x: -18, y: 20}
+      start: 520
+      count: 9
+      boundsMin: {x: -286.0712, y: 6.622607, z: 326.31763}
+      boundsMax: {x: -269.37296, y: 12.288576, z: 338.60593}
+    - coord: {x: -17, y: 20}
+      start: 529
+      count: 3
+      boundsMin: {x: -266.703, y: 10.707909, z: 337.40155}
+      boundsMax: {x: -254.90886, y: 12.763137, z: 339.59927}
+    - coord: {x: -16, y: 20}
+      start: 532
+      count: 2
+      boundsMin: {x: -244.76967, y: 8.32829, z: 334.34305}
+      boundsMax: {x: -242.21658, y: 12.332431, z: 339.3062}
+    - coord: {x: -14, y: 20}
+      start: 534
+      count: 4
+      boundsMin: {x: -220.92981, y: 5.862532, z: 332.8514}
+      boundsMax: {x: -207.7707, y: 6.98723, z: 338.4311}
+    - coord: {x: -13, y: 20}
+      start: 538
+      count: 2
+      boundsMin: {x: -203.39919, y: 6.0542994, z: 335.99042}
+      boundsMax: {x: -197.48134, y: 7.2614837, z: 338.82867}
+    - coord: {x: -12, y: 20}
+      start: 540
+      count: 3
+      boundsMin: {x: -181.08315, y: 5.9871206, z: 323.44336}
+      boundsMax: {x: -177.69437, y: 8.579832, z: 337.30444}
+    - coord: {x: -11, y: 20}
+      start: 543
+      count: 7
+      boundsMin: {x: -172.01193, y: 7.626992, z: 322.79507}
+      boundsMax: {x: -157.27649, y: 12.266458, z: 338.58923}
+    - coord: {x: -10, y: 20}
+      start: 550
+      count: 7
+      boundsMin: {x: -152.74284, y: 9.874423, z: 323.62726}
+      boundsMax: {x: -143.29727, y: 11.309392, z: 339.15152}
+    - coord: {x: -20, y: 21}
+      start: 557
+      count: 3
+      boundsMin: {x: -307.39096, y: 9.641011, z: 341.31012}
+      boundsMax: {x: -302.5588, y: 11.818631, z: 344.67065}
+    - coord: {x: -19, y: 21}
+      start: 560
+      count: 2
+      boundsMin: {x: -293.0931, y: 9.157549, z: 343.40225}
+      boundsMax: {x: -289.65506, y: 10.121968, z: 344.93765}
+    - coord: {x: -18, y: 21}
+      start: 562
+      count: 3
+      boundsMin: {x: -281.864, y: 9.6298895, z: 340.1978}
+      boundsMax: {x: -269.69586, y: 12.657253, z: 344.62683}
+    - coord: {x: -17, y: 21}
+      start: 565
+      count: 4
+      boundsMin: {x: -266.94278, y: 9.344413, z: 340.0151}
+      boundsMax: {x: -257.9074, y: 12.789636, z: 345.02042}
+    - coord: {x: -16, y: 21}
+      start: 569
+      count: 4
+      boundsMin: {x: -253.86137, y: 7.2704244, z: 341.75214}
+      boundsMax: {x: -240.13748, y: 11.687573, z: 347.7231}
+    - coord: {x: -11, y: 21}
+      start: 573
+      count: 4
+      boundsMin: {x: -171.88182, y: 7.3061266, z: 339.41837}
+      boundsMax: {x: -160.9762, y: 11.536692, z: 347.83746}
+    - coord: {x: -10, y: 21}
+      start: 577
+      count: 2
+      boundsMin: {x: -148.07062, y: 7.7418876, z: 342.50626}
+      boundsMax: {x: -146.60873, y: 10.634799, z: 347.02942}
+    - coord: {x: -9, y: 21}
+      start: 579
+      count: 2
+      boundsMin: {x: -139.83853, y: 10.09476, z: 340.35092}
+      boundsMax: {x: -136.10213, y: 11.415685, z: 343.5337}
+    - coord: {x: -20, y: 22}
+      start: 581
+      count: 4
+      boundsMin: {x: -308.92368, y: 8.640171, z: 358.50134}
+      boundsMax: {x: -300.54782, y: 15.055991, z: 371.46198}
+    - coord: {x: -19, y: 22}
+      start: 585
+      count: 5
+      boundsMin: {x: -299.5055, y: 7.463839, z: 357.6308}
+      boundsMax: {x: -286.20847, y: 14.416454, z: 370.28036}
+    - coord: {x: -18, y: 22}
+      start: 590
+      count: 3
+      boundsMin: {x: -280.4, y: 7.631715, z: 363.12314}
+      boundsMax: {x: -268.22372, y: 8.642027, z: 370.83008}
+    - coord: {x: -17, y: 22}
+      start: 593
+      count: 1
+      boundsMin: {x: -263.25372, y: 7.7024355, z: 370.39413}
+      boundsMax: {x: -262.48102, y: 8.475131, z: 371.16684}
+    - coord: {x: -16, y: 22}
+      start: 594
+      count: 5
+      boundsMin: {x: -247.59619, y: 7.3930836, z: 361.4943}
+      boundsMax: {x: -237.70294, y: 8.590206, z: 369.97293}
+    - coord: {x: -15, y: 22}
+      start: 599
+      count: 3
+      boundsMin: {x: -236.57776, y: 7.5646305, z: 356.8502}
+      boundsMax: {x: -232.74786, y: 8.410194, z: 367.5729}
+    - coord: {x: -14, y: 22}
+      start: 602
+      count: 7
+      boundsMin: {x: -222.47603, y: 7.304499, z: 356.2184}
+      boundsMax: {x: -205.66634, y: 8.776421, z: 371.2696}
+    - coord: {x: -13, y: 22}
+      start: 609
+      count: 9
+      boundsMin: {x: -204.21722, y: 7.5155015, z: 358.8175}
+      boundsMax: {x: -187.78581, y: 8.626307, z: 371.03397}
+    - coord: {x: -12, y: 22}
+      start: 618
+      count: 3
+      boundsMin: {x: -185.77478, y: 7.5885587, z: 362.6778}
+      boundsMax: {x: -176.44092, y: 8.605301, z: 366.12387}
+    - coord: {x: -11, y: 22}
+      start: 621
+      count: 5
+      boundsMin: {x: -173.29213, y: 7.740598, z: 362.7446}
+      boundsMax: {x: -156.68053, y: 11.303253, z: 370.93304}
+    - coord: {x: -10, y: 22}
+      start: 626
+      count: 5
+      boundsMin: {x: -154.62161, y: 7.7997484, z: 356.349}
+      boundsMax: {x: -143.17027, y: 11.79828, z: 369.80145}
+    - coord: {x: -9, y: 22}
+      start: 631
+      count: 1
+      boundsMin: {x: -143.29768, y: 7.5624723, z: 356.7767}
+      boundsMax: {x: -142.40181, y: 8.458356, z: 357.67258}
+    - coord: {x: -20, y: 23}
+      start: 632
+      count: 3
+      boundsMin: {x: -308.1753, y: 10.256768, z: 371.6697}
+      boundsMax: {x: -300.60153, y: 15.0623455, z: 379.63513}
+    - coord: {x: -19, y: 23}
+      start: 635
+      count: 4
+      boundsMin: {x: -297.36633, y: 7.5159254, z: 371.21164}
+      boundsMax: {x: -286.89127, y: 11.589184, z: 377.83057}
+    - coord: {x: -18, y: 23}
+      start: 639
+      count: 4
+      boundsMin: {x: -280.51526, y: 7.440738, z: 372.6472}
+      boundsMax: {x: -268.63168, y: 8.6320505, z: 378.72128}
+    - coord: {x: -17, y: 23}
+      start: 643
+      count: 3
+      boundsMin: {x: -266.1523, y: 7.595579, z: 372.3189}
+      boundsMax: {x: -257.87662, y: 8.495763, z: 376.61057}
+    - coord: {x: -16, y: 23}
+      start: 646
+      count: 5
+      boundsMin: {x: -255.12233, y: 7.417345, z: 371.2492}
+      boundsMax: {x: -236.73782, y: 8.589214, z: 376.41205}
+    - coord: {x: -15, y: 23}
+      start: 651
+      count: 4
+      boundsMin: {x: -236.02705, y: 7.4529243, z: 371.5023}
+      boundsMax: {x: -226.29079, y: 8.449713, z: 377.39438}
+    - coord: {x: -14, y: 23}
+      start: 655
+      count: 2
+      boundsMin: {x: -222.8561, y: 7.7374253, z: 373.05322}
+      boundsMax: {x: -215.95966, y: 8.495074, z: 377.512}
+    - coord: {x: -13, y: 23}
+      start: 657
+      count: 3
+      boundsMin: {x: -202.74849, y: 7.462734, z: 371.83987}
+      boundsMax: {x: -196.4533, y: 8.459051, z: 377.57434}
+    - coord: {x: -12, y: 23}
+      start: 660
+      count: 4
+      boundsMin: {x: -185.53409, y: 7.5962257, z: 371.45328}
+      boundsMax: {x: -177.6295, y: 8.591021, z: 377.2972}
+    - coord: {x: -11, y: 23}
+      start: 664
+      count: 6
+      boundsMin: {x: -174.80267, y: 7.515381, z: 371.59058}
+      boundsMax: {x: -158.4311, y: 11.048895, z: 379.42163}
+    - coord: {x: -10, y: 23}
+      start: 670
+      count: 3
+      boundsMin: {x: -153.74788, y: 8.204346, z: 375.34955}
+      boundsMax: {x: -145.06224, y: 10.120505, z: 379.76276}
+    - coord: {x: -9, y: 23}
+      start: 673
+      count: 3
+      boundsMin: {x: -142.71855, y: 7.718217, z: 372.7063}
+      boundsMax: {x: -134.9191, y: 9.376659, z: 378.41785}
+  - layer: {fileID: 11400000, guid: 5da4eca006d50da4dadc6aaa3d1e7cc8, type: 2}
+    instanceStart: 4520
+    instanceCount: 218
+    chunks:
+    - coord: {x: -20, y: 11}
+      start: 0
+      count: 1
+      boundsMin: {x: -305.1137, y: 8.047962, z: 193.74084}
+      boundsMax: {x: -302.9839, y: 10.1777935, z: 195.87067}
+    - coord: {x: -19, y: 11}
+      start: 1
+      count: 1
+      boundsMin: {x: -297.26584, y: 7.9906554, z: 191.66954}
+      boundsMax: {x: -295.22568, y: 10.030792, z: 193.70967}
+    - coord: {x: -18, y: 11}
+      start: 2
+      count: 2
+      boundsMin: {x: -280.949, y: 7.46722, z: 191.81451}
+      boundsMax: {x: -274.12286, y: 9.58827, z: 193.93558}
+    - coord: {x: -17, y: 11}
+      start: 4
+      count: 1
+      boundsMin: {x: -257.56012, y: 6.6659074, z: 193.7808}
+      boundsMax: {x: -254.82799, y: 9.3980465, z: 196.51295}
+    - coord: {x: -16, y: 11}
+      start: 5
+      count: 2
+      boundsMin: {x: -250.35004, y: 6.630447, z: 186.79933}
+      boundsMax: {x: -239.0884, y: 9.458056, z: 193.16917}
+    - coord: {x: -15, y: 11}
+      start: 7
+      count: 2
+      boundsMin: {x: -234.59108, y: 6.8121433, z: 193.1481}
+      boundsMax: {x: -221.27176, y: 8.997663, z: 195.38547}
+    - coord: {x: -14, y: 11}
+      start: 9
+      count: 1
+      boundsMin: {x: -217.4954, y: 6.5403123, z: 189.81137}
+      boundsMax: {x: -214.7119, y: 9.323829, z: 192.59488}
+    - coord: {x: -20, y: 12}
+      start: 10
+      count: 2
+      boundsMin: {x: -308.41077, y: 7.760664, z: 195.5376}
+      boundsMax: {x: -304.53574, y: 10.451096, z: 212.12843}
+    - coord: {x: -19, y: 12}
+      start: 12
+      count: 4
+      boundsMin: {x: -302.66125, y: 7.7582793, z: 199.03738}
+      boundsMax: {x: -289.54138, y: 10.280456, z: 212.56952}
+    - coord: {x: -18, y: 12}
+      start: 16
+      count: 2
+      boundsMin: {x: -283.94446, y: 7.277199, z: 204.43881}
+      boundsMax: {x: -275.21335, y: 9.511772, z: 211.66676}
+    - coord: {x: -17, y: 12}
+      start: 18
+      count: 2
+      boundsMin: {x: -269.53705, y: 6.7876472, z: 196.27913}
+      boundsMax: {x: -257.8937, y: 9.563308, z: 205.40416}
+    - coord: {x: -16, y: 12}
+      start: 20
+      count: 1
+      boundsMin: {x: -246.03012, y: 7.3432083, z: 199.74434}
+      boundsMax: {x: -244.56854, y: 8.804796, z: 201.20592}
+    - coord: {x: -15, y: 12}
+      start: 21
+      count: 4
+      boundsMin: {x: -235.29594, y: 7.0812106, z: 196.08559}
+      boundsMax: {x: -221.67859, y: 10.343715, z: 210.98466}
+    - coord: {x: -14, y: 12}
+      start: 25
+      count: 3
+      boundsMin: {x: -218.37614, y: 6.981267, z: 201.03317}
+      boundsMax: {x: -206.25943, y: 12.309144, z: 210.9202}
+    - coord: {x: -13, y: 12}
+      start: 28
+      count: 3
+      boundsMin: {x: -201.09123, y: 6.9627213, z: 199.3937}
+      boundsMax: {x: -187.23042, y: 11.837933, z: 212.07196}
+    - coord: {x: -12, y: 12}
+      start: 31
+      count: 2
+      boundsMin: {x: -183.16508, y: 7.9313393, z: 205.25992}
+      boundsMax: {x: -171.09935, y: 10.224493, z: 209.30832}
+    - coord: {x: -11, y: 12}
+      start: 33
+      count: 3
+      boundsMin: {x: -164.51578, y: 10.277895, z: 197.03027}
+      boundsMax: {x: -157.82887, y: 13.395842, z: 212.57382}
+    - coord: {x: -10, y: 12}
+      start: 36
+      count: 2
+      boundsMin: {x: -144.33878, y: 10.199061, z: 195.11662}
+      boundsMax: {x: -140.74924, y: 12.329603, z: 208.74435}
+    - coord: {x: -9, y: 12}
+      start: 38
+      count: 1
+      boundsMin: {x: -132.3171, y: 8.909279, z: 198.28072}
+      boundsMax: {x: -130.5164, y: 10.709982, z: 200.0814}
+    - coord: {x: -19, y: 13}
+      start: 39
+      count: 3
+      boundsMin: {x: -298.8516, y: 7.555068, z: 215.17166}
+      boundsMax: {x: -285.13858, y: 10.458452, z: 222.55421}
+    - coord: {x: -18, y: 13}
+      start: 42
+      count: 1
+      boundsMin: {x: -284.12552, y: 8.10442, z: 221.49458}
+      boundsMax: {x: -281.83255, y: 10.3973675, z: 223.78752}
+    - coord: {x: -17, y: 13}
+      start: 43
+      count: 2
+      boundsMin: {x: -267.9018, y: 7.460872, z: 214.73929}
+      boundsMax: {x: -259.61514, y: 11.59462, z: 224.74246}
+    - coord: {x: -16, y: 13}
+      start: 45
+      count: 2
+      boundsMin: {x: -251.41924, y: 7.043047, z: 212.18355}
+      boundsMax: {x: -240.09723, y: 10.847424, z: 220.44476}
+    - coord: {x: -15, y: 13}
+      start: 47
+      count: 1
+      boundsMin: {x: -229.95815, y: 11.069988, z: 226.1344}
+      boundsMax: {x: -227.66454, y: 13.3635845, z: 228.42801}
+    - coord: {x: -14, y: 13}
+      start: 48
+      count: 3
+      boundsMin: {x: -220.04309, y: 10.756472, z: 212.00354}
+      boundsMax: {x: -205.8713, y: 16.699774, z: 226.70677}
+    - coord: {x: -13, y: 13}
+      start: 51
+      count: 3
+      boundsMin: {x: -200.78125, y: 12.709359, z: 218.25388}
+      boundsMax: {x: -191.97443, y: 16.423822, z: 227.36967}
+    - coord: {x: -12, y: 13}
+      start: 54
+      count: 4
+      boundsMin: {x: -184.76526, y: 10.129199, z: 211.50691}
+      boundsMax: {x: -171.9402, y: 15.85099, z: 227.49261}
+    - coord: {x: -11, y: 13}
+      start: 58
+      count: 3
+      boundsMin: {x: -164.75015, y: 10.826649, z: 211.60526}
+      boundsMax: {x: -160.30247, y: 13.588181, z: 225.31757}
+    - coord: {x: -10, y: 13}
+      start: 61
+      count: 2
+      boundsMin: {x: -146.96335, y: 10.961825, z: 217.04807}
+      boundsMax: {x: -144.62106, y: 12.992585, z: 227.67207}
+    - coord: {x: -19, y: 14}
+      start: 63
+      count: 3
+      boundsMin: {x: -295.67023, y: 10.523782, z: 227.63239}
+      boundsMax: {x: -286.19406, y: 15.941152, z: 244.78564}
+    - coord: {x: -18, y: 14}
+      start: 66
+      count: 2
+      boundsMin: {x: -285.83798, y: 11.255511, z: 230.69188}
+      boundsMax: {x: -280.25482, y: 15.883326, z: 245.33508}
+    - coord: {x: -17, y: 14}
+      start: 68
+      count: 3
+      boundsMin: {x: -266.39413, y: 9.839836, z: 229.88574}
+      boundsMax: {x: -252.29318, y: 21.319756, z: 241.39642}
+    - coord: {x: -16, y: 14}
+      start: 71
+      count: 1
+      boundsMin: {x: -243.27626, y: 17.523016, z: 244.0323}
+      boundsMax: {x: -241.82927, y: 18.970018, z: 245.4793}
+    - coord: {x: -15, y: 14}
+      start: 72
+      count: 2
+      boundsMin: {x: -232.51562, y: 12.236275, z: 228.14485}
+      boundsMax: {x: -223.82011, y: 15.5924, z: 237.6334}
+    - coord: {x: -14, y: 14}
+      start: 74
+      count: 2
+      boundsMin: {x: -214.28694, y: 16.510124, z: 238.82991}
+      boundsMax: {x: -208.40474, y: 19.20745, z: 241.52724}
+    - coord: {x: -13, y: 14}
+      start: 76
+      count: 2
+      boundsMin: {x: -203.46213, y: 16.35738, z: 238.77808}
+      boundsMax: {x: -190.28906, y: 18.588425, z: 244.26796}
+    - coord: {x: -12, y: 14}
+      start: 78
+      count: 2
+      boundsMin: {x: -186.90868, y: 14.873064, z: 229.01836}
+      boundsMax: {x: -179.18437, y: 19.24224, z: 244.6297}
+    - coord: {x: -11, y: 14}
+      start: 80
+      count: 3
+      boundsMin: {x: -167.03476, y: 12.171347, z: 228.2888}
+      boundsMax: {x: -154.34425, y: 17.380201, z: 245.42976}
+    - coord: {x: -10, y: 14}
+      start: 83
+      count: 4
+      boundsMin: {x: -156.48439, y: 10.51212, z: 230.1463}
+      boundsMax: {x: -140.67935, y: 16.23359, z: 245.52354}
+    - coord: {x: -20, y: 15}
+      start: 87
+      count: 2
+      boundsMin: {x: -308.13876, y: 13.790096, z: 248.38861}
+      boundsMax: {x: -303.838, y: 16.432838, z: 260.4557}
+    - coord: {x: -19, y: 15}
+      start: 89
+      count: 4
+      boundsMin: {x: -301.42316, y: 14.390071, z: 244.82957}
+      boundsMax: {x: -284.68198, y: 17.622635, z: 260.38934}
+    - coord: {x: -18, y: 15}
+      start: 93
+      count: 3
+      boundsMin: {x: -282.94568, y: 12.836828, z: 244.29596}
+      boundsMax: {x: -273.4697, y: 17.574657, z: 257.11053}
+    - coord: {x: -17, y: 15}
+      start: 96
+      count: 4
+      boundsMin: {x: -269.0776, y: 11.135256, z: 248.6133}
+      boundsMax: {x: -252.53964, y: 18.989555, z: 259.7085}
+    - coord: {x: -16, y: 15}
+      start: 100
+      count: 3
+      boundsMin: {x: -253.05803, y: 12.187838, z: 243.71664}
+      boundsMax: {x: -240.85838, y: 19.591146, z: 259.5124}
+    - coord: {x: -15, y: 15}
+      start: 103
+      count: 1
+      boundsMin: {x: -228.26501, y: 15.602977, z: 245.54826}
+      boundsMax: {x: -225.70096, y: 18.167036, z: 248.11232}
+    - coord: {x: -14, y: 15}
+      start: 104
+      count: 2
+      boundsMin: {x: -221.8345, y: 15.381086, z: 245.37964}
+      boundsMax: {x: -211.08153, y: 18.218107, z: 251.10213}
+    - coord: {x: -13, y: 15}
+      start: 106
+      count: 4
+      boundsMin: {x: -200.53099, y: 10.34977, z: 245.82724}
+      boundsMax: {x: -187.55075, y: 18.995338, z: 255.1559}
+    - coord: {x: -12, y: 15}
+      start: 110
+      count: 2
+      boundsMin: {x: -181.52864, y: 13.671712, z: 252.17308}
+      boundsMax: {x: -179.25175, y: 16.35511, z: 255.19954}
+    - coord: {x: -11, y: 15}
+      start: 112
+      count: 2
+      boundsMin: {x: -165.3671, y: 13.411288, z: 246.0682}
+      boundsMax: {x: -158.43443, y: 17.909643, z: 256.84982}
+    - coord: {x: -10, y: 15}
+      start: 114
+      count: 2
+      boundsMin: {x: -156.0713, y: 12.465704, z: 249.11905}
+      boundsMax: {x: -140.29382, y: 16.723839, z: 253.63419}
+    - coord: {x: -9, y: 15}
+      start: 116
+      count: 2
+      boundsMin: {x: -133.37337, y: 9.816695, z: 249.9333}
+      boundsMax: {x: -129.779, y: 12.960055, z: 259.7696}
+    - coord: {x: -20, y: 16}
+      start: 118
+      count: 1
+      boundsMin: {x: -311.40073, y: 7.5453787, z: 271.81567}
+      boundsMax: {x: -308.88455, y: 10.061551, z: 274.33185}
+    - coord: {x: -19, y: 16}
+      start: 119
+      count: 2
+      boundsMin: {x: -297.46243, y: 9.60655, z: 267.65472}
+      boundsMax: {x: -288.985, y: 14.048717, z: 276.69678}
+    - coord: {x: -18, y: 16}
+      start: 121
+      count: 1
+      boundsMin: {x: -283.78366, y: 14.911095, z: 267.16147}
+      boundsMax: {x: -282.2006, y: 16.494133, z: 268.74454}
+    - coord: {x: -17, y: 16}
+      start: 122
+      count: 3
+      boundsMin: {x: -267.5897, y: 8.368832, z: 265.7221}
+      boundsMax: {x: -254.87756, y: 16.04402, z: 276.8807}
+    - coord: {x: -16, y: 16}
+      start: 125
+      count: 2
+      boundsMin: {x: -247.53377, y: 7.1417656, z: 264.12167}
+      boundsMax: {x: -242.48767, y: 10.278434, z: 267.62878}
+    - coord: {x: -15, y: 16}
+      start: 127
+      count: 1
+      boundsMin: {x: -234.27538, y: 7.754873, z: 262.7994}
+      boundsMax: {x: -232.6862, y: 9.344051, z: 264.38858}
+    - coord: {x: -14, y: 16}
+      start: 128
+      count: 2
+      boundsMin: {x: -221.29883, y: 6.881797, z: 261.71576}
+      boundsMax: {x: -209.75246, y: 9.461937, z: 264.96747}
+    - coord: {x: -13, y: 16}
+      start: 130
+      count: 1
+      boundsMin: {x: -198.35443, y: 6.617089, z: 260.34814}
+      boundsMax: {x: -195.67813, y: 9.29339, z: 263.02448}
+    - coord: {x: -11, y: 16}
+      start: 131
+      count: 2
+      boundsMin: {x: -163.46289, y: 8.820875, z: 267.3256}
+      boundsMax: {x: -160.65723, y: 12.21192, z: 278.7033}
+    - coord: {x: -10, y: 16}
+      start: 133
+      count: 1
+      boundsMin: {x: -154.83441, y: 10.169122, z: 273.17694}
+      boundsMax: {x: -153.2749, y: 11.72862, z: 274.73645}
+    - coord: {x: -9, y: 16}
+      start: 134
+      count: 2
+      boundsMin: {x: -134.28238, y: 9.353477, z: 260.64377}
+      boundsMax: {x: -129.6149, y: 12.12039, z: 275.3684}
+    - coord: {x: -20, y: 17}
+      start: 136
+      count: 1
+      boundsMin: {x: -309.32382, y: 7.651355, z: 278.10242}
+      boundsMax: {x: -307.37607, y: 9.599118, z: 280.05017}
+    - coord: {x: -19, y: 17}
+      start: 137
+      count: 2
+      boundsMin: {x: -301.668, y: 7.8895993, z: 277.14417}
+      boundsMax: {x: -298.6262, y: 13.904021, z: 294.4836}
+    - coord: {x: -18, y: 17}
+      start: 139
+      count: 4
+      boundsMin: {x: -282.90448, y: 11.166993, z: 276.7634}
+      boundsMax: {x: -276.05157, y: 17.801153, z: 294.48227}
+    - coord: {x: -17, y: 17}
+      start: 143
+      count: 2
+      boundsMin: {x: -264.1112, y: 6.803686, z: 280.66843}
+      boundsMax: {x: -255.10582, y: 9.464639, z: 283.71268}
+    - coord: {x: -11, y: 17}
+      start: 145
+      count: 2
+      boundsMin: {x: -157.2331, y: 6.3691716, z: 282.35965}
+      boundsMax: {x: -154.61992, y: 9.316928, z: 287.38977}
+    - coord: {x: -10, y: 17}
+      start: 147
+      count: 1
+      boundsMin: {x: -155.38399, y: 5.9723716, z: 286.678}
+      boundsMax: {x: -153.55531, y: 7.8010554, z: 288.50668}
+    - coord: {x: -9, y: 17}
+      start: 148
+      count: 2
+      boundsMin: {x: -139.46202, y: 6.8304143, z: 279.199}
+      boundsMax: {x: -130.66284, y: 9.899525, z: 291.07785}
+    - coord: {x: -19, y: 18}
+      start: 150
+      count: 4
+      boundsMin: {x: -300.74094, y: 13.5894165, z: 295.56042}
+      boundsMax: {x: -291.08658, y: 18.654951, z: 310.64526}
+    - coord: {x: -11, y: 18}
+      start: 154
+      count: 2
+      boundsMin: {x: -168.78346, y: 6.9907904, z: 298.53873}
+      boundsMax: {x: -157.4349, y: 9.726699, z: 309.5029}
+    - coord: {x: -10, y: 18}
+      start: 156
+      count: 2
+      boundsMin: {x: -149.2547, y: 7.494853, z: 295.75592}
+      boundsMax: {x: -140.17374, y: 9.931354, z: 301.96356}
+    - coord: {x: -20, y: 19}
+      start: 158
+      count: 1
+      boundsMin: {x: -303.22607, y: 12.12415, z: 321.02222}
+      boundsMax: {x: -301.3396, y: 14.01064, z: 322.9087}
+    - coord: {x: -19, y: 19}
+      start: 159
+      count: 2
+      boundsMin: {x: -299.34976, y: 11.748202, z: 311.16672}
+      boundsMax: {x: -297.0103, y: 18.069342, z: 326.5802}
+    - coord: {x: -18, y: 19}
+      start: 161
+      count: 2
+      boundsMin: {x: -279.17236, y: 7.3031464, z: 313.4428}
+      boundsMax: {x: -276.0937, y: 10.011038, z: 327.02637}
+    - coord: {x: -11, y: 19}
+      start: 163
+      count: 2
+      boundsMin: {x: -165.09265, y: 9.475088, z: 313.19833}
+      boundsMax: {x: -161.07661, y: 12.96104, z: 327.67255}
+    - coord: {x: -20, y: 20}
+      start: 165
+      count: 1
+      boundsMin: {x: -304.48557, y: 13.321144, z: 325.964}
+      boundsMax: {x: -302.5945, y: 15.212187, z: 327.85504}
+    - coord: {x: -19, y: 20}
+      start: 166
+      count: 2
+      boundsMin: {x: -300.82544, y: 11.88907, z: 331.9216}
+      boundsMax: {x: -286.65155, y: 17.605448, z: 334.94382}
+    - coord: {x: -18, y: 20}
+      start: 168
+      count: 4
+      boundsMin: {x: -281.42487, y: 7.1904783, z: 325.554}
+      boundsMax: {x: -270.3147, y: 13.566585, z: 340.26538}
+    - coord: {x: -17, y: 20}
+      start: 172
+      count: 2
+      boundsMin: {x: -264.12476, y: 9.912605, z: 336.51065}
+      boundsMax: {x: -255.09903, y: 13.248043, z: 340.05548}
+    - coord: {x: -16, y: 20}
+      start: 174
+      count: 1
+      boundsMin: {x: -253.23009, y: 11.446287, z: 338.59985}
+      boundsMax: {x: -251.29326, y: 13.383125, z: 340.53668}
+    - coord: {x: -14, y: 20}
+      start: 175
+      count: 1
+      boundsMin: {x: -218.96558, y: 5.1149693, z: 335.21817}
+      boundsMax: {x: -216.50653, y: 7.5740223, z: 337.67722}
+    - coord: {x: -12, y: 20}
+      start: 176
+      count: 1
+      boundsMin: {x: -174.8635, y: 7.1694517, z: 339.404}
+      boundsMax: {x: -173.03412, y: 8.998822, z: 341.23334}
+    - coord: {x: -11, y: 20}
+      start: 177
+      count: 2
+      boundsMin: {x: -167.74141, y: 9.380509, z: 329.3293}
+      boundsMax: {x: -155.79541, y: 12.606652, z: 341.83005}
+    - coord: {x: -10, y: 20}
+      start: 179
+      count: 1
+      boundsMin: {x: -149.10707, y: 9.315788, z: 336.35468}
+      boundsMax: {x: -146.76003, y: 11.662838, z: 338.70172}
+    - coord: {x: -9, y: 20}
+      start: 180
+      count: 1
+      boundsMin: {x: -133.6026, y: 9.092194, z: 336.27295}
+      boundsMax: {x: -131.83936, y: 10.85545, z: 338.0362}
+    - coord: {x: -16, y: 21}
+      start: 181
+      count: 1
+      boundsMin: {x: -245.20468, y: 9.182032, z: 341.8876}
+      boundsMax: {x: -242.54083, y: 11.845879, z: 344.55142}
+    - coord: {x: -14, y: 21}
+      start: 182
+      count: 1
+      boundsMin: {x: -213.38335, y: 6.3580647, z: 355.4716}
+      boundsMax: {x: -210.614, y: 9.127428, z: 358.24094}
+    - coord: {x: -11, y: 21}
+      start: 183
+      count: 1
+      boundsMin: {x: -163.82274, y: 6.257163, z: 346.55487}
+      boundsMax: {x: -161.22752, y: 8.852382, z: 349.1501}
+    - coord: {x: -9, y: 21}
+      start: 184
+      count: 1
+      boundsMin: {x: -136.5478, y: 6.8347263, z: 345.86444}
+      boundsMax: {x: -134.43065, y: 8.951886, z: 347.98163}
+    - coord: {x: -20, y: 22}
+      start: 185
+      count: 2
+      boundsMin: {x: -305.2758, y: 8.911784, z: 359.79645}
+      boundsMax: {x: -302.71768, y: 15.511161, z: 369.5872}
+    - coord: {x: -18, y: 22}
+      start: 187
+      count: 3
+      boundsMin: {x: -286.23297, y: 6.9845223, z: 365.57352}
+      boundsMax: {x: -275.40762, y: 9.190659, z: 376.4637}
+    - coord: {x: -17, y: 22}
+      start: 190
+      count: 2
+      boundsMin: {x: -258.71335, y: 6.8664613, z: 360.05536}
+      boundsMax: {x: -252.15517, y: 8.992067, z: 371.38953}
+    - coord: {x: -16, y: 22}
+      start: 192
+      count: 3
+      boundsMin: {x: -250.64998, y: 7.087385, z: 360.90463}
+      boundsMax: {x: -238.92865, y: 8.9202175, z: 375.92572}
+    - coord: {x: -15, y: 22}
+      start: 195
+      count: 1
+      boundsMin: {x: -235.92833, y: 6.7901087, z: 361.03375}
+      boundsMax: {x: -233.36324, y: 9.355205, z: 363.59888}
+    - coord: {x: -14, y: 22}
+      start: 196
+      count: 3
+      boundsMin: {x: -214.16214, y: 7.1056356, z: 363.22443}
+      boundsMax: {x: -207.50554, y: 9.226806, z: 369.0144}
+    - coord: {x: -13, y: 22}
+      start: 199
+      count: 2
+      boundsMin: {x: -195.89853, y: 6.8186173, z: 359.92133}
+      boundsMax: {x: -191.00214, y: 9.186105, z: 374.34076}
+    - coord: {x: -12, y: 22}
+      start: 201
+      count: 3
+      boundsMin: {x: -186.86784, y: 6.706529, z: 360.99088}
+      boundsMax: {x: -174.98393, y: 9.331975, z: 374.4528}
+    - coord: {x: -11, y: 22}
+      start: 204
+      count: 1
+      boundsMin: {x: -169.8149, y: 7.3536797, z: 370.8244}
+      boundsMax: {x: -168.04832, y: 9.12026, z: 372.591}
+    - coord: {x: -10, y: 22}
+      start: 205
+      count: 3
+      boundsMin: {x: -152.76776, y: 8.468757, z: 363.78217}
+      boundsMax: {x: -144.89499, y: 12.084611, z: 374.52692}
+    - coord: {x: -20, y: 23}
+      start: 208
+      count: 1
+      boundsMin: {x: -305.37643, y: 11.919427, z: 376.65823}
+      boundsMax: {x: -303.83713, y: 13.458747, z: 378.19754}
+    - coord: {x: -18, y: 23}
+      start: 209
+      count: 2
+      boundsMin: {x: -279.3424, y: 7.180064, z: 376.73032}
+      boundsMax: {x: -272.08273, y: 8.872784, z: 384.3779}
+    - coord: {x: -17, y: 23}
+      start: 211
+      count: 1
+      boundsMin: {x: -259.38235, y: 7.050073, z: 378.7597}
+      boundsMax: {x: -257.45218, y: 8.980268, z: 380.68988}
+    - coord: {x: -16, y: 23}
+      start: 212
+      count: 1
+      boundsMin: {x: -244.81305, y: 7.0368247, z: 376.56445}
+      boundsMax: {x: -242.78424, y: 9.065625, z: 378.59326}
+    - coord: {x: -15, y: 23}
+      start: 213
+      count: 1
+      boundsMin: {x: -231.54448, y: 6.874954, z: 375.46298}
+      boundsMax: {x: -229.3932, y: 9.026216, z: 377.61423}
+    - coord: {x: -13, y: 23}
+      start: 214
+      count: 1
+      boundsMin: {x: -190.88158, y: 6.7024765, z: 381.37485}
+      boundsMax: {x: -188.10689, y: 9.477156, z: 384.1495}
+    - coord: {x: -11, y: 23}
+      start: 215
+      count: 2
+      boundsMin: {x: -165.80034, y: 8.091339, z: 376.7583}
+      boundsMax: {x: -154.87218, y: 11.341809, z: 381.4683}
+    - coord: {x: -10, y: 23}
+      start: 217
+      count: 1
+      boundsMin: {x: -149.64607, y: 7.599008, z: 382.8102}
+      boundsMax: {x: -148.07185, y: 9.173226, z: 384.38443}
+  payload: {fileID: 4900000, guid: 7467372ccdebf964a82a0ea80167ab66, type: 3}
+  flowerMap: {fileID: 0}
+  flowerMapRect:
+    serializedVersion: 2
+    x: -311.8
+    y: 185
+    width: 175.99998
+    height: 192

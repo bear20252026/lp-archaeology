@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa87079695886be10917d318fb4763c4, type: 3}
+  m_Name: TheatreInteriorVolume
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: a7e881aa51e174642944a9744355b5ac, type: 2}
+  - {fileID: 11400000, guid: 75383f84929aafa4593c8de24a98be3f, type: 2}
+  - {fileID: 11400000, guid: d92561caec9a88a46937bc9f8cf21c65, type: 2}
+  - {fileID: 11400000, guid: bdf2165001c4f2e46a6067b15e249535, type: 2}
+  - {fileID: 11400000, guid: 8a72725da0f1f094d8d519bc9847b435, type: 2}

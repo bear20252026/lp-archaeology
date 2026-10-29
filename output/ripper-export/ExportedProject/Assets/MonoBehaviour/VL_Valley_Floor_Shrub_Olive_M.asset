@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Valley_Floor_Shrub_Olive_M
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: 255eb4345bbf7644faf1b8ee1e64b4ae, type: 2}
+  meshLOD1: {fileID: 4300000, guid: fae7fe08bf04c254f8f0b55acc89e302, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 585759fc39357694088bac9965db1224, type: 2}
+  renderLayer: 9
+  castShadows: 1
+  shadowDistance: 35
+  receiveShadows: 1
+  densityKey: meadow_shrub
+  densityPerM2: 0.01
+  clusterScale: 7
+  clusterCoverage: 1
+  clusterSoftness: 0.35
+  seed: 6135
+  scaleRange: {x: 0.9, y: 1.4}
+  alignToNormal: 0.1
+  tiltJitterDeg: 4
+  windYawBias: 0
+  maxSlopeDeg: 35
+  heightOffset: 0
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 25
+  thinStart: 90
+  thinPower: 1.3
+  fadeStart: 180
+  fadeEnd: 230
+  scaleCompensation: 0.3
+  maxScaleCompensation: 1.6
+  nearFade: {x: 0, y: 0}

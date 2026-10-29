@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Bar_NightSky
+  m_Shader: {fileID: 4800000, guid: a655af51addb5af4d89db8ee04e98fd2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USEMOONTEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _HeroCache:
+        m_Texture: {fileID: 11700000, guid: e88e97deb9be2fe40890ce5d9f0a073b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MoonTex:
+        m_Texture: {fileID: 2800000, guid: 0e5f60f75a2e15b49abe26aa3499c57f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SeaDetail:
+        m_Texture: {fileID: 11700000, guid: 41d24e6a8e3a8f543a56e66267c9d71c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SeaLight:
+        m_Texture: {fileID: 11700000, guid: 56006bc58740db144894b3d71fe6dd3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SeaNoise:
+        m_Texture: {fileID: 11700000, guid: 15842b1300553954fa7ee15d2855fca5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SeaVolume:
+        m_Texture: {fileID: 11700000, guid: 6427b2895d870a744bfb47c64ced8111, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyPhoto:
+        m_Texture: {fileID: 2800000, guid: 343f5b885e2698e4bab267a3984a2373, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyPhotoAlpha:
+        m_Texture: {fileID: 2800000, guid: 1ed12a5a113313148af8aab773338f6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BelowFalloff: 55
+      _CloudReviewTime: -1
+      _CloudsOn: 1
+      _Drift: 0.04
+      _Exposure: 1
+      _HazeBand: 5.5
+      _HeroCloud: 1
+      _MoonRadius: 2.5
+      _SeaJitterFrame: -1
+      _SeaSteps: 512
+      _StarBrightness: 1.6
+      _StarDensity: 0.45
+      _UseHeroCache: 1
+      _UseMoonTex: 1
+      _UseSeaLight: 1
+    m_Colors:
+      _BelowColor: {r: 0.03, g: 0.042, b: 0.13, a: 1}
+      _CloudColor: {r: 0.8, g: 0.86, b: 1, a: 0.55}
+      _CloudGain: {r: 1.3, g: 3, b: 1.2, a: 3}
+      _CloudRim: {r: 0.06, g: 0.07, b: 0.1, a: 1.1}
+      _GapDim: {r: 0.15, g: 0.1, b: 0, a: 0}
+      _GlowAzimuth: {r: -80, g: 1.8, b: 0, a: 0}
+      _GlowColor: {r: 0.13, g: 0.05, b: 0.06, a: 9}
+      _HazeColor: {r: 0.06, g: 0.068, b: 0.16, a: 0.85}
+      _HeroCacheLightDirection: {r: 0.5485139, g: 0.2923717, b: 0.78335905, a: 0}
+      _HorizonColor: {r: 0.045, g: 0.058, b: 0.165, a: 1}
+      _MoonClear: {r: 0.85, g: 4, b: 0, a: 0}
+      _MoonColor: {r: 2.2, g: 2.25, b: 2.35, a: 1}
+      _MoonDirection: {r: 0.5485139, g: 0.2923717, b: 0.78335905, a: 0}
+      _MoonGlowColor: {r: 0.02, g: 0.028, b: 0.07, a: 1}
+      _MoonHaloColor: {r: 0.14, g: 0.16, b: 0.26, a: 1}
+      _PhotoNorm: {r: 7.5, g: 1.6, b: 1, a: 0.6}
+      _PhotoSun: {r: 80, g: 43, b: 0.7, a: 120}
+      _PhotoYaw: {r: -45, g: 150, b: 0, a: 0}
+      _SeaLightDirection: {r: 0.5485139, g: 0.2923717, b: 0.78335905, a: 0}
+      _UpperCloudForm: {r: 2.45, g: 0.82, b: 0.95, a: 0.8}
+      _UpperColor: {r: 0.014, g: 0.028, b: 0.12, a: 1}
+      _ZenithColor: {r: 0.007, g: 0.018, b: 0.1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

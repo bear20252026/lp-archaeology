@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dc5a116b50e80017718e794575141, type: 3}
+  m_Name: VL_Valley_HillStone_Granite_Stone_B_rock_feet
+  m_EditorClassIdentifier:
+  meshLOD0: {fileID: 4300000, guid: ef6991f30b51c1e488ec2ccc84f8636d, type: 2}
+  meshLOD1: {fileID: 4300000, guid: acea7fb8d2e3c4941a3e54aa9eee0db9, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 6b8590f7fbfb8ae4ba98449699f3fbaf, type: 2}
+  renderLayer: 9
+  castShadows: 1
+  shadowDistance: 18
+  receiveShadows: 1
+  densityKey: rock_feet
+  densityPerM2: 0.2
+  clusterScale: 7
+  clusterCoverage: 1
+  clusterSoftness: 0.35
+  seed: 1716
+  scaleRange: {x: 0.4, y: 1}
+  alignToNormal: 0.7
+  tiltJitterDeg: 15
+  windYawBias: 0
+  maxSlopeDeg: 40
+  heightOffset: -0.08
+  flowerMapColor: {r: 1, g: 1, b: 1, a: 0}
+  flowerHeadArea: 0.006
+  lod1Distance: 18
+  thinStart: 50
+  thinPower: 1.3
+  fadeStart: 110
+  fadeEnd: 140
+  scaleCompensation: 0.3
+  maxScaleCompensation: 1.6
+  nearFade: {x: 0, y: 0}
